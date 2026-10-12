@@ -1,0 +1,478 @@
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 1
+Núcleo integral
+Projeto de engenharia, simulação 3D e matriz de ensaios — V2
+Referência Adilson Oliveira / 7dsolv • 12/10/2026 • protótipo físico ainda não construído
+Montagem CAD desta entrega. Dimensões propostas: base360 mm; aros340 mm; bobinas/receptor/toroide e
+instrumentação em ar comum.
+Versão 2 — 12 de outubro de 2026. Referência visual: Núcleo de Campo Toroidal Quântico, Adilson Oliveira / 7dsolv. Esta
+entrega define um protótipo de bancada inspirado na imagem; cotas, circuitos e materiais são propostas novas de
+engenharia.
+1. O conjunto desenvolvido
+A versão integral representa os anéis superior e inferior, seus enrolamentos, carcaças, tirantes, coluna central transparente,
+receptor de energia, sensores, suporte de controle e um toroide auxiliar. A montagem tem peças identificadas e
+desmontáveis no visualizador. Os arquivos mecânicos incluem OBJ/MTL, fonte paramétrica OpenSCAD, STL das peças e
+desenhos cotados.
+Os cálculos resolvem duas fontes senoidais independentes, seus circuitos RLC e uma bobina receptora com carga resistiva.
+O campo vetorial tridimensional usa as cinquenta espiras distribuídas de cada bobina principal. O toroide auxiliar tem
+quarenta e oito voltas poloidais, com cálculo do campo de espiras discretas. O controle PI possui um ensaio RL em corrente
+contínua separado.
+O desenho integral permite investigar cada função identificada no pôster. Funções de vácuo quântico, informação quântica,
+propulsão e curvatura não têm dinâmica/material/observável suficientes nos arquivos enviados. Elas ficam registradas como
+hipóteses que ainda precisam de definição, sem saídas numéricas inventadas. Nenhum ensaio físico foi realizado nesta
+entrega.
+
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 2
+2. Medidas e materiais de referência
+Unidades mecânicas: milímetros. A origem z=0 é a face inferior da base, não o ponto médio das bobinas. O plano central do
+campo/receptor é z=125.
+Conjunto
+Medidas e escolha de projeto
+Base isolante
+360 × 360 × 12; posição dos fixadores nos desenhos cotados
+Anéis estruturais
+Ø externo 340; Ø interno 248; tampas com espessura 4; centros de conjunto
+z=65/185
+Bobinas axiais
+Raio médio 100; 50 espiras cada; centros z=65 e185; separação120
+Carretéis principais
+Ø220; altura15,4; vão axial11,4 para pacote11; manga Ø190,5/194,5
+Fio principal
+Cobre Ø1,0; diâmetro externo isolado ≤1,1; 5 camadas radiais ×10 voltas axiais
+Pacote principal
+Espessura radial5,5; axial11; raios de camada97,8/98,9/100/101,1/102,2
+Coluna aberta de instrumentação
+Tubo Ø54/50; comprimento198; de z22 a220; não é vaso de pressão
+Receptor
+Raio médio35; 20 espiras; centro z125; pacote4,4 radial ×5,5 axial; 4 camadas ×5
+voltas
+Toroide auxiliar
+Raio maior135; raio menor do caminho do fio8; 48 voltas poloidais; plano z125
+Forma do toroide
+Raio menor6,5 + envoltório isolante0,95, até7,45; fio isolado1,1 com centro em8
+Fixação externa
+Quatro eixos em raio155; fixadores M5 e espaçadores isolantes; comprimentos no
+CAD revisado
+Componentes instrumentais
+Sondas térmicas, guia Hall e placa/caixa representativas; selecionar componentes
+comprados compatíveis
+A separação120 não é a condição de Helmholtz para raio100. O campo central não possui automaticamente a uniformidade
+de um par separado pelo próprio raio. Não alterar a distância para obter concordância artificial com uma fórmula de
+Helmholtz.
+Os aros são inteiros. Ø340 exige fabricação compatível: CNC/corte de polímero ou impressora com área útil suficiente. O
+carretel Ø220, com brim, pede pelo menos226 de área útil. Não cortar as malhas em pedaços sem projetar juntas e rever
+rigidez/tolerâncias. A coluna transparente opera em ar comum, aberta e sem carga diferencial de pressão.
+
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 3
+3. Todas as partes da imagem e seus testes
+Rótulo na imagem
+Implementação desta versão
+O que podemos verificar
+Anel de Confinamento
+Carcaça/suporte superior e carretel
+Dimensões, fixação e posição; confinamento
+quântico ainda indefinido
+Campo Magnético Superior
+Bobina principal e fonteAC superior
+Campo, corrente, fase, R/L e dissipação
+Câmara de Interferência
+Região central acessível à sonda
+Superposição e cancelamento de campos
+clássicos
+Núcleo de Vácuo Estável
+Coluna transparente aberta ao ar
+Geometria e posição; não há preparação de vácuo
+quântico
+Rede de Campo Quântico
+Toroide auxiliar de núcleo de ar
+Campo azimutal, fuga e resposta de espiras
+discretas; rede quântica indefinida
+Matriz de Conversão
+Bobina receptora e resistor de carga
+Energia transferida por indução, originada nas
+fontes
+Campo Magnético Inferior
+Bobina principal e fonteAC inferior
+Campo, corrente, fase, R/L e dissipação
+Anel de Estabilização
+Suporte inferior + ensaio PI separado
+Estabilidade mecânica e controle DC; coerência
+quântica indefinida
+O registro pesquisa/modulos.json relaciona onze módulos às peças e aos observáveis. O protocolo cobre os quadros1–5
+e7–13 do pôster; não aparece um quadro6 na imagem fornecida. As figuras de aplicações e escala são tratadas como
+propostas visuais, sem atribuir ao protótipo funções que não foram medidas.
+4. Alimentação e conexões
+Cada bobina principal possui uma porta senoidal própria: fonte → resistor10 Ω → capacitor de filme10µF → bobina →
+retorno. As duas fontes precisam ser sincronizadas, ter fase controlável, saída adequada à carga e proteção. Ponto inicial: 2
+V RMS por fonte a1.400 Hz; faixa de estudo100–5.000 Hz, saída até5 V RMS por porta, limite0,5 A RMS.
+Capacitância/resistência reais devem ser medidas.
+O receptor fica entre as bobinas e alimenta uma carga100 Ω, nominal0,25 W. A matriz de indutância acopla os três circuitos;
+por isso a corrente e sua fase são calculadas, não impostas como se fossem idênticas à fase da fonte.
+Comprar resistores10 Ω/10 W não indutivos e capacitores de filme10µF não polarizados, nominal≥100VDC. Conferir no
+fabricante a classificação AC, corrente RMS e temperatura. Um capacitor marcado100VDC não fica automaticamente
+qualificado para qualquer frequência AC. O modelo verifica limites teóricos, não aquecimento do componente ou estabilidade
+do amplificador.
+Um gerador comum com saída50 Ω não garante as amplitudes sob esta carga. Usar equipamento externo com amplitude
+real medida e largura de banda adequada; o desenho da placa no CAD é representativo, sem layout eletrônico validado. Se
+uma porta absorver potência, a fonte precisa suportar isso: preservar o sinal de potência em todas as análises. Consultar a
+topologia antes de conectar terras do osciloscópio; utilizar sondas adequadas ao isolamento da saída.
+O toroide usa fonte de corrente senoidal própria, inicialmente desligada, com estudo até0,5 A RMS. Seu cálculo de potência
+de cobre é separado do balanço das fontes axiais. Em simetria ideal os acoplamentos aos circuitos axiais se anulam;
+terminais, assimetrias e parasitas do aparelho real precisam de medição.
+O ensaio PI é DC separado: contornar capacitores, desconectar o receptor, usar duas portas iguais e campo aditivo. Não
+executar essa mudança automática em equipamento físico sem adaptar as conexões. No laboratório virtual, os botões do
+ciclo configuram cenários e exibem esse teste separadamente.
+
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 4
+5. Modelo eletromagnético
+O problema principal é ZI=V em fasores RMS, com duas ou três portas, dependendo da carga conectada. Na diagonal das
+fontes: Zii=Ri+j[ωLii−1/(ωCi)]. Fora da diagonal: Zij=jωMij. No receptor: Zrr=Rcobre+Rcarga+jωLrr. O solver usa eliminação
+de Gauss complexa com pivotamento.
+A autoindutância é aproximada pela fórmula de Wheeler multicamada, e deve ser calibrada por L medida. As mútuas
+principais usam Neumann somando as cinquenta espiras individuais de cada pacote. O receptor usa vinte espiras
+coincidentes no raio médio como aproximação declarada. Na referência, comparar sua mútua com o pacote real4×5 indica
+diferença de aproximadamente0,127%; isso não determina o erro total de L/circuito.
+Biot–Savart integra cada espira no espaço. O navegador usa uma matriz geométrica de indutâncias previamente calculada
+pelo Python para esta geometria e calcula campos/circuitos com os controles atuais. Alterar parâmetros do CAD exige
+recalcular a configuração e suas referências; editar um arquivo não sincroniza automaticamente todos os demais.
+As componentes de B são complexas. O módulo RMS vetorial é a raiz da soma dos quadrados dos módulos das três
+componentes. Com fases diferentes, o vetor pode descrever uma elipse; não assumir que existe um único pico comum. Os
+vetores3D mostrados representam o instante t=0, com fasores RMS convertidos ao sinal real. Comprimento das setas é uma
+escala gráfica limitada, não uma distância física de transporte.
+O toroide é calculado por48 voltas poloidais discretas. Sua indutância e tensão de alimentação são estimativas ideais de
+toroide fino: L≈μ0N²a²/(2R). Campo ideal médio Bφ≈μ0NI/(2πρ) é referência de comparação; o cálculo discreto revela não
+uniformidade. Não substituir esse enrolamento por voltas azimutais ao redor do eixo: estas produzem o campo axial das
+bobinas principais.
+Pontos dentro do envelope do fio são excluídos. Não se resolvem seção condutora finita, terminais, correntes induzidas em
+metal próximo, efeito de proximidade, ESR, capacitâncias parasitas, convecção ou deformação estrutural. A temperatura é
+entrada da resistividade, não saída de um solver térmico. As peças isolantes e fontes reais precisam ser ensaiadas.
+6. Resultado inicial calculado
+Geometria de referência; cobre20 °C; fontes iguais2 V RMS; fase0°; frequência1.400 Hz; receptor conectado a100 Ω; toroide
+desligado.
+
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 5
+Grandeza
+Previsão
+Autoindutância de cada bobina principal
+1,044299 mH, estimada
+Indutância mútua principal
+93,451372 µH, espiras distribuídas
+Indutância do receptor
+50,850316 µH, estimada
+Mútua principal–receptor
+15,048958 µH em cada lado, receptor equivalente
+Resistência de cobre por bobina principal
+0,698380 Ω, incluindo0,4m de terminais
+Corrente principal, cada bobina
+185,445692 mA RMS
+Corrente do receptor
+0,490455 mA RMS
+Campo central
+73,483675 µT RMS
+Tensão na carga100 Ω
+49,045546 mV RMS
+Potência total das fontes
+0,735861 W
+Potência na carga
+24,054656 µW
+Eficiência de transferência entre fronteiras AC
+0,0032689%
+Ressonância simétrica sem receptor
+1.492,095450 Hz
+Ressonância antissimétrica sem receptor
+1.632,167136 Hz
+Resíduo numérico do balanço nominal
+0 W, dentro da precisão numérica
+O ganho líquido de energia não aparece neste modelo. Entrada ativa = perdas de cobre + perdas dos resistores + potência
+da carga. Não omitir perdas grandes para transformar uma transferência pequena em aparente geração. A eficiência
+reportada não inclui alimentação/consumo interno dos amplificadores, sensores e iluminação.
+O toroide apresenta indutância ideal0,686291 µH. Para0,15 A RMS, o campo na linha central da sua seção varia
+aproximadamente13,853 µT sob uma espira e7,943 µT entre espiras; a referência ideal média é10,667 µT. Essa variação
+espacial é um resultado testável e mostra por que a ilustração uniforme do campo não basta.
+No ensaio DC de controle, alvo0,15 A; aos200 ms acrescenta-se1 Ω; aos400 ms a corrente prevista retorna a
+aproximadamente0,149997773 A. O controle simula a tensão limitada a5 V, com lei PI e sem forçar artificialmente a corrente
+ao valor desejado. Não contém atraso/ruído reais do sensor nem controle da faseAC.
+Como escala de consistência, κuB nominal é aproximadamente4,46×10^-46 m^-2 usando apenas a densidade média de
+energia magnética local. Essa é ordem de termo fonte do tensor de Einstein; não é uma métrica calculada, nem o escalar de
+Ricci ou demonstração de curvatura manipulável. O tensor eletromagnético clássico tem traço nulo; em eletrovácuo comΛ=0,
+o escalarR é zero. A bancada não calcula uma geometria de wormhole.
+7. Montagem e fabricação
+1. Conferir os desenhos01/02, a BOM e os parâmetros do CAD. Cortar/furar a base e os aros em material isolante ou
+fabricar com processo dimensional adequado. Carretéis e formas exigem revisão do fatiador e das folgas reais.
+2. Preparar os carretéis principais e o receptor; conferir fio isolado≤1,1 mm. Contar50 voltas por bobina principal e20 no
+receptor, sem danificar o esmalte. Reservar pontas e fixação isolante. Não fabricar os envelopes de cobre como peças
+maciças.
+3. Preparar a forma toroidal e sua camada isolante de0,95 mm. Distribuir48 voltas poloidais regularmente. Suportes ficam
+entre espiras; não deslocar o fio para atravessar os pilares. Terminais e transições exigem acabamento próprio.
+4. Montar tirantes, espaçadores, tampas e pontes exatamente pela sequência revisada no guia CAD. Pontes integram o
+empilhamento e seus furos precisam ficar livres. Usar aperto leve; verificar as folgas com as peças reais.
+
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 6
+5. Instalar pedestal, coluna aberta, colares, receptor e guia da sonda. Nenhuma peça da coluna está qualificada para vácuo
+ou pressão. Posicionar sensores térmicos sem danificar o fio.
+6. Fazer as conexões dos circuitos externos segundo o esquema e marcar polaridades. Verificar continuidade, resistência,
+isolamento, L/M e capacitâncias reais antes de excitar.
+7. Começar com baixa amplitude; conferir senoides, fontes e temperatura. Limite inicial de parada45 °C nos
+suportes/enrolamento, ou limite inferior do fabricante. Só aumentar após observar as medições.
+O CAD não inclui um amplificador fabricado e testado. Placa, caixa, sensores e roscas representam componentes
+comprados a selecionar dentro das especificações. O conjunto não foi fatiado, impresso, montado ou submetido a análise
+estrutural/FEM. A verificação de malha e das folgas identificadas não certifica ausência de todas as colisões nem resistência
+mecânica.
+8. Verificar se funciona
+O protocolo pesquisa/PROTOCOLO_COMPLETO.md detalha P01–P10. Antes dos ensaios, registrar quais observáveis,
+faixas, incertezas e critérios de aceitação serão usados; não ajustar o modelo depois apenas para obter concordância.
+Ensaio
+Medição e controle
+P01 — Mecânica
+Cotas, coaxialidade, folgas, posição e repetibilidade de montagem
+P02 — Componentes
+Resistência, L/M, C/ESR e temperatura com os instrumentos reais
+P03 — Campo estático
+DC com capacitor contornado; correntes±I e fonte desligada para retirar fundo
+P04 — CampoAC/fase
+Mapas com cada porta, ambas, fases0/90/180°; sensor calibrado e componentes
+corretas
+P05 — Ressonância/carga
+Varredura, tensão terminal medida, receptor aberto e cargas medidas
+P06 — Energia
+Média[v(t)i(t)] simultânea nas duas portas e carga; preservar sinal e fase
+P07 — Toroide
+Teste separado, mapa interno sob/entre voltas, campo de fuga e possíveis parasitas
+P08 — PI emDC
+Capacitores contornados/receptor desconectado; medir degrau, overshoot, erro e
+limites
+P09 — Contínuo/térmica
+Registrar V/I/B/T ao longo do tempo; parar nos limites e conferir deriva
+P10 — Repetição
+Três séries independentes, remontagem, dados brutos, fotos e calibrações
+O arquivo Modelo_Medicoes.csv vem vazio, sem linhas sintéticas apresentadas como experimento. O importador compara
+cada linha com frequência, duas tensões, fase, carga, estado do receptor e temperatura registrados. Ele usa toroide
+desligado, conforme a fronteira do ensaio de transferência. Diferenças absolutas são diagnóstico; não fornecem aprovação
+estatística automática.
+Investigar uma discrepância exige verificar ruído, offsets, posição, metal próximo, senoide, limites da fonte, L/C em
+frequência, deriva e erro de fase. Usar incerteza combinada e repetir os controles. Para uma alegação nova, o efeito precisa
+superar a incerteza completa, persistir com os controles e ser reproduzido independentemente.
+9. O que falta para as funções extraordinárias
+Cada alegação precisa de mecanismo e previsão próprios. A matriz com letras do pôster não define um circuito físico de
+informação. Escrever Einstein junto de uma equação de campo não fecha um problema de gravidade quântica. A métrica
+parece usar cinco coordenadas independentes, apesar de anunciar quatro dimensões; a dependência/independência deve
+ser esclarecida.
+O fator8πG/c⁴ é compatível com a convençãoSI usual, mas exige tensor fonte e condições de contorno. Um determinante
+positivo não prova estabilidade. Para dx/dt=Mx, decaimento exige partes reais negativas; uma matriz de energia positiva é
+outro objeto. O Atlas já distingue essas questões das verificações matemáticas nas páginas3/22/23/28.
+
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 7
+O inventário de lacunas lista, para energia do vácuo, curvatura, wormholes, propulsão, informação e coerência: variáveis,
+ação/dinâmica, parâmetros/unidades, mecanismo de preparo/leitura, escala prevista do efeito e experimentos
+discriminantes. A coluna em ar comum não implementa uma preparação de estado de vácuo quântico. Evacuar gás também
+não demonstra manipular esse estado.
+Essas funções não podem ser declaradas operacionais por acrescentar peças decorativas ao CAD. A versão integral
+entrega geometria, circuitos testáveis e a matriz de investigação completa; o fechamento da teoria e o ensaio físico
+permanecem necessários.
+10. Verificação digital e arquivos
+O motor foi verificado contra resultados analíticos, fluxo/mútuas, simetria, conservação, campo distribuído, campo toroidal,
+positividade da matriz, controle limitado e concordância Python/JavaScript. O registro atual contém58 verificações
+aprovadas. O navegador verifica carregamento3D, todas as peças, controles, cancelamento, receptor, toroide, ciclo,
+importação/exportação, telas menores e ausência de errosJavaScript. O registro final relata as contagens reais.
+Os STL são malhas fechadas, com orientação consistente e volume positivo. Há fonteSCAD, mas o executávelOpenSCAD
+não está instalado, então sua renderizaçãoCLI não foi feita. Não há STEP de sólidos nativos. Montagem física, impressão,
+eletrônica, rigidez, temperatura e efeitos extraordinários não são resultados desses testes digitais.
+Para reproduzir, na pasta da versão integral: py simulacao/modelo_integral.py --output simulacao/outputs; py
+simulacao/validar.py --browser. O teste de navegador requer Playwright eChrome; o laboratório pode ser aberto diretamente
+emChrome/Edge sem instalar bibliotecas ou servidor. A geometria fixa é carregada de scene.js; nenhuma informação é
+enviada a um servidor.
+O projeto anterior fica preservado em nucleo_toroidal. As configurações são diferentes: uma ligação série naV1, duas portas
+e receptor naV2. Não comparar seus números como se fossem o mesmo ensaio.
+Referências e rastreabilidade
+- Imagem fornecida: Núcleo de Campo Toroidal Quântico, Adilson Oliveira —7dsolv.
+- PDF fornecido: Atlas das Estruturas Fundamentais, edição1.0, páginas3/13/22/23/28. Seus37 testes relatados são outro
+conjunto; fontes não anexadas nem reexecutadas nesta entrega.
+- MIT, indutância/mútuas e energia: https://web.mit.edu/8.02-esg/Spring03/www/8.02ch32we.pdf
+- MIT, campo toroidal: https://web.mit.edu/8.02-esg/Spring03/www/8.02ch30we.pdf
+- NIST, incerteza: https://www.nist.gov/pml/nist-technical-note-1297
+- COMSOL, circuitos e bobinas acopladas:
+https://www.comsol.com/support/learning-center/article/modeling-a-coil-connected-to-an-electric-circuit-2621
+- Fontes primárias e lacunas teóricas adicionais constam no protocolo e em simulacao/METODOS.md.
+Todas as medidas desta bancada são propostas de engenharia. Os resultados são previsões numéricas identificadas, com
+limites explícitos e sem ensaio físico concluído.
+
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 8
+Apêndice — lista integral de peças
+A especificação completa com materiais, fabricação e arquivos está em lista_completa_pecas.csv e cad/LEIA-ME_CAD.md.
+Quantidades são de projeto; nenhuma compra ou fabricação foi realizada.
+Código
+Peça
+Qtd.
+Material/requisito
+M01
+Base 360 × 360 × 12 com 4 furos Ø5,5
+1
+Policarbonato/G10/PMMA isolante
+M02
+Tampa anular Ø340/248 × 4 com quatro furos Ø5,5
+4
+Polímero isolante PETG/PA
+M03
+Carretel principal Ø220 × 15,4; quatro furos Ø3,4
+2
+Polímero isolante PETG/PA
+M04
+Ponte radial 56 × 12 × 4,3; centros de furos 48
+16
+Polímero isolante PETG/PA
+M05
+Espaçador Ø10/5,5 × 37
+4
+Nylon/PA isolante
+M06
+Espaçador Ø10/5,5 × 15.4
+8
+Nylon/PA isolante
+M07
+Espaçador Ø10/5,5 × 88
+4
+Nylon/PA isolante
+M08
+Espaçador Ø10/5,5 × 17
+4
+Nylon/PA isolante
+M09
+Tubo aberto Ø54/50 × 198
+1
+PMMA/policarbonato transparente
+M10
+Colar Ø70/54,6 × 6
+2
+Polímero isolante
+M11
+Pedestal Ø70/10 × 10 da coluna
+1
+Polímero isolante
+M12
+Carretel receptor Ø80/62 × 12
+1
+Polímero isolante
+M13
+Colar do receptor Ø62/54,6 × 2
+1
+Polímero isolante
+M14
+Forma toroidal Ø283/257 com seção Ø13
+1
+Polímero isolante
+H01
+Tirante nylon M5 × 231
+4
+Nylon isolante
+H02
+Porca M5 AF8 × 4 nominal
+8
+Nylon isolante
+H03
+Arruela M5 Ø10/5,5 × 1
+8
+Nylon isolante
+H04
+Fixação carretel M3 × 31 nominal
+8
+Nylon isolante
+H05
+Par porca M3 e arruela Ø6
+16
+Nylon isolante
+H06
+Pés Ø16 × 8
+4
+Borracha
+H07
+Pilar do toroide Ø8 × 36,55
+4
+Polímero isolante
+H08
+Cassete externo 20 × 10 × 24
+16
+Polímero isolante
+H09
+Haste axial Ø8 × 111
+1
+Polímero isolante
+H10
+Caixa ventilada externa 80 × 60 × 30
+1
+Polímero isolante
+E01
+Bobina principal 50 espiras R100
+2
+Cobre esmaltado Ø1,0 / externo1,1
+E02
+Receptor 20 espiras R35
+1
+Cobre esmaltado Ø1,0 / externo1,1
+E03
+Toroide 48 espiras R135/r8
+1
+Cobre esmaltado Ø1,0 / externo1,1
+E04
+Fonte, proteção, driver, sensor e carga
+1
+Eletrônica convencional
+E05
+Fita, verniz e abraçadeiras isolantes
+1
+Material compatível com fio e tubo
+
+7DSOLV / V2 • previsões numéricas • sem ensaio físico
+Página 9
+Código
+Peça
+Qtd.
+Material/requisito
+E06
+Camada isolante toroide 0,95 mm
+1
+Fita/enchimento isolante
+D01
+Capacitor filme não polarizado
+2
+10 µF ±5%; nominal≥100 VDC
+D02
+Resistor não indutivo
+2
+10 Ω / 10 W
+D03
+Carga receptora
+1
+100 Ω / ≥0,25 W, não indutivo
+D04
+Fonte axial de dois canais sincronizados
+1 conjunto
+100–5000 Hz;0–5 V RMS por porta;limite0,5 A RMS
+D05
+Fonte toroidal independente
+1
+Senoidal limitada;0–0,5 A RMS; faixa100–5000 Hz
+D06
+Fonte DC para testes
+1 conjunto
+Isolada;saídas iguais,limitadas;0–5 V
+D07
+Cabos/conectores e proteção
+1 conjunto
+Compatíveis com correntes,tensões e topologia do
+ensaio
+D08
+Instrumentação V/I/B/T
+1 conjunto
+Conforme pesquisa/requisitos_instrumentos.csv
+D09
+Placa de controle PI
+1 proposta
+ADC/DAC e fontes/driver com desempenho
+caracterizado

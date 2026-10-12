@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1060" viewBox="0 0 1400 1060">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" fill="#155e75"/></marker></defs>
+<style>text{font:16px Arial;fill:#182530}.title{font-size:26px;font-weight:bold}.small{font-size:13px}.part{fill:#e5ebef;stroke:#263744;stroke-width:1.5}.copper{fill:#bf713d;stroke:#713b1d;stroke-width:1}.dim{stroke:#155e75;stroke-width:1.3;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}.ext{stroke:#8fa8b6;stroke-width:1;stroke-dasharray:4 3}</style>
+<rect width="1400" height="1060" fill="white"/>
+<text x="35" y="42" class="title">Bancada de duas bobinas circulares — desenho dimensional</text>
+<text x="35" y="70">Todas as medidas em mm • referência mecânica, não projeto de energia de vácuo • revisão A</text>
+<text x="52" y="107" class="">VISTA SUPERIOR / base e furação</text>
+<rect x="52.0" y="127.0" width="416.0" height="416.0" class="part"/>
+<circle cx="260" cy="335" r="176.0" class="part"/>
+<circle cx="260" cy="335" r="164.4" class="copper"/>
+<circle cx="260" cy="335" r="155.60000000000002" class="part"/>
+<circle cx="260" cy="335" r="152.4" class="part"/>
+<circle cx="260" cy="335" r="150.4" class="part"/>
+<line x1="50" y1="335" x2="470" y2="335" class="ext"/>
+<line x1="260" y1="125" x2="260" y2="545" class="ext"/>
+<circle cx="381.0566809391369" cy="213.94331906086308" r="2.72" class="part"/>
+<circle cx="138.94331906086308" cy="213.94331906086308" r="2.72" class="part"/>
+<circle cx="138.94331906086302" cy="456.0566809391369" r="2.72" class="part"/>
+<circle cx="381.0566809391369" cy="456.056680939137" r="2.72" class="part"/>
+<line x1="52.0" y1="568" x2="468.0" y2="568" class="dim"/>
+<text x="236" y="590" class="">260</text>
+<line x1="510" y1="127.0" x2="510" y2="543.0" class="dim"/>
+<text x="517" y="339" class="">260</text>
+<line x1="84.0" y1="622" x2="436.0" y2="622" class="dim"/>
+<text x="221" y="645" class="">Ø220 flange</text>
+<text x="55" y="676" class="">4 × Ø3,4 em círculo Ø214, ângulos 45°, 135°, 225°, 315°</text>
+<text x="55" y="701" class="">Coordenadas dos centros: X / Y = ±75,6604</text>
+<text x="614" y="107" class="">VISTA FRONTAL / montagem e centros</text>
+<rect x="590.0" y="514.0" width="520.0" height="16" class="part"/>
+<rect x="695.6792" y="180.0" width="6" height="360.0" class="part"/>
+<rect x="692.6792" y="425.4" width="12" height="88.6" class="part"/>
+<rect x="692.6792" y="225.39999999999998" width="12" height="169.2" class="part"/>
+<rect x="998.3208" y="180.0" width="6" height="360.0" class="part"/>
+<rect x="995.3208" y="425.4" width="12" height="88.6" class="part"/>
+<rect x="995.3208" y="225.39999999999998" width="12" height="169.2" class="part"/>
+<rect x="630.0" y="421.4" width="440" height="4" class="part"/>
+<rect x="630.0" y="394.6" width="440" height="4" class="part"/>
+<rect x="644.5" y="399.0" width="11" height="22" class="copper"/>
+<rect x="1044.5" y="399.0" width="11" height="22" class="copper"/>
+<rect x="655.5" y="398.6" width="4" height="22.8" class="part"/>
+<rect x="1040.5" y="398.6" width="4" height="22.8" class="part"/>
+<line x1="615" y1="410.0" x2="1110" y2="410.0" class="ext"/>
+<text x="1118" y="415.0" class="">Z = 60</text>
+<rect x="630.0" y="221.39999999999998" width="440" height="4" class="part"/>
+<rect x="630.0" y="194.60000000000002" width="440" height="4" class="part"/>
+<rect x="644.5" y="199.0" width="11" height="22" class="copper"/>
+<rect x="1044.5" y="199.0" width="11" height="22" class="copper"/>
+<rect x="655.5" y="198.60000000000002" width="4" height="22.8" class="part"/>
+<rect x="1040.5" y="198.60000000000002" width="4" height="22.8" class="part"/>
+<line x1="615" y1="210.0" x2="1110" y2="210.0" class="ext"/>
+<text x="1118" y="215.0" class="">Z = 160</text>
+<rect x="618.0" y="530.0" width="24" height="12" class="part"/>
+<rect x="1058.0" y="530.0" width="24" height="12" class="part"/>
+<line x1="1220" y1="410.0" x2="1220" y2="210.0" class="dim"/>
+<text x="1228" y="315.0" class="">100</text>
+<line x1="1274" y1="530.0" x2="1274" y2="410.0" class="dim"/>
+<text x="1282" y="475.0" class="">60</text>
+<line x1="1220" y1="530.0" x2="1220" y2="514.0" class="dim"/>
+<text x="1228" y="527.0" class="">8</text>
+<text x="620" y="583" class="">Z = 0 na face inferior da base; centros das bobinas em 60 e 160</text>
+<text x="620" y="608" class="">Espaçadores: 4 × 44,3 e 4 × 84,6; Ø6 / furo Ø3,4</text>
+<text x="620" y="633" class="">4 barras roscadas M3 × 180; vão do enrolamento 11,4</text>
+<text x="620" y="658" class="">Envelope do cobre: radial 5,5 × axial 11; 50 espiras por bobina</text>
+<text x="620" y="683" class="">Altura total nominal com pés: 181; base 260 × 260 × 8</text>
+<text x="45" y="759" class="">CORTE DO CARRETEL / seção radial ampliada</text>
+<rect x="90" y="916" width="192" height="24" class="part"/>
+<rect x="90" y="755.2" width="192" height="24" class="part"/>
+<rect x="105.0" y="779.2" width="24" height="136.8" class="part"/>
+<rect x="129.0" y="781.6" width="66.0" height="132" class="copper"/>
+<line x1="342" y1="940" x2="342" y2="755.2" class="dim"/>
+<text x="352" y="850" class="">15,4</text>
+<line x1="405" y1="916" x2="405" y2="779.2" class="dim"/>
+<text x="414" y="850" class="">11,4</text>
+<text x="45" y="978" class="">Raios: flange 94…110; manga 95,25…97,25; cobre 97,25…102,75</text>
+<text x="45" y="1005" class="">Folga axial total 0,4; flange 2; bobina sem núcleo ferromagnético</text>
+<text x="590" y="751" class="title">TOLERÂNCIAS E MONTAGEM</text>
+<text x="590" y="783" class="">• Furos Ø3,4: conferir / acabar com broca após impressão.</text>
+<text x="590" y="811" class="">• Peças impressas: alvo ±0,3; alturas dos tubos: alvo ±0,1.</text>
+<text x="590" y="839" class="">• Medir o fio esmaltado real; recalcular se o isolamento exceder 1,1.</text>
+<text x="590" y="867" class="">• Espaçadores e barras isolantes; não fechar anéis metálicos.</text>
+<text x="590" y="895" class="">• Base: chapa isolante cortada e furada; bobina: mesa útil ≥226.</text>
+<text x="590" y="923" class="">• 8 arruelas Ø6 × 0,5 e 8 porcas M3; aperto leve.</text>
+<text x="590" y="951" class="">• Fios, conectores e proteção elétrica definidos no projeto de bancada.</text>
+<text x="590" y="979" class="">• Roscas / filamento do cobre simplificados no modelo de visualização.</text>
+</svg>

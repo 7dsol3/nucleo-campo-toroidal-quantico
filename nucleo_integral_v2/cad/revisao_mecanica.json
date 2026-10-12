@@ -1,0 +1,691 @@
+{
+  "checks": [
+    {
+      "check": "cobre_inferior/tampa_baixo",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 21.25
+      }
+    },
+    {
+      "check": "cobre_inferior/tampa_cima",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 21.25
+      }
+    },
+    {
+      "check": "cobre_inferior/ponte_baixo_1",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "cobre_inferior/ponte_cima_1",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "espaçador/ponte_inferior_1",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": [
+          0.0,
+          0.0
+        ],
+        "contacts": "Só contato nas faces; spacer não entra na ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_inferior_baixo_1",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_inferior_cima_1",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "cobre_inferior/ponte_baixo_2",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "cobre_inferior/ponte_cima_2",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "espaçador/ponte_inferior_2",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": [
+          0.0,
+          0.0
+        ],
+        "contacts": "Só contato nas faces; spacer não entra na ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_inferior_baixo_2",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_inferior_cima_2",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "cobre_inferior/ponte_baixo_3",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "cobre_inferior/ponte_cima_3",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "espaçador/ponte_inferior_3",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": [
+          0.0,
+          0.0
+        ],
+        "contacts": "Só contato nas faces; spacer não entra na ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_inferior_baixo_3",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_inferior_cima_3",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "cobre_inferior/ponte_baixo_4",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "cobre_inferior/ponte_cima_4",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "espaçador/ponte_inferior_4",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": [
+          0.0,
+          0.0
+        ],
+        "contacts": "Só contato nas faces; spacer não entra na ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_inferior_baixo_4",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_inferior_cima_4",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "cobre_superior/tampa_baixo",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 21.25
+      }
+    },
+    {
+      "check": "cobre_superior/tampa_cima",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 21.25
+      }
+    },
+    {
+      "check": "cobre_superior/ponte_baixo_1",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "cobre_superior/ponte_cima_1",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "espaçador/ponte_superior_1",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": [
+          0.0,
+          2.842170943040401e-14
+        ],
+        "contacts": "Só contato nas faces; spacer não entra na ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_superior_baixo_1",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_superior_cima_1",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 2.842170943040401e-14,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "cobre_superior/ponte_baixo_2",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "cobre_superior/ponte_cima_2",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "espaçador/ponte_superior_2",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": [
+          0.0,
+          2.842170943040401e-14
+        ],
+        "contacts": "Só contato nas faces; spacer não entra na ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_superior_baixo_2",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_superior_cima_2",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 2.842170943040401e-14,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "cobre_superior/ponte_baixo_3",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "cobre_superior/ponte_cima_3",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "espaçador/ponte_superior_3",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": [
+          0.0,
+          2.842170943040401e-14
+        ],
+        "contacts": "Só contato nas faces; spacer não entra na ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_superior_baixo_3",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_superior_cima_3",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 2.842170943040401e-14,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "cobre_superior/ponte_baixo_4",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "cobre_superior/ponte_cima_4",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 1.25
+      }
+    },
+    {
+      "check": "espaçador/ponte_superior_4",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": [
+          0.0,
+          2.842170943040401e-14
+        ],
+        "contacts": "Só contato nas faces; spacer não entra na ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_superior_baixo_4",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "carretel/ponte_superior_cima_4",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 2.842170943040401e-14,
+        "contact": "flange externo apoiado na face da ponte"
+      }
+    },
+    {
+      "check": "lingueta_receptor_1/colar_receptor",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "lingueta_receptor_1/carretel_receptor",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "lingueta_receptor_2/colar_receptor",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "lingueta_receptor_2/carretel_receptor",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "lingueta_receptor_3/colar_receptor",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "lingueta_receptor_3/carretel_receptor",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "lingueta_receptor_4/colar_receptor",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "lingueta_receptor_4/carretel_receptor",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "receptor/tubo",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 4.0
+      }
+    },
+    {
+      "check": "haste/tubo",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 21.0
+      }
+    },
+    {
+      "check": "sondaHall/haste",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0
+      }
+    },
+    {
+      "check": "tubo/pedestal",
+      "passed": true,
+      "detail": {
+        "z_overlap_mm": 0.0,
+        "contact": "Apoio em Z22"
+      }
+    },
+    {
+      "check": "toroide/tirante_1",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 6.45
+      }
+    },
+    {
+      "check": "toroide/pilar_1",
+      "passed": true,
+      "detail": {
+        "lower_bound_xy_clearance_mm": 4.279422,
+        "plane_half_spacing_deg": 3.75
+      }
+    },
+    {
+      "check": "toroide/tirante_2",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 6.45
+      }
+    },
+    {
+      "check": "toroide/pilar_2",
+      "passed": true,
+      "detail": {
+        "lower_bound_xy_clearance_mm": 4.279422,
+        "plane_half_spacing_deg": 3.75
+      }
+    },
+    {
+      "check": "toroide/tirante_3",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 6.45
+      }
+    },
+    {
+      "check": "toroide/pilar_3",
+      "passed": true,
+      "detail": {
+        "lower_bound_xy_clearance_mm": 4.279422,
+        "plane_half_spacing_deg": 3.75
+      }
+    },
+    {
+      "check": "toroide/tirante_4",
+      "passed": true,
+      "detail": {
+        "radial_clearance_mm": 6.45
+      }
+    },
+    {
+      "check": "toroide/pilar_4",
+      "passed": true,
+      "detail": {
+        "lower_bound_xy_clearance_mm": 4.279422,
+        "plane_half_spacing_deg": 3.75
+      }
+    },
+    {
+      "check": "cassete_inferior_1/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_inferior_2/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_inferior_3/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_inferior_4/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_inferior_5/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_inferior_6/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_inferior_7/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_inferior_8/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_superior_1/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_superior_2/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_superior_3/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_superior_4/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_superior_5/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_superior_6/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_superior_7/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "cassete_superior_8/tirantes",
+      "passed": true,
+      "detail": {
+        "conservative_xy_clearance_mm": 45.468465
+      }
+    },
+    {
+      "check": "engajamento_porcas_inferiores_1",
+      "passed": true,
+      "detail": {
+        "rod_z": [
+          -5.0,
+          226.0
+        ],
+        "nut_z": [
+          -5.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "check": "engajamento_porcas_inferiores_2",
+      "passed": true,
+      "detail": {
+        "rod_z": [
+          -5.0,
+          226.0
+        ],
+        "nut_z": [
+          -5.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "check": "engajamento_porcas_inferiores_3",
+      "passed": true,
+      "detail": {
+        "rod_z": [
+          -5.0,
+          226.0
+        ],
+        "nut_z": [
+          -5.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "check": "engajamento_porcas_inferiores_4",
+      "passed": true,
+      "detail": {
+        "rod_z": [
+          -5.0,
+          226.0
+        ],
+        "nut_z": [
+          -5.0,
+          -1.0
+        ]
+      }
+    }
+  ],
+  "passed": 84,
+  "failed": 0,
+  "scope": "Interfaces críticas identificadas; não é detecção global de colisões",
+  "fabrication_tested": false,
+  "load_or_adhesive_analysis": false,
+  "corrections": [
+    "Espaçadores entre pontes agora15,4mm, sem atravessar furosØ5,5",
+    "Colar receptor H2 emZ115–117; linguetasZ117–119",
+    "Cassetes deslocados para22,5°+45k, apoiados entre tampas",
+    "Tirantes231mmZ−5…226, engajamento integral inferior",
+    "Conector geométrico encosta na parede interna, sem penetrar a malha da parede"
+  ],
+  "intentional_interfaces": [
+    "Roscas são cilindros em furos nominais de porcas",
+    "Colares ao tubo com adesivo preenchem folga radial0,3",
+    "HasteØ8 em furoØ10 do pedestal: calçar e aderir; folga radial1",
+    "Apoios/adesivos/abraçadeiras precisam de ensaio físico"
+  ]
+}

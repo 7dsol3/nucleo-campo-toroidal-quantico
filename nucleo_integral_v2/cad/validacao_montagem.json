@@ -1,0 +1,43 @@
+{
+  "main_centers_separation_mm": 120,
+  "main_copper_to_frame_inner_radial_clearance_mm": 21.25,
+  "main_copper_to_bridge_inner_clearance_mm": 1.25,
+  "main_spool_to_frame_radial_clearance_mm": 14,
+  "main_winding_axial_clearance_mm": 0.40000000000000036,
+  "toroid_wire_to_post_clearance_mm": 6.449999999999989,
+  "toroid_former_to_coil_top_clearance_mm": 45.8,
+  "pickup_to_column_radial_clearance_mm": 4,
+  "pickup_wire_to_sleeve_clearance_mm": 0.29999999999999716,
+  "column_collar_radial_clearance_mm": 0.3000000000000007,
+  "rod_to_hole_radial_clearance_mm": 0.25,
+  "control_lid_to_lower_frame_z_clearance_mm": 7,
+  "post_to_outer_frame_edge_ligament_mm": 12.25,
+  "main_coil_mount_ligament_mm": 1.3,
+  "base_mount_coordinates_mm": [
+    [
+      109.60155108391487,
+      109.60155108391487
+    ],
+    [
+      -109.60155108391486,
+      109.60155108391487
+    ],
+    [
+      -109.60155108391488,
+      -109.60155108391486
+    ],
+    [
+      109.60155108391484,
+      -109.60155108391488
+    ]
+  ],
+  "physical_validation": false,
+  "global_collision_detection": false,
+  "pressure_rating": false,
+  "mesh_manifold_checked": true,
+  "notes": [
+    "Folgas verificadas analiticamente nos principais encaixes.",
+    "Contatos de apoio/adesivo e volumes esquemáticos não constituem detecção global de colisão.",
+    "Espiras toroidais individuais fechadas ilustram percurso; conexões elétricas seguem esquema separado."
+  ]
+}

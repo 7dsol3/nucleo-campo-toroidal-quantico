@@ -1,0 +1,99 @@
+{
+  "units": "mm",
+  "base_width": 360,
+  "base_thickness": 12,
+  "main_coil_radius_mean": 100,
+  "main_coil_turns": 50,
+  "main_centers_z": [
+    65,
+    185
+  ],
+  "main_coil_wire_bare_diameter": 1.0,
+  "main_coil_wire_insulated_diameter": 1.1,
+  "main_winding_radial": 5.5,
+  "main_winding_axial": 11,
+  "spool_od": 220,
+  "spool_height": 15.4,
+  "frame_inner_radius": 124,
+  "frame_outer_radius": 170,
+  "frame_cover_thickness": 4,
+  "frame_covers_offset_z": [
+    -16,
+    12
+  ],
+  "post_radius": 155,
+  "post_outer_diameter": 10,
+  "post_hole_diameter": 5.5,
+  "post_rod_diameter": 5,
+  "post_rod_length": 231,
+  "post_rod_z0": -5,
+  "post_spacer_intervals": [
+    [
+      12,
+      49
+    ],
+    [
+      57.3,
+      72.7
+    ],
+    [
+      81,
+      169
+    ],
+    [
+      177.3,
+      192.7
+    ],
+    [
+      201,
+      218
+    ]
+  ],
+  "bridge_local_x": [
+    104,
+    160
+  ],
+  "bridge_width": 12,
+  "bridge_height": 4.3,
+  "bridge_hole_radius_centers": [
+    107,
+    155
+  ],
+  "bridge_hole_diameters": [
+    3.4,
+    5.5
+  ],
+  "column_od": 54,
+  "column_id": 50,
+  "column_z": [
+    22,
+    220
+  ],
+  "pickup_radius_mean": 35,
+  "pickup_turns": 20,
+  "pickup_z": 125,
+  "pickup_wire_bare_diameter": 1.0,
+  "pickup_wire_insulated_diameter": 1.1,
+  "pickup_pack_radial": 4.4,
+  "pickup_pack_axial": 5.5,
+  "toroid_major_radius": 135,
+  "toroid_effective_minor_radius": 8,
+  "toroid_former_minor_radius": 6.5,
+  "toroid_insulating_wrap_thickness": 0.95,
+  "toroid_turns": 48,
+  "toroid_z": 125,
+  "toroid_wire_bare_diameter": 1.0,
+  "toroid_wire_insulated_diameter": 1.1,
+  "instrumentation_chamber": "ordinary air, open ends, no vacuum rating",
+  "electronics_box_external": [
+    80,
+    60,
+    28
+  ],
+  "electronics_box_corner": [
+    -165,
+    -165,
+    12
+  ],
+  "geometry_status": "proposed test rig; no physical fabrication or pressure validation"
+}

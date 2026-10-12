@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="470" viewBox="0 0 1100 470">
+<rect width="1100" height="470" fill="#f8fafb"/>
+<g font-family="Arial,sans-serif" fill="#173645"><text x="35" y="40" font-size="25" font-weight="bold">Circuito de ensaio — duas bobinas em série aditiva</text><text x="35" y="67" font-size="14">Fonte externa isolada; previsões clássicas; não é uma placa de amplificador.</text></g>
+<g fill="none" stroke="#244d5d" stroke-width="3">
+<circle cx="90" cy="225" r="36"/><path d="M66 225q12-26 24 0t24 0"/>
+<path d="M90 189V140H205m100 0h105m25 0h85m120 0h50m120 0h55v170H90v-49"/>
+<rect x="205" y="124" width="100" height="32"/><path d="M410 113v54m25-54v54"/>
+<path d="M520 140c0-36 30-36 30 0s30 36 30 0s30-36 30 0s30 36 30 0"/>
+<path d="M690 140c0-36 30-36 30 0s30 36 30 0s30-36 30 0s30 36 30 0"/>
+<path stroke="#b47347" stroke-width="1.5" stroke-dasharray="5 4" d="M530 193h255"/>
+<path stroke="#879ba6" stroke-width="1.5" d="M205 167v38m100-38v38m-100 0h100"/>
+<circle cx="255" cy="205" r="16" fill="#f8fafb" stroke-width="1.5"/>
+</g><g fill="#244d5d"><circle cx="525" cy="112" r="5"/><circle cx="695" cy="112" r="5"/><path d="M148 130l10 5-10 5z"/></g>
+<g font-family="Arial,sans-serif" fill="#173645" font-size="14">
+<text x="53" y="360">Fonte AC</text><text x="35" y="383">0–5 V RMS / 100–5.000 Hz</text><text x="35" y="405">Limite ≤ 0,5 A RMS; início em 2 V RMS</text>
+<text x="202" y="103">R = 10 Ω / 10 W</text><text x="205" y="248">I = Vres / R medido</text><text x="247" y="210">V</text>
+<text x="375" y="92">C = 10 µF</text><text x="354" y="193">Filme não polarizado</text><text x="346" y="214">Verificar limite AC</text>
+<text x="530" y="84">Bobina 1</text><text x="700" y="84">Bobina 2</text><text x="530" y="229">50 espiras / Rmédio = 100 mm</text><text x="530" y="252">Pontos indicam polaridade para soma dos campos.</text><text x="552" y="182" fill="#a06137">Acoplamento magnético M</text>
+<text x="890" y="157">Retorno</text><text x="35" y="449">DC: retirar o capacitor série. Osciloscópio: conferir isolamento/referência e usar sondas adequadas à fonte escolhida.</text>
+</g></svg>

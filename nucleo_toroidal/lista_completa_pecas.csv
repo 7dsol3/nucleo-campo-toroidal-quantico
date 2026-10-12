@@ -1,0 +1,22 @@
+﻿codigo;item;quantidade;especificacao;observacao
+B01;Base isolante;1;"260 x 260 x 8; 4 furos Ø3,4";"Cortar e furar chapa; STL de referência"
+B02;Carretel circular;2;"Ø220 x 15,4; vão11,4; mangaØ190,5/194,5";"STL; flange superior exige suporte removível"
+B03;Espaçador inferior;4;Ø6 / Ø3,4 x44,3;Cortar tubo ou imprimir STL
+B04;Espaçador intermediário;4;Ø6 / Ø3,4 x84,6;Cortar tubo ou imprimir STL
+B05;Barra roscada;4;M3 x180;"Comprar; rosca simplificada no OBJ"
+B06;Porca;8;"M3; AF5,5; altura nominal2,4";Conferir dimensões do fornecedor
+B07;Arruela;8;Ø6 / Ø3,4 x0,5;Não colocar entre carretéis e espaçadores
+B08;Pé adesivo;4;Ø12 x6;Colar em X/Y ±110
+E01;Enrolamento de cobre;2;"50 espiras; Ø1,0 cobre; Ø1,1 isolado";"31.416 m ideal por bobina; comprar~35 m por bobina para pontas e sobra"
+E02;Fixação do enrolamento;1;Adequado ao fio e à temperatura;Aplicar após medir e contar voltas
+E03;Capacitor de filme;1;"10 µF ±5%; polipropileno não polarizado; ≥100 VDC";"Verificar tensão AC e corrente/frequência no catálogo; medir C/ESR"
+E04;Resistor não indutivo;1;10 Ω / 10 W;"Medir R; observar condição de dissipação do fabricante"
+E05;Fonte senoidal isolada;1;"100–5000 Hz; saída0–5 V RMS; limite≤0,5 A RMS";"Equipamento externo ainda a selecionar; não há PCB de amplificador nesta entrega"
+E06;Fonte DC de bancada;1;Isolada, baixa tensão, limite até0,5 A;"Para mapa estático; capacitor série removido"
+E07;Cabos e terminais isolados;1 conjunto;"Compatíveis com até0,5 A RMS; conexão de baixa resistência";"Modelo reserva1m de terminais além das espiras; medir Rreal"
+I01;Osciloscópio e sondas;1 conjunto;"Medida simultânea de V/I e fase; banda adequada";Usar sondas diferenciais/isoladas conforme a saída da fonte
+I02;Medidor LCR / multímetro;1 conjunto;"L/C/R em frequência; true RMS adequado até5kHz";Conferir calibração e especificação de banda
+I03;Sensor de campo DC/AC;1 conjunto;"Resolução desejada~1µT; calibrado até5kHz para AC";Pode usar HallDC e bobina de buscaAC separadamente
+I04;Termômetro;1;Medição do enrolamento e suportes;"Registrar T; parada inicial45°C até validar materiais"
+I05;Gabarito e instrumentos dimensionais;1 conjunto;Suporte não magnético, paquímetro/régua;Posicionamento desejado~1mm
+F01;Fabricação;1 serviço;"Mesa3D≥230mm útil ou serviço de impressão; corte/furação da base";"Carretel exige suporte removível; conferir encaixe físico"

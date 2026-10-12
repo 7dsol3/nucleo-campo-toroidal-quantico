@@ -1,0 +1,253 @@
+﻿{
+  "input": {
+    "frequency_hz": 1400,
+    "voltage_lower": 2,
+    "voltage_upper": 2,
+    "phase_upper_deg": 0,
+    "orientation_upper": 1,
+    "receiver_enabled": true,
+    "load_ohm": 100,
+    "temperature_c": 20,
+    "toroid_enabled": false,
+    "toroid_current_rms_a": 0.15
+  },
+  "circuit": {
+    "input": {
+      "frequency_hz": 1400,
+      "voltage_lower": 2,
+      "voltage_upper": 2,
+      "phase_lower_deg": 0,
+      "phase_upper_deg": 0,
+      "orientation_lower": 1,
+      "orientation_upper": 1,
+      "receiver_enabled": true,
+      "load_ohm": 100,
+      "temperature_c": 20,
+      "toroid_enabled": false,
+      "toroid_current_rms_a": 0.15,
+      "toroid_phase_deg": 0
+    },
+    "frequency_hz": 1400,
+    "source_voltages": [
+      {
+        "re": 2,
+        "im": 0,
+        "rms": 2,
+        "phase_deg": 0
+      },
+      {
+        "re": 2,
+        "im": 0,
+        "rms": 2,
+        "phase_deg": 0
+      }
+    ],
+    "currents": [
+      {
+        "re": 0.18396522896585982,
+        "im": 0.02338587810787345,
+        "rms": 0.1854456922210315,
+        "phase_deg": 7.244650184171788
+      },
+      {
+        "re": 0.1839652289658598,
+        "im": 0.023385878107873438,
+        "rms": 0.18544569222103147,
+        "phase_deg": 7.244650184171786
+      },
+      {
+        "re": 0.00005967493203304231,
+        "im": -0.0004868115271733026,
+        "rms": 0.0004904554623020844,
+        "phase_deg": -83.01136405706494
+      }
+    ],
+    "physical_currents": [
+      {
+        "re": 0.18396522896585982,
+        "im": 0.02338587810787345,
+        "rms": 0.1854456922210315,
+        "phase_deg": 7.244650184171788
+      },
+      {
+        "re": 0.1839652289658598,
+        "im": 0.023385878107873438,
+        "rms": 0.18544569222103147,
+        "phase_deg": 7.244650184171786
+      },
+      {
+        "re": 0.00005967493203304231,
+        "im": -0.0004868115271733026,
+        "rms": 0.0004904554623020844,
+        "phase_deg": -83.01136405706494
+      }
+    ],
+    "capacitor_voltages": [
+      {
+        "re": 0.26585557852947145,
+        "im": -2.091355396210637,
+        "rms": 2.1081856137196717,
+        "phase_deg": -82.75534981582821
+      },
+      {
+        "re": 0.2658555785294713,
+        "im": -2.091355396210637,
+        "rms": 2.1081856137196717,
+        "phase_deg": -82.75534981582821
+      }
+    ],
+    "receiver_load_voltage": {
+      "re": 0.005967493203304231,
+      "im": -0.048681152717330256,
+      "rms": 0.04904554623020844,
+      "phase_deg": -83.01136405706494
+    },
+    "power": {
+      "source_each_w": [
+        0.36793045793171963,
+        0.3679304579317196
+      ],
+      "source_reactive_each_var": [
+        -0.0467717562157469,
+        -0.046771756215746876
+      ],
+      "source_total_w": 0.7358609158634393,
+      "copper_each_w": [
+        0.02401737030262488,
+        0.02401737030262487
+      ],
+      "series_resistor_each_w": [
+        0.3439010476333754,
+        0.3439010476333753
+      ],
+      "receiver_copper_w": 2.5335388456477354e-8,
+      "receiver_load_w": 0.000024054656050195133,
+      "dissipation_total_w": 0.735860915863439,
+      "balance_residual_w": 2.220446049250313e-16,
+      "transfer_efficiency": 0.000032689133954029955
+    },
+    "energy": {
+      "mean_magnetic_j": 0.00003912735424835646,
+      "mean_capacitive_each_j": [
+        0.000022222232909472946,
+        0.000022222232909472946
+      ]
+    },
+    "validity": {
+      "linear_region": true,
+      "warnings": []
+    },
+    "parameters": {
+      "turns_each": 50,
+      "self_inductance_each_h": 0.0010442991708264583,
+      "mutual_inductance_h": 0.00009345137205654844,
+      "receiver_inductance_h": 0.00005085031586867128,
+      "mutual_to_receiver_h": [
+        0.00001504895830179913,
+        0.00001504895830179913
+      ],
+      "coupling_coefficient": 0.08948716485390966,
+      "inductance_matrix_h": [
+        [
+          0.0010442991708264583,
+          0.00009345137205654844,
+          0.00001504895830179913
+        ],
+        [
+          0.00009345137205654844,
+          0.0010442991708264583,
+          0.00001504895830179913
+        ],
+        [
+          0.00001504895830179913,
+          0.00001504895830179913,
+          0.00005085031586867128
+        ]
+      ],
+      "inductance_matrix_physical_h": [
+        [
+          0.0010442991708264583,
+          0.00009345137205654844,
+          0.00001504895830179913
+        ],
+        [
+          0.00009345137205654844,
+          0.0010442991708264583,
+          0.00001504895830179913
+        ],
+        [
+          0.00001504895830179913,
+          0.00001504895830179913,
+          0.00005085031586867128
+        ]
+      ],
+      "matrix_positive_definite": true,
+      "orientations": [
+        1,
+        1,
+        1
+      ],
+      "copper_resistance_each_ohm": [
+        0.6983802599004937,
+        0.6983802599004937
+      ],
+      "receiver_copper_resistance_ohm": 0.1053242599004937,
+      "wire_length_each_m": [
+        31.81592653589793,
+        31.81592653589793
+      ],
+      "receiver_wire_length_m": 4.798229715025711,
+      "winding_axial_length_m": 0.011000000000000001,
+      "winding_radial_depth_m": 0.0055000000000000005,
+      "resistance_each_ohm": [
+        10.698380259900494,
+        10.698380259900494
+      ],
+      "resonance_symmetric_unloaded_hz": 1492.09544967752,
+      "resonance_antisymmetric_unloaded_hz": 1632.167135708757,
+      "quality_symmetric_unloaded": 0.9970237309953927,
+      "skin_depth_m": 0.001766138446074769,
+      "self_inductance_method": "Wheeler multilayer estimate; measure before matching resonances",
+      "mutual_method": "Neumann distributed 50 loops per drive, receiver 20 coincident mean-radius loops"
+    }
+  },
+  "center_field": {
+    "real": [
+      0,
+      0,
+      0.00007291903142642153
+    ],
+    "imag": [
+      0,
+      0,
+      0.00000909204570997222
+    ],
+    "components_t": [
+      {
+        "re": 0,
+        "im": 0,
+        "rms": 0,
+        "phase_deg": 0
+      },
+      {
+        "re": 0,
+        "im": 0,
+        "rms": 0,
+        "phase_deg": 0
+      },
+      {
+        "re": 0.00007291903142642153,
+        "im": 0.00000909204570997222,
+        "rms": 0.00007348367464518683,
+        "phase_deg": 7.107350593549776
+      }
+    ],
+    "rms_norm_t": 0.00007348367464518684,
+    "magnitude_rms_t": 0.00007348367464518684,
+    "ellipse_major_peak_t": 0.00010392160929623515,
+    "ellipse_minor_peak_t": 9.094947017729282e-13,
+    "mean_magnetic_energy_density_j_m3": 0.002148532223452588
+  },
+  "auxiliary_toroid_copper_loss_w": 0,
+  "scope": "Predição numérica clássica; não contém medições físicas."
+}

@@ -1,0 +1,5 @@
+# Opcional: testes de navegador e documentos; modelo numérico usa stdlib.
+playwright>=1.40,<2
+reportlab>=4,<5
+python-docx>=1.1,<2
+PyMuPDF>=1.24,<2

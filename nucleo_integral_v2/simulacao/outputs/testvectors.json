@@ -1,0 +1,1063 @@
+{
+  "schema_version": "2.0",
+  "cases": [
+    {
+      "upper_phase_deg": 0,
+      "upper_orientation": 1,
+      "receiver_enabled": true,
+      "parameters": {
+        "turns_each": 50,
+        "self_inductance_each_h": 0.0010442991708264583,
+        "mutual_inductance_h": 9.345137205654844e-05,
+        "receiver_inductance_h": 5.085031586867128e-05,
+        "mutual_to_receiver_h": [
+          1.504895830179913e-05,
+          1.504895830179913e-05
+        ],
+        "coupling_coefficient": 0.08948716485390966,
+        "inductance_matrix_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05,
+            1.504895830179913e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583,
+            1.504895830179913e-05
+          ],
+          [
+            1.504895830179913e-05,
+            1.504895830179913e-05,
+            5.085031586867128e-05
+          ]
+        ],
+        "inductance_matrix_physical_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05,
+            1.504895830179913e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583,
+            1.504895830179913e-05
+          ],
+          [
+            1.504895830179913e-05,
+            1.504895830179913e-05,
+            5.085031586867128e-05
+          ]
+        ],
+        "matrix_positive_definite": true,
+        "orientations": [
+          1,
+          1,
+          1
+        ],
+        "copper_resistance_each_ohm": [
+          0.6983802599004937,
+          0.6983802599004937
+        ],
+        "receiver_copper_resistance_ohm": 0.1053242599004937,
+        "wire_length_each_m": [
+          31.81592653589793,
+          31.81592653589793
+        ],
+        "receiver_wire_length_m": 4.798229715025711,
+        "winding_axial_length_m": 0.011000000000000001,
+        "winding_radial_depth_m": 0.0055000000000000005,
+        "resistance_each_ohm": [
+          10.698380259900494,
+          10.698380259900494
+        ],
+        "resonance_symmetric_unloaded_hz": 1492.09544967752,
+        "resonance_antisymmetric_unloaded_hz": 1632.167135708757,
+        "quality_symmetric_unloaded": 0.9970237309953927,
+        "skin_depth_m": 0.001766138446074769,
+        "self_inductance_method": "Wheeler multilayer estimate; measure before matching resonances",
+        "mutual_method": "Neumann distributed 50 loops per drive, receiver 20 coincident mean-radius loops"
+      },
+      "circuit": {
+        "frequency_hz": 1400,
+        "source_voltages": [
+          {
+            "re": 2.0,
+            "im": 0.0,
+            "rms": 2.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 2.0,
+            "im": 0.0,
+            "rms": 2.0,
+            "phase_deg": 0.0
+          }
+        ],
+        "currents": [
+          {
+            "re": 0.18396522896585982,
+            "im": 0.023385878107873445,
+            "rms": 0.1854456922210315,
+            "phase_deg": 7.244650184171786
+          },
+          {
+            "re": 0.18396522896585982,
+            "im": 0.023385878107873445,
+            "rms": 0.1854456922210315,
+            "phase_deg": 7.244650184171786
+          },
+          {
+            "re": 5.9674932033042316e-05,
+            "im": -0.00048681152717330265,
+            "rms": 0.0004904554623020844,
+            "phase_deg": -83.01136405706492
+          }
+        ],
+        "physical_currents": [
+          {
+            "re": 0.18396522896585982,
+            "im": 0.023385878107873445,
+            "rms": 0.1854456922210315,
+            "phase_deg": 7.244650184171786
+          },
+          {
+            "re": 0.18396522896585982,
+            "im": 0.023385878107873445,
+            "rms": 0.1854456922210315,
+            "phase_deg": 7.244650184171786
+          },
+          {
+            "re": 5.9674932033042316e-05,
+            "im": -0.00048681152717330265,
+            "rms": 0.0004904554623020844,
+            "phase_deg": -83.01136405706492
+          }
+        ],
+        "capacitor_voltages": [
+          {
+            "re": 0.2658555785294714,
+            "im": -2.091355396210637,
+            "rms": 2.1081856137196717,
+            "phase_deg": -82.75534981582821
+          },
+          {
+            "re": 0.2658555785294714,
+            "im": -2.091355396210637,
+            "rms": 2.1081856137196717,
+            "phase_deg": -82.75534981582821
+          }
+        ],
+        "receiver_load_voltage": {
+          "re": 0.005967493203304232,
+          "im": -0.04868115271733026,
+          "rms": 0.049045546230208445,
+          "phase_deg": -83.01136405706492
+        },
+        "power": {
+          "source_each_w": [
+            0.36793045793171963,
+            0.36793045793171963
+          ],
+          "source_reactive_each_var": [
+            -0.04677175621574689,
+            -0.04677175621574689
+          ],
+          "source_total_w": 0.7358609158634393,
+          "copper_each_w": [
+            0.02401737030262488,
+            0.02401737030262488
+          ],
+          "series_resistor_each_w": [
+            0.3439010476333754,
+            0.3439010476333754
+          ],
+          "receiver_copper_w": 2.5335388456477354e-08,
+          "receiver_load_w": 2.4054656050195133e-05,
+          "dissipation_total_w": 0.7358609158634393,
+          "balance_residual_w": 0.0,
+          "transfer_efficiency": 3.2689133954029955e-05
+        },
+        "energy": {
+          "mean_magnetic_j": 3.9127354248356465e-05,
+          "mean_capacitive_each_j": [
+            2.2222232909472946e-05,
+            2.2222232909472946e-05
+          ]
+        },
+        "validity": {
+          "linear_region": true,
+          "warnings": [],
+          "source_port_requirement": "two independently phase-controlled isolated sine outputs; specified RMS amplitude under actual load; 50-ohm function-generator amplitude labels are insufficient"
+        }
+      },
+      "center_field": {
+        "components_t": [
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 7.291903142642153e-05,
+            "im": 9.092045709972222e-06,
+            "rms": 7.348367464518684e-05,
+            "phase_deg": 7.107350593549778
+          }
+        ],
+        "magnitude_rms_t": 7.348367464518684e-05,
+        "ellipse_major_peak_t": 0.00010392160929623517,
+        "ellipse_minor_peak_t": 9.094947017729282e-13,
+        "mean_magnetic_energy_density_j_m3": 0.0021485322234525883
+      }
+    },
+    {
+      "upper_phase_deg": 90,
+      "upper_orientation": 1,
+      "receiver_enabled": true,
+      "parameters": {
+        "turns_each": 50,
+        "self_inductance_each_h": 0.0010442991708264583,
+        "mutual_inductance_h": 9.345137205654844e-05,
+        "receiver_inductance_h": 5.085031586867128e-05,
+        "mutual_to_receiver_h": [
+          1.504895830179913e-05,
+          1.504895830179913e-05
+        ],
+        "coupling_coefficient": 0.08948716485390966,
+        "inductance_matrix_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05,
+            1.504895830179913e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583,
+            1.504895830179913e-05
+          ],
+          [
+            1.504895830179913e-05,
+            1.504895830179913e-05,
+            5.085031586867128e-05
+          ]
+        ],
+        "inductance_matrix_physical_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05,
+            1.504895830179913e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583,
+            1.504895830179913e-05
+          ],
+          [
+            1.504895830179913e-05,
+            1.504895830179913e-05,
+            5.085031586867128e-05
+          ]
+        ],
+        "matrix_positive_definite": true,
+        "orientations": [
+          1,
+          1,
+          1
+        ],
+        "copper_resistance_each_ohm": [
+          0.6983802599004937,
+          0.6983802599004937
+        ],
+        "receiver_copper_resistance_ohm": 0.1053242599004937,
+        "wire_length_each_m": [
+          31.81592653589793,
+          31.81592653589793
+        ],
+        "receiver_wire_length_m": 4.798229715025711,
+        "winding_axial_length_m": 0.011000000000000001,
+        "winding_radial_depth_m": 0.0055000000000000005,
+        "resistance_each_ohm": [
+          10.698380259900494,
+          10.698380259900494
+        ],
+        "resonance_symmetric_unloaded_hz": 1492.09544967752,
+        "resonance_antisymmetric_unloaded_hz": 1632.167135708757,
+        "quality_symmetric_unloaded": 0.9970237309953927,
+        "skin_depth_m": 0.001766138446074769,
+        "self_inductance_method": "Wheeler multilayer estimate; measure before matching resonances",
+        "mutual_method": "Neumann distributed 50 loops per drive, receiver 20 coincident mean-radius loops"
+      },
+      "circuit": {
+        "frequency_hz": 1400,
+        "source_voltages": [
+          {
+            "re": 2.0,
+            "im": 0.0,
+            "rms": 2.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 1.2246467991473532e-16,
+            "im": 2.0,
+            "rms": 2.0,
+            "phase_deg": 90.0
+          }
+        ],
+        "currents": [
+          {
+            "re": 0.19125898551465187,
+            "im": 0.04136375596495808,
+            "rms": 0.19568076003435395,
+            "phase_deg": 12.203462780718258
+          },
+          {
+            "re": -0.030679634656665476,
+            "im": 0.1659873511087752,
+            "rms": 0.1687988172671073,
+            "phase_deg": 100.47186417428463
+          },
+          {
+            "re": 0.00027324322960317247,
+            "im": -0.00021356829757013018,
+            "rms": 0.00034680438326378706,
+            "phase_deg": -38.01136405706493
+          }
+        ],
+        "physical_currents": [
+          {
+            "re": 0.19125898551465187,
+            "im": 0.04136375596495808,
+            "rms": 0.19568076003435395,
+            "phase_deg": 12.203462780718258
+          },
+          {
+            "re": -0.030679634656665476,
+            "im": 0.1659873511087752,
+            "rms": 0.1687988172671073,
+            "phase_deg": 100.47186417428463
+          },
+          {
+            "re": 0.00027324322960317247,
+            "im": -0.00021356829757013018,
+            "rms": 0.00034680438326378706,
+            "phase_deg": -38.01136405706493
+          }
+        ],
+        "capacitor_voltages": [
+          {
+            "re": 0.47023187333356786,
+            "im": -2.174272353957004,
+            "rms": 2.224540016246174,
+            "phase_deg": -77.79653721928175
+          },
+          {
+            "re": 1.8869791014065405,
+            "im": 0.34877253627583815,
+            "rms": 1.9189404397232646,
+            "phase_deg": 10.471864174284638
+          }
+        ],
+        "receiver_load_voltage": {
+          "re": 0.027324322960317247,
+          "im": -0.02135682975701302,
+          "rms": 0.03468043832637871,
+          "phase_deg": -38.01136405706493
+        },
+        "power": {
+          "source_each_w": [
+            0.38251797102930374,
+            0.3319747022175504
+          ],
+          "source_reactive_each_var": [
+            -0.08272751192991616,
+            -0.06135926931333097
+          ],
+          "source_total_w": 0.7144926732468542,
+          "copper_each_w": [
+            0.026741650490221907,
+            0.01989897717694589
+          ],
+          "series_resistor_each_w": [
+            0.3829095984762241,
+            0.2849304071077428
+          ],
+          "receiver_copper_w": 1.2667694228238682e-08,
+          "receiver_load_w": 1.2027328025097572e-05,
+          "dissipation_total_w": 0.714492673246854,
+          "balance_residual_w": 2.220446049250313e-16,
+          "transfer_efficiency": 1.683338188821732e-05
+        },
+        "energy": {
+          "mean_magnetic_j": 3.496450937933516e-05,
+          "mean_capacitive_each_j": [
+            2.474289141940264e-05,
+            1.841166205602658e-05
+          ]
+        },
+        "validity": {
+          "linear_region": true,
+          "warnings": [],
+          "source_port_requirement": "two independently phase-controlled isolated sine outputs; specified RMS amplitude under actual load; 50-ohm function-generator amplitude labels are insufficient"
+        }
+      },
+      "center_field": {
+        "components_t": [
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 3.191349285822466e-05,
+            "im": 4.100553856819688e-05,
+            "rms": 5.196080464811758e-05,
+            "phase_deg": 52.10735059354978
+          }
+        ],
+        "magnitude_rms_t": 5.196080464811758e-05,
+        "ellipse_major_peak_t": 7.348367464518684e-05,
+        "ellipse_minor_peak_t": 0.0,
+        "mean_magnetic_energy_density_j_m3": 0.001074266111726294
+      }
+    },
+    {
+      "upper_phase_deg": 180,
+      "upper_orientation": 1,
+      "receiver_enabled": true,
+      "parameters": {
+        "turns_each": 50,
+        "self_inductance_each_h": 0.0010442991708264583,
+        "mutual_inductance_h": 9.345137205654844e-05,
+        "receiver_inductance_h": 5.085031586867128e-05,
+        "mutual_to_receiver_h": [
+          1.504895830179913e-05,
+          1.504895830179913e-05
+        ],
+        "coupling_coefficient": 0.08948716485390966,
+        "inductance_matrix_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05,
+            1.504895830179913e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583,
+            1.504895830179913e-05
+          ],
+          [
+            1.504895830179913e-05,
+            1.504895830179913e-05,
+            5.085031586867128e-05
+          ]
+        ],
+        "inductance_matrix_physical_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05,
+            1.504895830179913e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583,
+            1.504895830179913e-05
+          ],
+          [
+            1.504895830179913e-05,
+            1.504895830179913e-05,
+            5.085031586867128e-05
+          ]
+        ],
+        "matrix_positive_definite": true,
+        "orientations": [
+          1,
+          1,
+          1
+        ],
+        "copper_resistance_each_ohm": [
+          0.6983802599004937,
+          0.6983802599004937
+        ],
+        "receiver_copper_resistance_ohm": 0.1053242599004937,
+        "wire_length_each_m": [
+          31.81592653589793,
+          31.81592653589793
+        ],
+        "receiver_wire_length_m": 4.798229715025711,
+        "winding_axial_length_m": 0.011000000000000001,
+        "winding_radial_depth_m": 0.0055000000000000005,
+        "resistance_each_ohm": [
+          10.698380259900494,
+          10.698380259900494
+        ],
+        "resonance_symmetric_unloaded_hz": 1492.09544967752,
+        "resonance_antisymmetric_unloaded_hz": 1632.167135708757,
+        "quality_symmetric_unloaded": 0.9970237309953927,
+        "skin_depth_m": 0.001766138446074769,
+        "self_inductance_method": "Wheeler multilayer estimate; measure before matching resonances",
+        "mutual_method": "Neumann distributed 50 loops per drive, receiver 20 coincident mean-radius loops"
+      },
+      "circuit": {
+        "frequency_hz": 1400,
+        "source_voltages": [
+          {
+            "re": 2.0,
+            "im": 0.0,
+            "rms": 2.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": -2.0,
+            "im": 2.4492935982947064e-16,
+            "rms": 2.0,
+            "phase_deg": 180.0
+          }
+        ],
+        "currents": [
+          {
+            "re": 0.17328110765756724,
+            "im": 0.04865751251375012,
+            "rms": 0.17998304307644972,
+            "phase_deg": 15.684796306166197
+          },
+          {
+            "re": -0.17328110765756724,
+            "im": -0.0486575125137501,
+            "rms": 0.17998304307644972,
+            "phase_deg": -164.31520369383384
+          },
+          {
+            "re": 2.5992117742488093e-20,
+            "im": -1.1624379950587523e-22,
+            "rms": 2.599237767808647e-20,
+            "phase_deg": -0.25624055601098766
+          }
+        ],
+        "physical_currents": [
+          {
+            "re": 0.17328110765756724,
+            "im": 0.04865751251375012,
+            "rms": 0.17998304307644972,
+            "phase_deg": 15.684796306166197
+          },
+          {
+            "re": -0.17328110765756724,
+            "im": -0.0486575125137501,
+            "rms": 0.17998304307644972,
+            "phase_deg": -164.31520369383384
+          },
+          {
+            "re": 2.5992117742488093e-20,
+            "im": -1.1624379950587523e-22,
+            "rms": 2.599237767808647e-20,
+            "phase_deg": -0.25624055601098766
+          }
+        ],
+        "capacitor_voltages": [
+          {
+            "re": 0.5531488310799347,
+            "im": -1.9698960591529076,
+            "rms": 2.0460850698813218,
+            "phase_deg": -74.31520369383381
+          },
+          {
+            "re": -0.5531488310799345,
+            "im": 1.9698960591529076,
+            "rms": 2.0460850698813218,
+            "phase_deg": 105.68479630616619
+          }
+        ],
+        "receiver_load_voltage": {
+          "re": 2.5992117742488093e-18,
+          "im": -1.1624379950587523e-20,
+          "rms": 2.5992377678086475e-18,
+          "phase_deg": -0.25624055601098766
+        },
+        "power": {
+          "source_each_w": [
+            0.3465622153151345,
+            0.3465622153151345
+          ],
+          "source_reactive_each_var": [
+            -0.09731502502750024,
+            -0.09731502502750024
+          ],
+          "source_total_w": 0.693124430630269,
+          "copper_each_w": [
+            0.022623257364542924,
+            0.022623257364542924
+          ],
+          "series_resistor_each_w": [
+            0.3239389579505916,
+            0.3239389579505916
+          ],
+          "receiver_copper_w": 7.115745941050943e-41,
+          "receiver_load_w": 6.756036973602878e-38,
+          "dissipation_total_w": 0.693124430630269,
+          "balance_residual_w": 0.0,
+          "transfer_efficiency": 9.747220953472246e-38
+        },
+        "energy": {
+          "mean_magnetic_j": 3.080166451031383e-05,
+          "mean_capacitive_each_j": [
+            2.093232056595627e-05,
+            2.093232056595627e-05
+          ]
+        },
+        "validity": {
+          "linear_region": true,
+          "warnings": [],
+          "source_port_requirement": "two independently phase-controlled isolated sine outputs; specified RMS amplitude under actual load; 50-ohm function-generator amplitude labels are insufficient"
+        }
+      },
+      "center_field": {
+        "components_t": [
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 9.332188131547601e-24,
+            "im": 3.3880900529410237e-21,
+            "rms": 3.3881029052514375e-21,
+            "phase_deg": 89.84218434781607
+          }
+        ],
+        "magnitude_rms_t": 3.3881029052514375e-21,
+        "ellipse_major_peak_t": 4.791501079322268e-21,
+        "ellipse_minor_peak_t": 0.0,
+        "mean_magnetic_energy_density_j_m3": 4.567444988235619e-36
+      }
+    },
+    {
+      "upper_phase_deg": 0,
+      "upper_orientation": -1,
+      "receiver_enabled": true,
+      "parameters": {
+        "turns_each": 50,
+        "self_inductance_each_h": 0.0010442991708264583,
+        "mutual_inductance_h": 9.345137205654844e-05,
+        "receiver_inductance_h": 5.085031586867128e-05,
+        "mutual_to_receiver_h": [
+          1.504895830179913e-05,
+          1.504895830179913e-05
+        ],
+        "coupling_coefficient": 0.08948716485390966,
+        "inductance_matrix_h": [
+          [
+            0.0010442991708264583,
+            -9.345137205654844e-05,
+            1.504895830179913e-05
+          ],
+          [
+            -9.345137205654844e-05,
+            0.0010442991708264583,
+            -1.504895830179913e-05
+          ],
+          [
+            1.504895830179913e-05,
+            -1.504895830179913e-05,
+            5.085031586867128e-05
+          ]
+        ],
+        "inductance_matrix_physical_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05,
+            1.504895830179913e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583,
+            1.504895830179913e-05
+          ],
+          [
+            1.504895830179913e-05,
+            1.504895830179913e-05,
+            5.085031586867128e-05
+          ]
+        ],
+        "matrix_positive_definite": true,
+        "orientations": [
+          1,
+          -1,
+          1
+        ],
+        "copper_resistance_each_ohm": [
+          0.6983802599004937,
+          0.6983802599004937
+        ],
+        "receiver_copper_resistance_ohm": 0.1053242599004937,
+        "wire_length_each_m": [
+          31.81592653589793,
+          31.81592653589793
+        ],
+        "receiver_wire_length_m": 4.798229715025711,
+        "winding_axial_length_m": 0.011000000000000001,
+        "winding_radial_depth_m": 0.0055000000000000005,
+        "resistance_each_ohm": [
+          10.698380259900494,
+          10.698380259900494
+        ],
+        "resonance_symmetric_unloaded_hz": 1492.09544967752,
+        "resonance_antisymmetric_unloaded_hz": 1632.167135708757,
+        "quality_symmetric_unloaded": 0.9970237309953927,
+        "skin_depth_m": 0.001766138446074769,
+        "self_inductance_method": "Wheeler multilayer estimate; measure before matching resonances",
+        "mutual_method": "Neumann distributed 50 loops per drive, receiver 20 coincident mean-radius loops"
+      },
+      "circuit": {
+        "frequency_hz": 1400,
+        "source_voltages": [
+          {
+            "re": 2.0,
+            "im": 0.0,
+            "rms": 2.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 2.0,
+            "im": 0.0,
+            "rms": 2.0,
+            "phase_deg": 0.0
+          }
+        ],
+        "currents": [
+          {
+            "re": 0.1732811076575672,
+            "im": 0.04865751251375012,
+            "rms": 0.17998304307644972,
+            "phase_deg": 15.6847963061662
+          },
+          {
+            "re": 0.17328110765756724,
+            "im": 0.04865751251375012,
+            "rms": 0.17998304307644972,
+            "phase_deg": 15.684796306166197
+          },
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          }
+        ],
+        "physical_currents": [
+          {
+            "re": 0.1732811076575672,
+            "im": 0.04865751251375012,
+            "rms": 0.17998304307644972,
+            "phase_deg": 15.6847963061662
+          },
+          {
+            "re": -0.17328110765756724,
+            "im": -0.04865751251375012,
+            "rms": 0.17998304307644972,
+            "phase_deg": -164.3152036938338
+          },
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          }
+        ],
+        "capacitor_voltages": [
+          {
+            "re": 0.5531488310799347,
+            "im": -1.969896059152907,
+            "rms": 2.0460850698813213,
+            "phase_deg": -74.31520369383381
+          },
+          {
+            "re": 0.5531488310799347,
+            "im": -1.9698960591529076,
+            "rms": 2.0460850698813218,
+            "phase_deg": -74.31520369383381
+          }
+        ],
+        "receiver_load_voltage": {
+          "re": 0.0,
+          "im": 0.0,
+          "rms": 0.0,
+          "phase_deg": 0.0
+        },
+        "power": {
+          "source_each_w": [
+            0.3465622153151344,
+            0.3465622153151345
+          ],
+          "source_reactive_each_var": [
+            -0.09731502502750024,
+            -0.09731502502750024
+          ],
+          "source_total_w": 0.6931244306302689,
+          "copper_each_w": [
+            0.022623257364542924,
+            0.022623257364542924
+          ],
+          "series_resistor_each_w": [
+            0.3239389579505916,
+            0.3239389579505916
+          ],
+          "receiver_copper_w": 0.0,
+          "receiver_load_w": 0.0,
+          "dissipation_total_w": 0.693124430630269,
+          "balance_residual_w": -1.1102230246251565e-16,
+          "transfer_efficiency": 0.0
+        },
+        "energy": {
+          "mean_magnetic_j": 3.080166451031383e-05,
+          "mean_capacitive_each_j": [
+            2.0932320565956262e-05,
+            2.093232056595627e-05
+          ]
+        },
+        "validity": {
+          "linear_region": true,
+          "warnings": [],
+          "source_port_requirement": "two independently phase-controlled isolated sine outputs; specified RMS amplitude under actual load; 50-ohm function-generator amplitude labels are insufficient"
+        }
+      },
+      "center_field": {
+        "components_t": [
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": -6.776263578034403e-21,
+            "im": 0.0,
+            "rms": 6.776263578034403e-21,
+            "phase_deg": 180.0
+          }
+        ],
+        "magnitude_rms_t": 6.776263578034403e-21,
+        "ellipse_major_peak_t": 9.583083854271089e-21,
+        "ellipse_minor_peak_t": 0.0,
+        "mean_magnetic_energy_density_j_m3": 1.827009145605133e-35
+      }
+    },
+    {
+      "upper_phase_deg": 0,
+      "upper_orientation": 1,
+      "receiver_enabled": false,
+      "parameters": {
+        "turns_each": 50,
+        "self_inductance_each_h": 0.0010442991708264583,
+        "mutual_inductance_h": 9.345137205654844e-05,
+        "receiver_inductance_h": 5.085031586867128e-05,
+        "mutual_to_receiver_h": [
+          1.504895830179913e-05,
+          1.504895830179913e-05
+        ],
+        "coupling_coefficient": 0.08948716485390966,
+        "inductance_matrix_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583
+          ]
+        ],
+        "inductance_matrix_physical_h": [
+          [
+            0.0010442991708264583,
+            9.345137205654844e-05
+          ],
+          [
+            9.345137205654844e-05,
+            0.0010442991708264583
+          ]
+        ],
+        "matrix_positive_definite": true,
+        "orientations": [
+          1,
+          1
+        ],
+        "copper_resistance_each_ohm": [
+          0.6983802599004937,
+          0.6983802599004937
+        ],
+        "receiver_copper_resistance_ohm": 0.1053242599004937,
+        "wire_length_each_m": [
+          31.81592653589793,
+          31.81592653589793
+        ],
+        "receiver_wire_length_m": 4.798229715025711,
+        "winding_axial_length_m": 0.011000000000000001,
+        "winding_radial_depth_m": 0.0055000000000000005,
+        "resistance_each_ohm": [
+          10.698380259900494,
+          10.698380259900494
+        ],
+        "resonance_symmetric_unloaded_hz": 1492.09544967752,
+        "resonance_antisymmetric_unloaded_hz": 1632.167135708757,
+        "quality_symmetric_unloaded": 0.9970237309953927,
+        "skin_depth_m": 0.001766138446074769,
+        "self_inductance_method": "Wheeler multilayer estimate; measure before matching resonances",
+        "mutual_method": "Neumann distributed 50 loops per drive, receiver 20 coincident mean-radius loops"
+      },
+      "circuit": {
+        "frequency_hz": 1400,
+        "source_voltages": [
+          {
+            "re": 2.0,
+            "im": 0.0,
+            "rms": 2.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 2.0,
+            "im": 0.0,
+            "rms": 2.0,
+            "phase_deg": 0.0
+          }
+        ],
+        "currents": [
+          {
+            "re": 0.18397106440631686,
+            "im": 0.023387358333555104,
+            "rms": 0.1854516677428793,
+            "phase_deg": 7.244876498946062
+          },
+          {
+            "re": 0.18397106440631686,
+            "im": 0.023387358333555104,
+            "rms": 0.1854516677428793,
+            "phase_deg": 7.244876498946062
+          }
+        ],
+        "physical_currents": [
+          {
+            "re": 0.18397106440631686,
+            "im": 0.023387358333555104,
+            "rms": 0.1854516677428793,
+            "phase_deg": 7.244876498946062
+          },
+          {
+            "re": 0.18397106440631686,
+            "im": 0.023387358333555104,
+            "rms": 0.1854516677428793,
+            "phase_deg": 7.244876498946062
+          }
+        ],
+        "capacitor_voltages": [
+          {
+            "re": 0.2658724060461948,
+            "im": -2.091421734724484,
+            "rms": 2.108253544708217,
+            "phase_deg": -82.75512350105394
+          },
+          {
+            "re": 0.2658724060461948,
+            "im": -2.091421734724484,
+            "rms": 2.108253544708217,
+            "phase_deg": -82.75512350105394
+          }
+        ],
+        "receiver_load_voltage": {
+          "re": 0.0,
+          "im": 0.0,
+          "rms": 0.0,
+          "phase_deg": 0.0
+        },
+        "power": {
+          "source_each_w": [
+            0.3679421288126337,
+            0.3679421288126337
+          ],
+          "source_reactive_each_var": [
+            -0.04677471666711021,
+            -0.04677471666711021
+          ],
+          "source_total_w": 0.7358842576252674,
+          "copper_each_w": [
+            0.024018918126480777,
+            0.024018918126480777
+          ],
+          "series_resistor_each_w": [
+            0.34392321068615295,
+            0.34392321068615295
+          ],
+          "receiver_copper_w": 0.0,
+          "receiver_load_w": 0.0,
+          "dissipation_total_w": 0.7358842576252674,
+          "balance_residual_w": 0.0,
+          "transfer_efficiency": 0.0
+        },
+        "energy": {
+          "mean_magnetic_j": 3.912988196682372e-05,
+          "mean_capacitive_each_j": [
+            2.2223665043873816e-05,
+            2.2223665043873816e-05
+          ]
+        },
+        "validity": {
+          "linear_region": true,
+          "warnings": [],
+          "source_port_requirement": "two independently phase-controlled isolated sine outputs; specified RMS amplitude under actual load; 50-ohm function-generator amplitude labels are insufficient"
+        }
+      },
+      "center_field": {
+        "components_t": [
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 0.0,
+            "im": 0.0,
+            "rms": 0.0,
+            "phase_deg": 0.0
+          },
+          {
+            "re": 7.289991812610292e-05,
+            "im": 9.267416662527376e-06,
+            "rms": 7.348661833551329e-05,
+            "phase_deg": 7.244876498946062
+          }
+        ],
+        "magnitude_rms_t": 7.348661833551329e-05,
+        "ellipse_major_peak_t": 0.00010392577230301825,
+        "ellipse_minor_peak_t": 0.0,
+        "mean_magnetic_energy_density_j_m3": 0.002148704363461426
+      }
+    }
+  ]
+}

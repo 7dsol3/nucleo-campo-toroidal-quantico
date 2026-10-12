@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-12",
+  "delivery_scope": "Proposta de bancada eletromagnética clássica; sem fabricação ou ensaio físico.",
+  "physics_checks_passed": 13,
+  "browser_checks_passed": 25,
+  "closed_mesh_geometry_types": 9,
+  "pdf_pages": 8,
+  "pdf_text_characters": 19098,
+  "pdf_baseline_numbers_present": true,
+  "docx_tables": 4,
+  "missing_viewer_links": [],
+  "stl_files": [
+    {
+      "file": "cad\\base_260x260x8.stl",
+      "triangle_count": 3648,
+      "binary_size_valid": true
+    },
+    {
+      "file": "cad\\bobina_suporte_OD220_H15p4.stl",
+      "triangle_count": 31488,
+      "binary_size_valid": true
+    },
+    {
+      "file": "cad\\espacador_44p3.stl",
+      "triangle_count": 512,
+      "binary_size_valid": true
+    },
+    {
+      "file": "cad\\espacador_84p6.stl",
+      "triangle_count": 512,
+      "binary_size_valid": true
+    }
+  ],
+  "svg_xml_valid": true,
+  "not_performed": [
+    "Fabricação e montagem",
+    "Ensaio de campo/potência/temperatura",
+    "Renderização CLI do OpenSCAD",
+    "Certificação de equipamento",
+    "Comprovação quântica/gravitacional"
+  ],
+  "all_digital_checks_passed": true
+}

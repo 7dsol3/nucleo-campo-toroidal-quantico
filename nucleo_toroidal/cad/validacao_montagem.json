@@ -1,0 +1,27 @@
+{
+  "coil_center_separation_mm": 100.0,
+  "lower_coil_center_from_stack_mm": 60.0,
+  "upper_coil_center_from_stack_mm": 160.0,
+  "winding_axial_clearance_mm": 0.4,
+  "winding_to_spacer_radial_clearance_mm": 1.25,
+  "mounting_hole_outer_edge_ligament_mm": 1.3,
+  "top_flange_z_mm": 167.7,
+  "rod_top_z_mm": 175.0,
+  "rod_above_upper_nut_mm": 4.4,
+  "total_height_including_feet_mm": 181.0,
+  "assembled_bounds_mm": [
+    [
+      -130,
+      -130,
+      -6
+    ],
+    [
+      130,
+      130,
+      175
+    ]
+  ],
+  "assembly_groups": 37,
+  "manufacturing_validation": false,
+  "openscad_cli_validation": false
+}

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7" fill="#0a7187"/></marker></defs>
+<style>text{font:17px Arial;fill:#21303b}.title{font-size:27px;font-weight:bold}.sub{font-size:20px;font-weight:bold}.tiny{font-size:14px}.part{fill:#e5edf2;stroke:#40586a;stroke-width:1.5}.coil{fill:#d78c52;stroke:#8d4a18;stroke-width:1.5}.line{fill:none;stroke:#6c8798;stroke-width:1.2;stroke-dasharray:5 4}.dim{fill:none;stroke:#0a7187;stroke-width:1.2;marker-start:url(#a);marker-end:url(#a)}.tube{fill:#8dd8e1;fill-opacity:.4;stroke:#0a7187;stroke-width:1.5}</style>
+<rect width="1600" height="1200" fill="#fff"/>
+
+<text x="35" y="42" class="title">NÚCLEO INTEGRAL V2 — MONTAGEM DIMENSIONAL DE BANCADA</text>
+<text x="35" y="74" class="">Unidades: mm · cotas propostas para ensaio eletromagnético · revisão 2 · 12/10/2026</text>
+<text x="35" y="104" class="">Geometria inspirada na imagem; câmara em ar comum. Não há peças de vácuo, curvatura ou propulsão.</text>
+<text x="35" y="148" class="sub">VISTA SUPERIOR — COM UM MÓDULO VISÍVEL</text>
+<rect x="89.0" y="199.0" width="522.0" height="522.0" class="part"/>
+<circle cx="350" cy="460" r="246.5" class="line"/>
+<circle cx="350" cy="460" r="179.79999999999998" class="line"/>
+<circle cx="350" cy="460" r="159.5" class="line"/>
+<circle cx="350" cy="460" r="148.98749999999998" class="coil"/>
+<circle cx="350" cy="460" r="141.0125" class="line"/>
+<circle cx="350" cy="460" r="136.29999999999998" class="line"/>
+<circle cx="350" cy="460" r="58.0" class="line"/>
+<circle cx="350" cy="460" r="44.949999999999996" class="line"/>
+<circle cx="350" cy="460" r="39.15" class="tube"/>
+<circle cx="350" cy="460" r="36.25" class="tube"/>
+<circle cx="508.92224907167656" cy="301.07775092832344" r="7.25" class="part"/>
+<circle cx="508.92224907167656" cy="301.07775092832344" r="3.9875" class="line"/>
+<circle cx="459.70761710109286" cy="350.29238289890714" r="2.465" class="part"/>
+<circle cx="191.07775092832347" cy="301.07775092832344" r="7.25" class="part"/>
+<circle cx="191.07775092832347" cy="301.07775092832344" r="3.9875" class="line"/>
+<circle cx="240.29238289890714" cy="350.29238289890714" r="2.465" class="part"/>
+<circle cx="191.0777509283234" cy="618.9222490716766" r="7.25" class="part"/>
+<circle cx="191.0777509283234" cy="618.9222490716766" r="3.9875" class="line"/>
+<circle cx="240.29238289890714" cy="569.7076171010929" r="2.465" class="part"/>
+<circle cx="508.9222490716765" cy="618.9222490716766" r="7.25" class="part"/>
+<circle cx="508.9222490716765" cy="618.9222490716766" r="3.9875" class="line"/>
+<circle cx="459.7076171010928" cy="569.7076171010929" r="2.465" class="part"/>
+<rect x="110.75" y="612.25" width="116.0" height="87.0" class="tube"/>
+<line x1="89.0" y1="748" x2="611.0" y2="748" class="dim"/>
+<text x="330" y="776" class="">360</text>
+<line x1="625" y1="199.0" x2="625" y2="721.0" class="dim"/>
+<text x="634" y="466" class="">360</text>
+<text x="55" y="817" class="">Carcaça: Ø340 / Ø248; 4 furos Ø5,5 em círculo Ø310</text>
+<text x="55" y="845" class="">Carretel: Ø220; 4 furos Ø3,4 em círculo Ø214</text>
+<text x="55" y="873" class="">Ângulos das fixações: 45° / 135° / 225° / 315°</text>
+<text x="55" y="901" class="">Tirantes: X e Y = ±109,6016; carretel = ±75,6604</text>
+<text x="55" y="929" class="">Caixa de controle: X −165…−85; Y −165…−105; Z12…42</text>
+<text x="770" y="148" class="sub">VISTA FRONTAL / CORTE PELO EIXO</text>
+<rect x="690.0" y="701.0" width="720.0" height="24" class="part"/>
+<rect x="996.0" y="285.0" width="108.0" height="396.0" class="tube"/>
+<rect x="825.7968" y="273.0" width="10" height="462.0" class="part"/>
+<rect x="1264.2032" y="273.0" width="10" height="462.0" class="part"/>
+<rect x="710.0" y="619.0" width="92.0" height="8" class="part"/>
+<rect x="1298.0" y="619.0" width="92.0" height="8" class="part"/>
+<rect x="710.0" y="563.0" width="92.0" height="8" class="part"/>
+<rect x="1298.0" y="563.0" width="92.0" height="8" class="part"/>
+<rect x="830.0" y="606.4" width="32.0" height="4" class="part"/>
+<rect x="1238.0" y="606.4" width="32.0" height="4" class="part"/>
+<rect x="830.0" y="579.6" width="32.0" height="4" class="part"/>
+<rect x="1238.0" y="579.6" width="32.0" height="4" class="part"/>
+<rect x="844.5" y="584.0" width="11.0" height="22" class="coil"/>
+<rect x="1244.5" y="584.0" width="11.0" height="22" class="coil"/>
+<line x1="690" y1="595.0" x2="1440" y2="595.0" class="line"/>
+<text x="1446" y="601.0" class="">Z65</text>
+<rect x="710.0" y="379.0" width="92.0" height="8" class="part"/>
+<rect x="1298.0" y="379.0" width="92.0" height="8" class="part"/>
+<rect x="710.0" y="323.0" width="92.0" height="8" class="part"/>
+<rect x="1298.0" y="323.0" width="92.0" height="8" class="part"/>
+<rect x="830.0" y="366.4" width="32.0" height="4" class="part"/>
+<rect x="1238.0" y="366.4" width="32.0" height="4" class="part"/>
+<rect x="830.0" y="339.6" width="32.0" height="4" class="part"/>
+<rect x="1238.0" y="339.6" width="32.0" height="4" class="part"/>
+<rect x="844.5" y="344.0" width="11.0" height="22" class="coil"/>
+<rect x="1244.5" y="344.0" width="11.0" height="22" class="coil"/>
+<line x1="690" y1="355.0" x2="1440" y2="355.0" class="line"/>
+<text x="1446" y="361.0" class="">Z185</text>
+<circle cx="780.0" cy="475.0" r="14.9" class="tube"/>
+<circle cx="780.0" cy="475.0" r="17.1" class="line"/>
+<rect x="975.6" y="469.5" width="8.8" height="11" class="coil"/>
+<circle cx="1320.0" cy="475.0" r="14.9" class="tube"/>
+<circle cx="1320.0" cy="475.0" r="17.1" class="line"/>
+<rect x="1115.6" y="469.5" width="8.8" height="11" class="coil"/>
+<rect x="1042.0" y="479.0" width="16.0" height="222.0" class="part"/>
+<rect x="1046.0" y="471.0" width="8.0" height="8" class="coil"/>
+<line x1="1460" y1="595.0" x2="1460" y2="355.0" class="dim"/>
+<text x="1473" y="475.0" class="">120</text>
+<line x1="1510" y1="741.0" x2="1510" y2="273.0" class="dim"/>
+<text x="1520" y="513.0" class="">234</text>
+<line x1="690" y1="785" x2="1410" y2="785" class="dim"/>
+<text x="1028" y="813" class="">360</text>
+<text x="770" y="854" class="">Centros: bobinas Z65/185; receptor e toroide Z125</text>
+<text x="770" y="882" class="">Tampas: Z49–53 / 77–81 / 169–173 / 197–201</text>
+<text x="770" y="910" class="">Espaçadores: 37 (×4), 15,4 (×8), 88 (×4), 17 (×4)</text>
+<text x="770" y="938" class="">Tirantes M5 ×231: Z−5…226; pés Z−8…0</text>
+<line x1="35" y1="974" x2="1565" y2="974" class="line"/>
+<text x="35" y="1012" class="sub">TOLERÂNCIAS, MATERIAIS E LIMITES</text>
+<text x="35" y="1045" class="tiny">Peças isolantes. Impressão: alvo ±0,3; espaçadores faceados: alvo ±0,1. Furos acabar com broca Ø5,5 / Ø3,4.</text>
+<text x="35" y="1074" class="tiny">Tampas completas Ø340: mesa útil mínima Ø346 com brim3, recomendado≥350. Base: preferir chapa cortada/furada.</text>
+<text x="35" y="1103" class="tiny">Carretéis Ø220: mesa útil mínimaØ226. Suporte removível sob flange superior; não imprimir com canal obstruído.</text>
+<text x="35" y="1132" class="tiny">Confirmar diâmetro real do fio, resistência, isolamento e posições antes de energizar. Roscas e eletrônica são referências.</text>
+<text x="35" y="1161" class="tiny">Validação digital: arestas fechadas/orientação/volume e folgas selecionadas. Sem certificação mecânica, térmica ou de pressão.</text>
+</svg>

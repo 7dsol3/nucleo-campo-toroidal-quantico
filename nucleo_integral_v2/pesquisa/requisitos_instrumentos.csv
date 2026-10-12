@@ -1,0 +1,17 @@
+instrumento;finalidade;requisito_de_projeto;verificacao_antes_uso;estado
+Fonte DC isolada limitada;P03 e P08 RL separado;Baixa tensão limite corrente 0.50 A e parada;Estabilidade isolamento limite corrente topologia;A selecionar
+Dois canais AC sincronizados;P04 P05 P06;100 a 5000 Hz 2 Vrms inicial 5 Vrms máximo corrente até 0.50 Arms se equipamento permitir;Fase amplitude distorção impedância saída capacidade receber energia e proteção;A selecionar
+Amplificadores de laboratório se necessários;Excitar carga indutiva;Saída senoidal protegida topologia documentada;Carga real clipping aquecimento isolamento correntes e operação com outro canal acoplado;A selecionar
+Resistor não indutivo axial 2 unidades;Amortecimento e referência de corrente;10 ohm nominal 10 W cada;Resistência calibrada coeficiente térmico montagem térmica e resposta AC;A selecionar
+Capacitor não polarizado axial 2 unidades;Ressonância de cada ramo;10 uF inicial classificação AC corrente RMS e frequência verificadas;C ESR tensão sobre capacitor e transientes catálogo fabricante;A selecionar
+Carga não indutiva receptor;Saída útil por indução;100 ohm inicial potência adequada à medição;R real incerteza temperatura limite tensão potência;A selecionar
+Paquímetro régua gabarito;P01 geometria;Posição e cotas conhecidas na ordem 0.5 a 1 mm;Calibração resolução repetibilidade alinhamento;A selecionar
+Medidor LCR;P02 R L C ESR;Faixa AC relevante e alvo U relativo 2 por cento;Frequência calibração conexão e parasitas;A selecionar
+Osciloscópio ou DAQ;P05 P06 v i simultâneos;Canais para duas fontes e carga aquisição 200 kS por segundo ou maior em 5 kHz;Ganho fase sincronismo faixa proteção referência comum e calibração;A selecionar
+Sondas diferenciais ou isoladas;Medições em saída flutuante ou ponte;Compatíveis com tensão frequência e topologia;Evitar curto via terra comum verificar limites fabricante;A selecionar
+Shunts ou resistores de referência;Corrente e potência;R medida não indutivo resposta AC conhecida;Fase ganho conexão quatro fios quando apropriado e temperatura;A selecionar
+Sonda Hall ou magnetômetro DC;P03 campo estático;Resolução desejada 1 uT orientação conhecida;Calibração fundo offset reversão corrente;A selecionar
+Sensor campo AC ou bobina calibrada;P04 campo em frequência;Resposta caracterizada até 5 kHz resolução alvo 1 uT;Transferência amplitude fase área e orientação;A selecionar
+Multímetro true RMS;Apoio de tensão corrente;Banda até 5 kHz sob formas senoidais da bancada;Banda fator crista resolução e incerteza;A selecionar
+Sensor de temperatura e registrador;P09 e proteção;Incerteza alvo 1 graus C amostragem 1 Hz;Contato localização isolação leitura e limite 45 graus C ou menor do material;A selecionar
+Computador registro dados;Reprodução e auditoria;Salvar CSV e formas de onda com versão parâmetros e unidades;Sincronismo relógio backup e associação de dados às configurações;A selecionar

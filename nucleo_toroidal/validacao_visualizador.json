@@ -1,0 +1,124 @@
+{
+  "scope": "Browser QA and comparison against Python classical model; no physical experiment.",
+  "checks": [
+    {
+      "name": "python_js_I",
+      "passed": true,
+      "relative_error": 1.591561785193813e-16,
+      "value": 0.17439207119596034
+    },
+    {
+      "name": "python_js_b",
+      "passed": true,
+      "relative_error": 1.7285370853197192e-16,
+      "value": 7.840460740570146e-05
+    },
+    {
+      "name": "python_js_power",
+      "passed": true,
+      "relative_error": 3.20190228570729e-16,
+      "value": 0.3467385714988839
+    },
+    {
+      "name": "python_js_f0",
+      "passed": true,
+      "relative_error": 0.0,
+      "value": 1041.3995965663196
+    },
+    {
+      "name": "python_js_L",
+      "passed": true,
+      "relative_error": 1.856798648779046e-16,
+      "value": 0.0023356375731928307
+    },
+    {
+      "name": "python_js_Rcu",
+      "passed": true,
+      "relative_error": 1.5847304139954824e-16,
+      "value": 1.4011506497512343
+    },
+    {
+      "name": "biot_savart_center",
+      "passed": true
+    },
+    {
+      "name": "field_python_js_(0.03, 0.02)",
+      "passed": true,
+      "relative_error": 9.57431058768706e-16
+    },
+    {
+      "name": "field_python_js_(0.11, 0.06)",
+      "passed": true,
+      "relative_error": 1.1683453238694072e-06
+    },
+    {
+      "name": "field_python_js_(0.08, -0.03)",
+      "passed": true,
+      "relative_error": 8.308854628753195e-16
+    },
+    {
+      "name": "exploded_view",
+      "passed": true
+    },
+    {
+      "name": "field_tab",
+      "passed": true
+    },
+    {
+      "name": "resonance_preset",
+      "passed": true
+    },
+    {
+      "name": "resonance_current",
+      "passed": true
+    },
+    {
+      "name": "source_zero",
+      "passed": true
+    },
+    {
+      "name": "csv_export",
+      "passed": true
+    },
+    {
+      "name": "csv_import",
+      "passed": true,
+      "status": "1 medições. Diferença absoluta média relativa: I 0,0%; B 0,0%. Parâmetros L, R, C e distância atuais. Isso não é um teste de descoberta física."
+    },
+    {
+      "name": "measurement_voltage_normalization",
+      "passed": true
+    },
+    {
+      "name": "csv_decimal_comma",
+      "passed": true
+    },
+    {
+      "name": "csv_reject_negative",
+      "passed": true
+    },
+    {
+      "name": "parts_tab",
+      "passed": true
+    },
+    {
+      "name": "responsive_390",
+      "passed": true
+    },
+    {
+      "name": "responsive_768",
+      "passed": true
+    },
+    {
+      "name": "rotate_3d",
+      "passed": true
+    },
+    {
+      "name": "no_browser_errors",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "check_count": 25,
+  "all_passed": true
+}

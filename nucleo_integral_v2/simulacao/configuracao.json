@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "geometry": {
+    "coil_mean_radius_m": 0.1,
+    "coil_center_lower_m": 0.065,
+    "coil_center_upper_m": 0.185,
+    "radial_layers": 5,
+    "turns_per_layer": 10,
+    "wire_bare_diameter_m": 0.001,
+    "wire_pitch_m": 0.0011,
+    "coil_leads_each_m": 0.4,
+    "temperature_c": 20,
+    "copper_resistivity_20c_ohm_m": 1.724e-8,
+    "copper_temperature_coefficient_per_c": 0.00393
+  },
+  "circuit": {
+    "frequency_hz": 1400,
+    "capacitor_each_f": 0.00001,
+    "series_resistor_each_ohm": 10,
+    "series_resistor_rating_w": 10,
+    "capacitor_rating_v": 100,
+    "source_max_rms_v": 5,
+    "current_limit_rms_a": 0.5,
+    "drives": [
+      {"voltage_rms_v": 2, "phase_deg": 0, "orientation": 1},
+      {"voltage_rms_v": 2, "phase_deg": 0, "orientation": 1}
+    ]
+  },
+  "receiver": {
+    "enabled": true,
+    "radius_m": 0.035,
+    "center_z_m": 0.125,
+    "turns": 20,
+    "leads_m": 0.4,
+    "load_ohm": 100,
+    "load_rating_w": 0.25,
+    "axial_length_m": 0.0055,
+    "radial_depth_m": 0.0044,
+    "orientation": 1
+  },
+  "toroidal": {
+    "enabled": false,
+    "turns": 48,
+    "major_radius_m": 0.135,
+    "minor_radius_m": 0.008,
+    "center_z_m": 0.125,
+    "drive_current_rms_a": 0.15,
+    "phase_deg": 0,
+    "leads_m": 0.4
+  },
+  "control_cc": {
+    "target_a": 0.15,
+    "kp_ohm": 8,
+    "ki_ohm_per_s": 800,
+    "duration_s": 0.4,
+    "step_s": 0.000001
+  },
+  "numerics": {
+    "mutual_angular_samples": 512,
+    "field_angular_samples": 128,
+    "toroid_angular_samples": 64,
+    "axis_points": 81,
+    "slice_points_per_dimension": 25,
+    "sweep_points": 161
+  }
+}

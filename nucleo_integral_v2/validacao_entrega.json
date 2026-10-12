@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-12",
+  "scope": "Geometria integral proposta e simulação clássica; nenhum hardware fabricado ou medido.",
+  "all_digital_checks_passed": true,
+  "cad_parts": 160,
+  "cad_groups": 11,
+  "verified_closed_meshes": 173,
+  "stl_files": 14,
+  "critical_mechanical_interfaces_passed": 84,
+  "physics_and_parity_checks_passed": 58,
+  "browser_checks_passed": 33,
+  "pdf_pages": 9,
+  "pdf_text_characters": 22436,
+  "bom_rows": 39,
+  "missing_local_links": [],
+  "stl_binary_sizes_valid": true,
+  "svg_xml_valid": true,
+  "not_performed": [
+    "Fabricação/ensaio físico",
+    "Renderização CLI OpenSCAD",
+    "Detecção global de todas as colisões",
+    "Análise estrutural/térmica/FEM",
+    "PCB e amplificadores físicos validados",
+    "Comprovação dos efeitos quânticos/gravitacionais do pôster"
+  ]
+}

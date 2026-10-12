@@ -1,0 +1,3462 @@
+{
+  "base_360x360x12": {
+    "vertices": 1818,
+    "triangles": 3648,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1554063.249,
+    "bounds_mm": [
+      [
+        -180.0,
+        -180.0,
+        0.0
+      ],
+      [
+        180.0,
+        180.0,
+        12.0
+      ]
+    ]
+  },
+  "tampa_anel_OD340_ID248_H4_M5": {
+    "vertices": 5912,
+    "triangles": 11840,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 169541.488,
+    "bounds_mm": [
+      [
+        -170.0,
+        -170.0,
+        0.0
+      ],
+      [
+        170.0,
+        170.0,
+        4.0
+      ]
+    ]
+  },
+  "bobina_suporte_OD220_H15p4": {
+    "vertices": 15728,
+    "triangles": 31488,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54653.417,
+    "bounds_mm": [
+      [
+        -110.0,
+        -110.0,
+        0.0
+      ],
+      [
+        110.0,
+        110.0,
+        15.4
+      ]
+    ]
+  },
+  "ponte_56x12x4p3_M3_M5": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        104.0,
+        -6.0,
+        0.0
+      ],
+      [
+        160.0,
+        6.0,
+        4.3
+      ]
+    ]
+  },
+  "espacador_OD10_ID5p5_H37": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2023.662,
+    "bounds_mm": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        37.0
+      ]
+    ]
+  },
+  "espacador_OD10_ID5p5_H15p4": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        15.4
+      ]
+    ]
+  },
+  "espacador_OD10_ID5p5_H88": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4813.034,
+    "bounds_mm": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        88.0
+      ]
+    ]
+  },
+  "espacador_OD10_ID5p5_H17": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 929.791,
+    "bounds_mm": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        17.0
+      ]
+    ]
+  },
+  "tubo_instrumentacao_OD54_ID50_H198": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 64645.499,
+    "bounds_mm": [
+      [
+        -27.0,
+        -27.0,
+        0.0
+      ],
+      [
+        27.0,
+        27.0,
+        198.0
+      ]
+    ]
+  },
+  "colar_coluna_OD70_ID54p6_H6": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9035.866,
+    "bounds_mm": [
+      [
+        -35.0,
+        -35.0,
+        0.0
+      ],
+      [
+        35.0,
+        35.0,
+        6.0
+      ]
+    ]
+  },
+  "pedestal_coluna_OD70_ID10_H10": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 37672.202,
+    "bounds_mm": [
+      [
+        -35.0,
+        -35.0,
+        0.0
+      ],
+      [
+        35.0,
+        35.0,
+        10.0
+      ]
+    ]
+  },
+  "carretel_receptor_OD80_ID62_H12": {
+    "vertices": 1024,
+    "triangles": 2048,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 13834.729,
+    "bounds_mm": [
+      [
+        -40.0,
+        -40.0,
+        0.0
+      ],
+      [
+        40.0,
+        40.0,
+        12.0
+      ]
+    ]
+  },
+  "colar_receptor_OD62_ID54p6_H2": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1354.378,
+    "bounds_mm": [
+      [
+        -31.0,
+        -31.0,
+        0.0
+      ],
+      [
+        31.0,
+        31.0,
+        2.0
+      ]
+    ]
+  },
+  "forma_toroidal_R135_r6p5": {
+    "vertices": 2880,
+    "triangles": 5760,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 110709.503,
+    "bounds_mm": [
+      [
+        -141.5,
+        -141.5,
+        -6.5
+      ],
+      [
+        141.5,
+        141.5,
+        6.5
+      ]
+    ]
+  },
+  "tampa_inferior_baixo": {
+    "vertices": 5912,
+    "triangles": 11840,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 169541.488,
+    "bounds_mm": [
+      [
+        -170.0,
+        -170.0,
+        49.0
+      ],
+      [
+        170.0,
+        170.0,
+        53.0
+      ]
+    ]
+  },
+  "tampa_inferior_cima": {
+    "vertices": 5912,
+    "triangles": 11840,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 169541.488,
+    "bounds_mm": [
+      [
+        -170.0,
+        -170.0,
+        77.0
+      ],
+      [
+        170.0,
+        170.0,
+        81.0
+      ]
+    ]
+  },
+  "ponte_inferior_baixo_1": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        69.29646455628166,
+        69.29646455628166,
+        53.0
+      ],
+      [
+        117.3797256769669,
+        117.3797256769669,
+        57.3
+      ]
+    ]
+  },
+  "ponte_inferior_cima_1": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        69.29646455628166,
+        69.29646455628166,
+        72.7
+      ],
+      [
+        117.3797256769669,
+        117.3797256769669,
+        77.0
+      ]
+    ]
+  },
+  "ponte_inferior_baixo_2": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        -117.37972567696688,
+        69.29646455628166,
+        53.0
+      ],
+      [
+        -69.29646455628165,
+        117.3797256769669,
+        57.3
+      ]
+    ]
+  },
+  "ponte_inferior_cima_2": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        -117.37972567696688,
+        69.29646455628166,
+        72.7
+      ],
+      [
+        -69.29646455628165,
+        117.3797256769669,
+        77.0
+      ]
+    ]
+  },
+  "ponte_inferior_baixo_3": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        -117.37972567696693,
+        -117.37972567696688,
+        53.0
+      ],
+      [
+        -69.29646455628166,
+        -69.29646455628165,
+        57.3
+      ]
+    ]
+  },
+  "ponte_inferior_cima_3": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        -117.37972567696693,
+        -117.37972567696688,
+        72.7
+      ],
+      [
+        -69.29646455628166,
+        -69.29646455628165,
+        77.0
+      ]
+    ]
+  },
+  "ponte_inferior_baixo_4": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        69.29646455628163,
+        -117.37972567696693,
+        53.0
+      ],
+      [
+        117.37972567696687,
+        -69.29646455628168,
+        57.3
+      ]
+    ]
+  },
+  "ponte_inferior_cima_4": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        69.29646455628163,
+        -117.37972567696693,
+        72.7
+      ],
+      [
+        117.37972567696687,
+        -69.29646455628168,
+        77.0
+      ]
+    ]
+  },
+  "cassete_inferior_1": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        136.66851271486757,
+        52.78311719220704,
+        53.0
+      ],
+      [
+        158.9729376887442,
+        69.6755811646217,
+        77.0
+      ]
+    ]
+  },
+  "cassete_inferior_2": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        52.783117192207044,
+        136.66851271486757,
+        53.0
+      ],
+      [
+        69.6755811646217,
+        158.9729376887442,
+        77.0
+      ]
+    ]
+  },
+  "cassete_inferior_3": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        -69.67558116462169,
+        136.66851271486757,
+        53.0
+      ],
+      [
+        -52.78311719220702,
+        158.9729376887442,
+        77.0
+      ]
+    ]
+  },
+  "cassete_inferior_4": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        -158.9729376887442,
+        52.783117192207044,
+        53.0
+      ],
+      [
+        -136.66851271486757,
+        69.67558116462172,
+        77.0
+      ]
+    ]
+  },
+  "cassete_inferior_5": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        -158.9729376887442,
+        -69.67558116462168,
+        53.0
+      ],
+      [
+        -136.66851271486757,
+        -52.783117192207015,
+        77.0
+      ]
+    ]
+  },
+  "cassete_inferior_6": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        -69.67558116462179,
+        -158.97293768874414,
+        53.0
+      ],
+      [
+        -52.783117192207115,
+        -136.66851271486752,
+        77.0
+      ]
+    ]
+  },
+  "cassete_inferior_7": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        52.78311719220707,
+        -158.97293768874417,
+        53.0
+      ],
+      [
+        69.67558116462173,
+        -136.66851271486755,
+        77.0
+      ]
+    ]
+  },
+  "cassete_inferior_8": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        136.66851271486752,
+        -69.6755811646218,
+        53.0
+      ],
+      [
+        158.97293768874414,
+        -52.78311719220713,
+        77.0
+      ]
+    ]
+  },
+  "carretel_inferior": {
+    "vertices": 15728,
+    "triangles": 31488,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54653.417,
+    "bounds_mm": [
+      [
+        -110.0,
+        -110.0,
+        57.3
+      ],
+      [
+        110.0,
+        110.0,
+        72.7
+      ]
+    ]
+  },
+  "cobre_inferior": {
+    "vertices": 512,
+    "triangles": 1024,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 37998.007,
+    "bounds_mm": [
+      [
+        -102.75,
+        -102.75,
+        59.5
+      ],
+      [
+        102.75,
+        102.75,
+        70.5
+      ]
+    ]
+  },
+  "fixacao_carretel_inferior_1": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 218.774,
+    "bounds_mm": [
+      [
+        74.16042558696059,
+        74.16042558696059,
+        50.0
+      ],
+      [
+        77.16042558696059,
+        77.16042558696059,
+        81.0
+      ]
+    ]
+  },
+  "arruela_carretel_inferior_1_baixo": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        72.66042558696059,
+        72.66042558696059,
+        52.5
+      ],
+      [
+        78.66042558696059,
+        78.66042558696059,
+        53.0
+      ]
+    ]
+  },
+  "arruela_carretel_inferior_1_cima": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        72.66042558696059,
+        72.66042558696059,
+        77.0
+      ],
+      [
+        78.66042558696059,
+        78.66042558696059,
+        77.5
+      ]
+    ]
+  },
+  "porca_carretel_inferior_1_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        72.48499910696059,
+        72.91042558696059,
+        50.1
+      ],
+      [
+        78.83585206696058,
+        78.41042558696059,
+        52.5
+      ]
+    ]
+  },
+  "porca_carretel_inferior_1_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        72.48499910696059,
+        72.91042558696059,
+        77.5
+      ],
+      [
+        78.83585206696058,
+        78.41042558696059,
+        79.9
+      ]
+    ]
+  },
+  "fixacao_carretel_inferior_2": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 218.774,
+    "bounds_mm": [
+      [
+        -77.16042558696059,
+        74.16042558696059,
+        50.0
+      ],
+      [
+        -74.16042558696059,
+        77.16042558696059,
+        81.0
+      ]
+    ]
+  },
+  "arruela_carretel_inferior_2_baixo": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        -78.66042558696059,
+        72.66042558696059,
+        52.5
+      ],
+      [
+        -72.66042558696059,
+        78.66042558696059,
+        53.0
+      ]
+    ]
+  },
+  "arruela_carretel_inferior_2_cima": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        -78.66042558696059,
+        72.66042558696059,
+        77.0
+      ],
+      [
+        -72.66042558696059,
+        78.66042558696059,
+        77.5
+      ]
+    ]
+  },
+  "porca_carretel_inferior_2_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -78.83585206696058,
+        72.91042558696059,
+        50.1
+      ],
+      [
+        -72.48499910696059,
+        78.41042558696059,
+        52.5
+      ]
+    ]
+  },
+  "porca_carretel_inferior_2_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -78.83585206696058,
+        72.91042558696059,
+        77.5
+      ],
+      [
+        -72.48499910696059,
+        78.41042558696059,
+        79.9
+      ]
+    ]
+  },
+  "fixacao_carretel_inferior_3": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 218.774,
+    "bounds_mm": [
+      [
+        -77.1604255869606,
+        -77.16042558696059,
+        50.0
+      ],
+      [
+        -74.1604255869606,
+        -74.16042558696059,
+        81.0
+      ]
+    ]
+  },
+  "arruela_carretel_inferior_3_baixo": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        -78.6604255869606,
+        -78.66042558696059,
+        52.5
+      ],
+      [
+        -72.6604255869606,
+        -72.66042558696059,
+        53.0
+      ]
+    ]
+  },
+  "arruela_carretel_inferior_3_cima": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        -78.6604255869606,
+        -78.66042558696059,
+        77.0
+      ],
+      [
+        -72.6604255869606,
+        -72.66042558696059,
+        77.5
+      ]
+    ]
+  },
+  "porca_carretel_inferior_3_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -78.8358520669606,
+        -78.41042558696059,
+        50.1
+      ],
+      [
+        -72.4849991069606,
+        -72.91042558696059,
+        52.5
+      ]
+    ]
+  },
+  "porca_carretel_inferior_3_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -78.8358520669606,
+        -78.41042558696059,
+        77.5
+      ],
+      [
+        -72.4849991069606,
+        -72.91042558696059,
+        79.9
+      ]
+    ]
+  },
+  "fixacao_carretel_inferior_4": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 218.774,
+    "bounds_mm": [
+      [
+        74.16042558696057,
+        -77.1604255869606,
+        50.0
+      ],
+      [
+        77.16042558696057,
+        -74.1604255869606,
+        81.0
+      ]
+    ]
+  },
+  "arruela_carretel_inferior_4_baixo": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        72.66042558696057,
+        -78.6604255869606,
+        52.5
+      ],
+      [
+        78.66042558696057,
+        -72.6604255869606,
+        53.0
+      ]
+    ]
+  },
+  "arruela_carretel_inferior_4_cima": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        72.66042558696057,
+        -78.6604255869606,
+        77.0
+      ],
+      [
+        78.66042558696057,
+        -72.6604255869606,
+        77.5
+      ]
+    ]
+  },
+  "porca_carretel_inferior_4_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        72.48499910696057,
+        -78.4104255869606,
+        50.1
+      ],
+      [
+        78.83585206696057,
+        -72.9104255869606,
+        52.5
+      ]
+    ]
+  },
+  "porca_carretel_inferior_4_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        72.48499910696057,
+        -78.4104255869606,
+        77.5
+      ],
+      [
+        78.83585206696057,
+        -72.9104255869606,
+        79.9
+      ]
+    ]
+  },
+  "tampa_superior_baixo": {
+    "vertices": 5912,
+    "triangles": 11840,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 169541.488,
+    "bounds_mm": [
+      [
+        -170.0,
+        -170.0,
+        169.0
+      ],
+      [
+        170.0,
+        170.0,
+        173.0
+      ]
+    ]
+  },
+  "tampa_superior_cima": {
+    "vertices": 5912,
+    "triangles": 11840,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 169541.488,
+    "bounds_mm": [
+      [
+        -170.0,
+        -170.0,
+        197.0
+      ],
+      [
+        170.0,
+        170.0,
+        201.0
+      ]
+    ]
+  },
+  "ponte_superior_baixo_1": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        69.29646455628166,
+        69.29646455628166,
+        173.0
+      ],
+      [
+        117.3797256769669,
+        117.3797256769669,
+        177.3
+      ]
+    ]
+  },
+  "ponte_superior_cima_1": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        69.29646455628166,
+        69.29646455628166,
+        192.7
+      ],
+      [
+        117.3797256769669,
+        117.3797256769669,
+        197.0
+      ]
+    ]
+  },
+  "ponte_superior_baixo_2": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        -117.37972567696688,
+        69.29646455628166,
+        173.0
+      ],
+      [
+        -69.29646455628165,
+        117.3797256769669,
+        177.3
+      ]
+    ]
+  },
+  "ponte_superior_cima_2": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        -117.37972567696688,
+        69.29646455628166,
+        192.7
+      ],
+      [
+        -69.29646455628165,
+        117.3797256769669,
+        197.0
+      ]
+    ]
+  },
+  "ponte_superior_baixo_3": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        -117.37972567696693,
+        -117.37972567696688,
+        173.0
+      ],
+      [
+        -69.29646455628166,
+        -69.29646455628165,
+        177.3
+      ]
+    ]
+  },
+  "ponte_superior_cima_3": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        -117.37972567696693,
+        -117.37972567696688,
+        192.7
+      ],
+      [
+        -69.29646455628166,
+        -69.29646455628165,
+        197.0
+      ]
+    ]
+  },
+  "ponte_superior_baixo_4": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        69.29646455628163,
+        -117.37972567696693,
+        173.0
+      ],
+      [
+        117.37972567696687,
+        -69.29646455628168,
+        177.3
+      ]
+    ]
+  },
+  "ponte_superior_cima_4": {
+    "vertices": 430,
+    "triangles": 864,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2748.973,
+    "bounds_mm": [
+      [
+        69.29646455628163,
+        -117.37972567696693,
+        192.7
+      ],
+      [
+        117.37972567696687,
+        -69.29646455628168,
+        197.0
+      ]
+    ]
+  },
+  "cassete_superior_1": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        136.66851271486757,
+        52.78311719220704,
+        173.0
+      ],
+      [
+        158.9729376887442,
+        69.6755811646217,
+        197.0
+      ]
+    ]
+  },
+  "cassete_superior_2": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        52.783117192207044,
+        136.66851271486757,
+        173.0
+      ],
+      [
+        69.6755811646217,
+        158.9729376887442,
+        197.0
+      ]
+    ]
+  },
+  "cassete_superior_3": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        -69.67558116462169,
+        136.66851271486757,
+        173.0
+      ],
+      [
+        -52.78311719220702,
+        158.9729376887442,
+        197.0
+      ]
+    ]
+  },
+  "cassete_superior_4": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        -158.9729376887442,
+        52.783117192207044,
+        173.0
+      ],
+      [
+        -136.66851271486757,
+        69.67558116462172,
+        197.0
+      ]
+    ]
+  },
+  "cassete_superior_5": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        -158.9729376887442,
+        -69.67558116462168,
+        173.0
+      ],
+      [
+        -136.66851271486757,
+        -52.783117192207015,
+        197.0
+      ]
+    ]
+  },
+  "cassete_superior_6": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        -69.67558116462179,
+        -158.97293768874414,
+        173.0
+      ],
+      [
+        -52.783117192207115,
+        -136.66851271486752,
+        197.0
+      ]
+    ]
+  },
+  "cassete_superior_7": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        52.78311719220707,
+        -158.97293768874417,
+        173.0
+      ],
+      [
+        69.67558116462173,
+        -136.66851271486755,
+        197.0
+      ]
+    ]
+  },
+  "cassete_superior_8": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4800.0,
+    "bounds_mm": [
+      [
+        136.66851271486752,
+        -69.6755811646218,
+        173.0
+      ],
+      [
+        158.97293768874414,
+        -52.78311719220713,
+        197.0
+      ]
+    ]
+  },
+  "carretel_superior": {
+    "vertices": 15728,
+    "triangles": 31488,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54653.417,
+    "bounds_mm": [
+      [
+        -110.0,
+        -110.0,
+        177.3
+      ],
+      [
+        110.0,
+        110.0,
+        192.70000000000002
+      ]
+    ]
+  },
+  "cobre_superior": {
+    "vertices": 512,
+    "triangles": 1024,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 37998.007,
+    "bounds_mm": [
+      [
+        -102.75,
+        -102.75,
+        179.5
+      ],
+      [
+        102.75,
+        102.75,
+        190.5
+      ]
+    ]
+  },
+  "fixacao_carretel_superior_1": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 218.774,
+    "bounds_mm": [
+      [
+        74.16042558696059,
+        74.16042558696059,
+        170.0
+      ],
+      [
+        77.16042558696059,
+        77.16042558696059,
+        201.0
+      ]
+    ]
+  },
+  "arruela_carretel_superior_1_baixo": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        72.66042558696059,
+        72.66042558696059,
+        172.5
+      ],
+      [
+        78.66042558696059,
+        78.66042558696059,
+        173.0
+      ]
+    ]
+  },
+  "arruela_carretel_superior_1_cima": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        72.66042558696059,
+        72.66042558696059,
+        197.0
+      ],
+      [
+        78.66042558696059,
+        78.66042558696059,
+        197.5
+      ]
+    ]
+  },
+  "porca_carretel_superior_1_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        72.48499910696059,
+        72.91042558696059,
+        170.1
+      ],
+      [
+        78.83585206696058,
+        78.41042558696059,
+        172.5
+      ]
+    ]
+  },
+  "porca_carretel_superior_1_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        72.48499910696059,
+        72.91042558696059,
+        197.5
+      ],
+      [
+        78.83585206696058,
+        78.41042558696059,
+        199.9
+      ]
+    ]
+  },
+  "fixacao_carretel_superior_2": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 218.774,
+    "bounds_mm": [
+      [
+        -77.16042558696059,
+        74.16042558696059,
+        170.0
+      ],
+      [
+        -74.16042558696059,
+        77.16042558696059,
+        201.0
+      ]
+    ]
+  },
+  "arruela_carretel_superior_2_baixo": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        -78.66042558696059,
+        72.66042558696059,
+        172.5
+      ],
+      [
+        -72.66042558696059,
+        78.66042558696059,
+        173.0
+      ]
+    ]
+  },
+  "arruela_carretel_superior_2_cima": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        -78.66042558696059,
+        72.66042558696059,
+        197.0
+      ],
+      [
+        -72.66042558696059,
+        78.66042558696059,
+        197.5
+      ]
+    ]
+  },
+  "porca_carretel_superior_2_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -78.83585206696058,
+        72.91042558696059,
+        170.1
+      ],
+      [
+        -72.48499910696059,
+        78.41042558696059,
+        172.5
+      ]
+    ]
+  },
+  "porca_carretel_superior_2_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -78.83585206696058,
+        72.91042558696059,
+        197.5
+      ],
+      [
+        -72.48499910696059,
+        78.41042558696059,
+        199.9
+      ]
+    ]
+  },
+  "fixacao_carretel_superior_3": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 218.774,
+    "bounds_mm": [
+      [
+        -77.1604255869606,
+        -77.16042558696059,
+        170.0
+      ],
+      [
+        -74.1604255869606,
+        -74.16042558696059,
+        201.0
+      ]
+    ]
+  },
+  "arruela_carretel_superior_3_baixo": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        -78.6604255869606,
+        -78.66042558696059,
+        172.5
+      ],
+      [
+        -72.6604255869606,
+        -72.66042558696059,
+        173.0
+      ]
+    ]
+  },
+  "arruela_carretel_superior_3_cima": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        -78.6604255869606,
+        -78.66042558696059,
+        197.0
+      ],
+      [
+        -72.6604255869606,
+        -72.66042558696059,
+        197.5
+      ]
+    ]
+  },
+  "porca_carretel_superior_3_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -78.8358520669606,
+        -78.41042558696059,
+        170.1
+      ],
+      [
+        -72.4849991069606,
+        -72.91042558696059,
+        172.5
+      ]
+    ]
+  },
+  "porca_carretel_superior_3_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -78.8358520669606,
+        -78.41042558696059,
+        197.5
+      ],
+      [
+        -72.4849991069606,
+        -72.91042558696059,
+        199.9
+      ]
+    ]
+  },
+  "fixacao_carretel_superior_4": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 218.774,
+    "bounds_mm": [
+      [
+        74.16042558696057,
+        -77.1604255869606,
+        170.0
+      ],
+      [
+        77.16042558696057,
+        -74.1604255869606,
+        201.0
+      ]
+    ]
+  },
+  "arruela_carretel_superior_4_baixo": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        72.66042558696057,
+        -78.6604255869606,
+        172.5
+      ],
+      [
+        78.66042558696057,
+        -72.6604255869606,
+        173.0
+      ]
+    ]
+  },
+  "arruela_carretel_superior_4_cima": {
+    "vertices": 128,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.536,
+    "bounds_mm": [
+      [
+        72.66042558696057,
+        -78.6604255869606,
+        197.0
+      ],
+      [
+        78.66042558696057,
+        -72.6604255869606,
+        197.5
+      ]
+    ]
+  },
+  "porca_carretel_superior_4_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        72.48499910696057,
+        -78.4104255869606,
+        170.1
+      ],
+      [
+        78.83585206696057,
+        -72.9104255869606,
+        172.5
+      ]
+    ]
+  },
+  "porca_carretel_superior_4_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        72.48499910696057,
+        -78.4104255869606,
+        197.5
+      ],
+      [
+        78.83585206696057,
+        -72.9104255869606,
+        199.9
+      ]
+    ]
+  },
+  "tirante_1": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4528.392,
+    "bounds_mm": [
+      [
+        107.10155108391487,
+        107.10155108391487,
+        -5.0
+      ],
+      [
+        112.10155108391487,
+        112.10155108391487,
+        226.0
+      ]
+    ]
+  },
+  "espacador_1_1": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2023.662,
+    "bounds_mm": [
+      [
+        104.60155108391487,
+        104.60155108391487,
+        12.0
+      ],
+      [
+        114.60155108391487,
+        114.60155108391487,
+        49.0
+      ]
+    ]
+  },
+  "espacador_1_2": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        104.60155108391487,
+        104.60155108391487,
+        57.3
+      ],
+      [
+        114.60155108391487,
+        114.60155108391487,
+        72.7
+      ]
+    ]
+  },
+  "espacador_1_3": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4813.034,
+    "bounds_mm": [
+      [
+        104.60155108391487,
+        104.60155108391487,
+        81.0
+      ],
+      [
+        114.60155108391487,
+        114.60155108391487,
+        169.0
+      ]
+    ]
+  },
+  "espacador_1_4": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        104.60155108391487,
+        104.60155108391487,
+        177.3
+      ],
+      [
+        114.60155108391487,
+        114.60155108391487,
+        192.70000000000002
+      ]
+    ]
+  },
+  "espacador_1_5": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 929.791,
+    "bounds_mm": [
+      [
+        104.60155108391487,
+        104.60155108391487,
+        201.0
+      ],
+      [
+        114.60155108391487,
+        114.60155108391487,
+        218.0
+      ]
+    ]
+  },
+  "arruela_1_baixo": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54.694,
+    "bounds_mm": [
+      [
+        104.60155108391487,
+        104.60155108391487,
+        -1.0
+      ],
+      [
+        114.60155108391487,
+        114.60155108391487,
+        0.0
+      ]
+    ]
+  },
+  "arruela_1_cima": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54.694,
+    "bounds_mm": [
+      [
+        104.60155108391487,
+        104.60155108391487,
+        218.0
+      ],
+      [
+        114.60155108391487,
+        114.60155108391487,
+        219.0
+      ]
+    ]
+  },
+  "porca_1_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 143.391,
+    "bounds_mm": [
+      [
+        104.98274893391488,
+        105.60155108391487,
+        -5.0
+      ],
+      [
+        114.22035323391486,
+        113.60155108391487,
+        -1.0
+      ]
+    ]
+  },
+  "porca_1_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 143.391,
+    "bounds_mm": [
+      [
+        104.98274893391488,
+        105.60155108391487,
+        219.0
+      ],
+      [
+        114.22035323391486,
+        113.60155108391487,
+        223.0
+      ]
+    ]
+  },
+  "tirante_2": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4528.392,
+    "bounds_mm": [
+      [
+        -112.10155108391486,
+        107.10155108391487,
+        -5.0
+      ],
+      [
+        -107.10155108391486,
+        112.10155108391487,
+        226.0
+      ]
+    ]
+  },
+  "espacador_2_1": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2023.662,
+    "bounds_mm": [
+      [
+        -114.60155108391486,
+        104.60155108391487,
+        12.0
+      ],
+      [
+        -104.60155108391486,
+        114.60155108391487,
+        49.0
+      ]
+    ]
+  },
+  "espacador_2_2": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        -114.60155108391486,
+        104.60155108391487,
+        57.3
+      ],
+      [
+        -104.60155108391486,
+        114.60155108391487,
+        72.7
+      ]
+    ]
+  },
+  "espacador_2_3": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4813.034,
+    "bounds_mm": [
+      [
+        -114.60155108391486,
+        104.60155108391487,
+        81.0
+      ],
+      [
+        -104.60155108391486,
+        114.60155108391487,
+        169.0
+      ]
+    ]
+  },
+  "espacador_2_4": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        -114.60155108391486,
+        104.60155108391487,
+        177.3
+      ],
+      [
+        -104.60155108391486,
+        114.60155108391487,
+        192.70000000000002
+      ]
+    ]
+  },
+  "espacador_2_5": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 929.791,
+    "bounds_mm": [
+      [
+        -114.60155108391486,
+        104.60155108391487,
+        201.0
+      ],
+      [
+        -104.60155108391486,
+        114.60155108391487,
+        218.0
+      ]
+    ]
+  },
+  "arruela_2_baixo": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54.694,
+    "bounds_mm": [
+      [
+        -114.60155108391486,
+        104.60155108391487,
+        -1.0
+      ],
+      [
+        -104.60155108391486,
+        114.60155108391487,
+        0.0
+      ]
+    ]
+  },
+  "arruela_2_cima": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54.694,
+    "bounds_mm": [
+      [
+        -114.60155108391486,
+        104.60155108391487,
+        218.0
+      ],
+      [
+        -104.60155108391486,
+        114.60155108391487,
+        219.0
+      ]
+    ]
+  },
+  "porca_2_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 143.391,
+    "bounds_mm": [
+      [
+        -114.22035323391485,
+        105.60155108391487,
+        -5.0
+      ],
+      [
+        -104.98274893391486,
+        113.60155108391487,
+        -1.0
+      ]
+    ]
+  },
+  "porca_2_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 143.391,
+    "bounds_mm": [
+      [
+        -114.22035323391485,
+        105.60155108391487,
+        219.0
+      ],
+      [
+        -104.98274893391486,
+        113.60155108391487,
+        223.0
+      ]
+    ]
+  },
+  "tirante_3": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4528.392,
+    "bounds_mm": [
+      [
+        -112.10155108391488,
+        -112.10155108391486,
+        -5.0
+      ],
+      [
+        -107.10155108391488,
+        -107.10155108391486,
+        226.0
+      ]
+    ]
+  },
+  "espacador_3_1": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2023.662,
+    "bounds_mm": [
+      [
+        -114.60155108391488,
+        -114.60155108391486,
+        12.0
+      ],
+      [
+        -104.60155108391488,
+        -104.60155108391486,
+        49.0
+      ]
+    ]
+  },
+  "espacador_3_2": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        -114.60155108391488,
+        -114.60155108391486,
+        57.3
+      ],
+      [
+        -104.60155108391488,
+        -104.60155108391486,
+        72.7
+      ]
+    ]
+  },
+  "espacador_3_3": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4813.034,
+    "bounds_mm": [
+      [
+        -114.60155108391488,
+        -114.60155108391486,
+        81.0
+      ],
+      [
+        -104.60155108391488,
+        -104.60155108391486,
+        169.0
+      ]
+    ]
+  },
+  "espacador_3_4": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        -114.60155108391488,
+        -114.60155108391486,
+        177.3
+      ],
+      [
+        -104.60155108391488,
+        -104.60155108391486,
+        192.70000000000002
+      ]
+    ]
+  },
+  "espacador_3_5": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 929.791,
+    "bounds_mm": [
+      [
+        -114.60155108391488,
+        -114.60155108391486,
+        201.0
+      ],
+      [
+        -104.60155108391488,
+        -104.60155108391486,
+        218.0
+      ]
+    ]
+  },
+  "arruela_3_baixo": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54.694,
+    "bounds_mm": [
+      [
+        -114.60155108391488,
+        -114.60155108391486,
+        -1.0
+      ],
+      [
+        -104.60155108391488,
+        -104.60155108391486,
+        0.0
+      ]
+    ]
+  },
+  "arruela_3_cima": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54.694,
+    "bounds_mm": [
+      [
+        -114.60155108391488,
+        -114.60155108391486,
+        218.0
+      ],
+      [
+        -104.60155108391488,
+        -104.60155108391486,
+        219.0
+      ]
+    ]
+  },
+  "porca_3_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 143.391,
+    "bounds_mm": [
+      [
+        -114.22035323391488,
+        -113.60155108391486,
+        -5.0
+      ],
+      [
+        -104.98274893391489,
+        -105.60155108391486,
+        -1.0
+      ]
+    ]
+  },
+  "porca_3_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 143.391,
+    "bounds_mm": [
+      [
+        -114.22035323391488,
+        -113.60155108391486,
+        219.0
+      ],
+      [
+        -104.98274893391489,
+        -105.60155108391486,
+        223.0
+      ]
+    ]
+  },
+  "tirante_4": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4528.392,
+    "bounds_mm": [
+      [
+        107.10155108391484,
+        -112.10155108391488,
+        -5.0
+      ],
+      [
+        112.10155108391484,
+        -107.10155108391488,
+        226.0
+      ]
+    ]
+  },
+  "espacador_4_1": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2023.662,
+    "bounds_mm": [
+      [
+        104.60155108391484,
+        -114.60155108391488,
+        12.0
+      ],
+      [
+        114.60155108391484,
+        -104.60155108391488,
+        49.0
+      ]
+    ]
+  },
+  "espacador_4_2": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        104.60155108391484,
+        -114.60155108391488,
+        57.3
+      ],
+      [
+        114.60155108391484,
+        -104.60155108391488,
+        72.7
+      ]
+    ]
+  },
+  "espacador_4_3": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4813.034,
+    "bounds_mm": [
+      [
+        104.60155108391484,
+        -114.60155108391488,
+        81.0
+      ],
+      [
+        114.60155108391484,
+        -104.60155108391488,
+        169.0
+      ]
+    ]
+  },
+  "espacador_4_4": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 842.281,
+    "bounds_mm": [
+      [
+        104.60155108391484,
+        -114.60155108391488,
+        177.3
+      ],
+      [
+        114.60155108391484,
+        -104.60155108391488,
+        192.70000000000002
+      ]
+    ]
+  },
+  "espacador_4_5": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 929.791,
+    "bounds_mm": [
+      [
+        104.60155108391484,
+        -114.60155108391488,
+        201.0
+      ],
+      [
+        114.60155108391484,
+        -104.60155108391488,
+        218.0
+      ]
+    ]
+  },
+  "arruela_4_baixo": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54.694,
+    "bounds_mm": [
+      [
+        104.60155108391484,
+        -114.60155108391488,
+        -1.0
+      ],
+      [
+        114.60155108391484,
+        -104.60155108391488,
+        0.0
+      ]
+    ]
+  },
+  "arruela_4_cima": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54.694,
+    "bounds_mm": [
+      [
+        104.60155108391484,
+        -114.60155108391488,
+        218.0
+      ],
+      [
+        114.60155108391484,
+        -104.60155108391488,
+        219.0
+      ]
+    ]
+  },
+  "porca_4_baixo": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 143.391,
+    "bounds_mm": [
+      [
+        104.98274893391485,
+        -113.60155108391488,
+        -5.0
+      ],
+      [
+        114.22035323391484,
+        -105.60155108391488,
+        -1.0
+      ]
+    ]
+  },
+  "porca_4_cima": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 143.391,
+    "bounds_mm": [
+      [
+        104.98274893391485,
+        -113.60155108391488,
+        219.0
+      ],
+      [
+        114.22035323391484,
+        -105.60155108391488,
+        223.0
+      ]
+    ]
+  },
+  "pe_1": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1605.913,
+    "bounds_mm": [
+      [
+        -163.0,
+        -163.0,
+        -8.0
+      ],
+      [
+        -147.0,
+        -147.0,
+        0.0
+      ]
+    ]
+  },
+  "pe_2": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1605.913,
+    "bounds_mm": [
+      [
+        -163.0,
+        147.0,
+        -8.0
+      ],
+      [
+        -147.0,
+        163.0,
+        0.0
+      ]
+    ]
+  },
+  "pe_3": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1605.913,
+    "bounds_mm": [
+      [
+        147.0,
+        -163.0,
+        -8.0
+      ],
+      [
+        163.0,
+        -147.0,
+        0.0
+      ]
+    ]
+  },
+  "pe_4": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1605.913,
+    "bounds_mm": [
+      [
+        147.0,
+        147.0,
+        -8.0
+      ],
+      [
+        163.0,
+        163.0,
+        0.0
+      ]
+    ]
+  },
+  "coluna_transparente": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 64645.499,
+    "bounds_mm": [
+      [
+        -27.0,
+        -27.0,
+        22.0
+      ],
+      [
+        27.0,
+        27.0,
+        220.0
+      ]
+    ]
+  },
+  "colar_inferior": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9035.866,
+    "bounds_mm": [
+      [
+        -35.0,
+        -35.0,
+        22.0
+      ],
+      [
+        35.0,
+        35.0,
+        28.0
+      ]
+    ]
+  },
+  "colar_superior": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9035.866,
+    "bounds_mm": [
+      [
+        -35.0,
+        -35.0,
+        214.0
+      ],
+      [
+        35.0,
+        35.0,
+        220.0
+      ]
+    ]
+  },
+  "haste_diagnostica": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 5570.51,
+    "bounds_mm": [
+      [
+        -4.0,
+        -4.0,
+        12.0
+      ],
+      [
+        4.0,
+        4.0,
+        123.0
+      ]
+    ]
+  },
+  "pedestal_coluna": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 37672.202,
+    "bounds_mm": [
+      [
+        -35.0,
+        -35.0,
+        12.0
+      ],
+      [
+        35.0,
+        35.0,
+        22.0
+      ]
+    ]
+  },
+  "carretel_receptor": {
+    "vertices": 1024,
+    "triangles": 2048,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 13834.729,
+    "bounds_mm": [
+      [
+        -40.0,
+        -40.0,
+        119.0
+      ],
+      [
+        40.0,
+        40.0,
+        131.0
+      ]
+    ]
+  },
+  "cobre_receptor": {
+    "vertices": 512,
+    "triangles": 1024,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 5319.721,
+    "bounds_mm": [
+      [
+        -37.2,
+        -37.2,
+        122.25
+      ],
+      [
+        37.2,
+        37.2,
+        127.75
+      ]
+    ]
+  },
+  "colar_receptor": {
+    "vertices": 384,
+    "triangles": 768,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1354.378,
+    "bounds_mm": [
+      [
+        -31.0,
+        -31.0,
+        115.0
+      ],
+      [
+        31.0,
+        31.0,
+        117.0
+      ]
+    ]
+  },
+  "lingueta_receptor_1": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 108.0,
+    "bounds_mm": [
+      [
+        29.0,
+        -3.0,
+        117.0
+      ],
+      [
+        38.0,
+        3.0,
+        119.0
+      ]
+    ]
+  },
+  "lingueta_receptor_2": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 108.0,
+    "bounds_mm": [
+      [
+        -2.9999999999999982,
+        29.0,
+        117.0
+      ],
+      [
+        3.000000000000002,
+        38.0,
+        119.0
+      ]
+    ]
+  },
+  "lingueta_receptor_3": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 108.0,
+    "bounds_mm": [
+      [
+        -38.0,
+        -2.9999999999999964,
+        117.0
+      ],
+      [
+        -29.0,
+        3.0000000000000044,
+        119.0
+      ]
+    ]
+  },
+  "lingueta_receptor_4": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 108.0,
+    "bounds_mm": [
+      [
+        -3.000000000000007,
+        -38.0,
+        117.0
+      ],
+      [
+        2.9999999999999947,
+        -29.0,
+        119.0
+      ]
+    ]
+  },
+  "forma_toroidal": {
+    "vertices": 2880,
+    "triangles": 5760,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 110709.503,
+    "bounds_mm": [
+      [
+        -141.5,
+        -141.5,
+        118.5
+      ],
+      [
+        141.5,
+        141.5,
+        131.5
+      ]
+    ]
+  },
+  "fita_toroidal": {
+    "vertices": 5760,
+    "triangles": 11520,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 34726.099,
+    "bounds_mm": [
+      [
+        -142.45,
+        -142.45,
+        117.55
+      ],
+      [
+        142.45,
+        142.45,
+        132.45
+      ]
+    ]
+  },
+  "espiras_toroidais": {
+    "vertices": 15360,
+    "triangles": 30720,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 2055.862,
+    "bounds_mm": [
+      [
+        -143.55,
+        -143.55,
+        116.45
+      ],
+      [
+        143.55,
+        143.55,
+        133.55
+      ]
+    ]
+  },
+  "apoio_toroide_1": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1834.254,
+    "bounds_mm": [
+      [
+        130.71095463721147,
+        4.829422446069314,
+        81.0
+      ],
+      [
+        138.71095463721147,
+        12.829422446069314,
+        117.55
+      ]
+    ]
+  },
+  "apoio_toroide_2": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1834.254,
+    "bounds_mm": [
+      [
+        -12.829422446069294,
+        130.71095463721147,
+        81.0
+      ],
+      [
+        -4.8294224460692945,
+        138.71095463721147,
+        117.55
+      ]
+    ]
+  },
+  "apoio_toroide_3": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1834.254,
+    "bounds_mm": [
+      [
+        -138.71095463721147,
+        -12.829422446069287,
+        81.0
+      ],
+      [
+        -130.71095463721147,
+        -4.829422446069287,
+        117.55
+      ]
+    ]
+  },
+  "apoio_toroide_4": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1834.254,
+    "bounds_mm": [
+      [
+        4.829422446069339,
+        -138.71095463721147,
+        81.0
+      ],
+      [
+        12.829422446069339,
+        -130.71095463721147,
+        117.55
+      ]
+    ]
+  },
+  "controle_fundo": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9600.0,
+    "bounds_mm": [
+      [
+        -165.0,
+        -165.0,
+        12.0
+      ],
+      [
+        -85.0,
+        -105.0,
+        14.0
+      ]
+    ]
+  },
+  "controle_parede_1": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 3120.0,
+    "bounds_mm": [
+      [
+        -165.0,
+        -165.0,
+        14.0
+      ],
+      [
+        -163.0,
+        -105.0,
+        40.0
+      ]
+    ]
+  },
+  "controle_parede_2": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 3120.0,
+    "bounds_mm": [
+      [
+        -87.0,
+        -165.0,
+        14.0
+      ],
+      [
+        -85.0,
+        -105.0,
+        40.0
+      ]
+    ]
+  },
+  "controle_parede_3": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 3952.0,
+    "bounds_mm": [
+      [
+        -163.0,
+        -165.0,
+        14.0
+      ],
+      [
+        -87.0,
+        -163.0,
+        40.0
+      ]
+    ]
+  },
+  "controle_parede_4": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 3952.0,
+    "bounds_mm": [
+      [
+        -163.0,
+        -107.0,
+        14.0
+      ],
+      [
+        -87.0,
+        -105.0,
+        40.0
+      ]
+    ]
+  },
+  "controle_vent_1": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 760.0,
+    "bounds_mm": [
+      [
+        -163.0,
+        -163.0,
+        40.0
+      ],
+      [
+        -87.0,
+        -158.0,
+        42.0
+      ]
+    ]
+  },
+  "controle_vent_2": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 760.0,
+    "bounds_mm": [
+      [
+        -163.0,
+        -152.0,
+        40.0
+      ],
+      [
+        -87.0,
+        -147.0,
+        42.0
+      ]
+    ]
+  },
+  "controle_vent_3": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 760.0,
+    "bounds_mm": [
+      [
+        -163.0,
+        -141.0,
+        40.0
+      ],
+      [
+        -87.0,
+        -136.0,
+        42.0
+      ]
+    ]
+  },
+  "controle_vent_4": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 760.0,
+    "bounds_mm": [
+      [
+        -163.0,
+        -130.0,
+        40.0
+      ],
+      [
+        -87.0,
+        -125.0,
+        42.0
+      ]
+    ]
+  },
+  "controle_vent_5": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 760.0,
+    "bounds_mm": [
+      [
+        -163.0,
+        -119.0,
+        40.0
+      ],
+      [
+        -87.0,
+        -114.0,
+        42.0
+      ]
+    ]
+  },
+  "placa_controle": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 3920.0,
+    "bounds_mm": [
+      [
+        -160.0,
+        -160.0,
+        17.0
+      ],
+      [
+        -120.0,
+        -111.0,
+        19.0
+      ]
+    ]
+  },
+  "carga_resistiva": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 4872.0,
+    "bounds_mm": [
+      [
+        -113.0,
+        -150.0,
+        18.0
+      ],
+      [
+        -92.0,
+        -121.0,
+        26.0
+      ]
+    ]
+  },
+  "conector_potencia": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1232.0,
+    "bounds_mm": [
+      [
+        -163.0,
+        -152.0,
+        23.0
+      ],
+      [
+        -156.0,
+        -136.0,
+        34.0
+      ]
+    ]
+  },
+  "sonda_termica_inferior": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 64.0,
+    "bounds_mm": [
+      [
+        102.75,
+        -2.0,
+        63.0
+      ],
+      [
+        106.75,
+        2.0,
+        67.0
+      ]
+    ]
+  },
+  "sonda_termica_superior": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 64.0,
+    "bounds_mm": [
+      [
+        102.75,
+        -2.0,
+        183.0
+      ],
+      [
+        106.75,
+        2.0,
+        187.0
+      ]
+    ]
+  },
+  "sonda_hall": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 64.0,
+    "bounds_mm": [
+      [
+        -2.0,
+        -2.0,
+        123.0
+      ],
+      [
+        2.0,
+        2.0,
+        127.0
+      ]
+    ]
+  }
+}

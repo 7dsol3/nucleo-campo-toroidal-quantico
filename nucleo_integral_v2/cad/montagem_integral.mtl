@@ -1,0 +1,50 @@
+newmtl polymer
+Kd 0.14 0.2 0.26
+d 1
+Ns 40
+
+newmtl blue
+Kd 0.11 0.43 0.68
+d 1
+Ns 40
+
+newmtl orange
+Kd 0.86 0.31 0.1
+d 1
+Ns 40
+
+newmtl copper
+Kd 0.88 0.44 0.16
+d 1
+Ns 40
+
+newmtl white
+Kd 0.75 0.83 0.87
+d 1
+Ns 40
+
+newmtl base
+Kd 0.22 0.28 0.34
+d 1
+Ns 40
+
+newmtl glass
+Kd 0.25 0.76 0.9
+d 0.24
+Ns 40
+
+newmtl green
+Kd 0.09 0.4 0.27
+d 1
+Ns 40
+
+newmtl rubber
+Kd 0.04 0.06 0.09
+d 1
+Ns 40
+
+newmtl sensor
+Kd 0.66 0.28 0.77
+d 1
+Ns 40
+

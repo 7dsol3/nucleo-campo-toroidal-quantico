@@ -1,0 +1,133 @@
+{
+  "validation_scope": "Numerical and analytic checks of approximate classical model; no hardware test.",
+  "all_passed": true,
+  "check_count": 13,
+  "passed_count": 13,
+  "checks": [
+    {
+      "name": "loop_center_against_closed_form",
+      "passed": true,
+      "relative_error": 0.0,
+      "tolerance": 1e-12,
+      "computed_t": 6.283185307179587e-05,
+      "analytic_t": 6.283185307179587e-05
+    },
+    {
+      "name": "pair_axis_against_closed_form",
+      "passed": true,
+      "max_relative_error": 8.242939963551833e-15,
+      "max_transverse_field_t": 2.933267654605379e-21,
+      "tolerance": 1e-12,
+      "sample_points": 7
+    },
+    {
+      "name": "helmholtz_center_and_zero_axial_curvature",
+      "passed": true,
+      "relative_error_center": 1.5072158122396712e-16,
+      "normalized_second_derivative": 2.3039300905895614e-06,
+      "curvature_tolerance": 1e-05,
+      "finite_difference_step_m": 0.0001
+    },
+    {
+      "name": "field_superposition_and_current_linearity",
+      "passed": true,
+      "max_superposition_error_t": 0.0,
+      "max_linearity_error_t": 0.0
+    },
+    {
+      "name": "mutual_reciprocity",
+      "passed": true,
+      "mutual_12_h": 7.244077506124955e-05,
+      "mutual_21_h": 7.244077506124955e-05,
+      "relative_error": 0.0
+    },
+    {
+      "name": "neumann_integral_discretization_convergence",
+      "passed": true,
+      "samples": [
+        16,
+        32,
+        64
+      ],
+      "reference_samples": 4096,
+      "relative_errors": [
+        4.7059826325490397e-07,
+        6.451514537261645e-14,
+        2.8527105096735166e-15
+      ],
+      "final_tolerance": 1e-10
+    },
+    {
+      "name": "off_axis_biot_savart_discretization_convergence",
+      "passed": true,
+      "point_m": [
+        0.11,
+        0.0,
+        0.06
+      ],
+      "samples": [
+        60,
+        120,
+        360
+      ],
+      "reference_samples": 2880,
+      "relative_vector_errors": [
+        0.0027277515087122924,
+        1.1683453240937574e-06,
+        8.181350675700336e-16
+      ],
+      "final_tolerance": 1e-06
+    },
+    {
+      "name": "inductance_matrix_positive_energy",
+      "passed": true,
+      "eigenvalues_h": [
+        0.0009207795550565019,
+        0.0011678187865964151
+      ],
+      "coupling_coefficient": 0.11827991366899498
+    },
+    {
+      "name": "series_rlc_resonance",
+      "passed": true,
+      "resonance_hz": 1041.3995965663196,
+      "residual_reactance_ohm": -7.105427357601002e-15,
+      "relative_current_error": 0.0,
+      "neighbor_current_rms_a": [
+        0.16879248977462838,
+        0.1699444722611168
+      ]
+    },
+    {
+      "name": "passive_real_power_balance",
+      "passed": true,
+      "max_relative_power_balance_error": 3.847243772514953e-16,
+      "useful_output_w": 0.0,
+      "note": "No useful load modeled; supplied power dissipates as heat."
+    },
+    {
+      "name": "resonant_electric_magnetic_energy_exchange",
+      "passed": true,
+      "max_magnetic_energy_j": 7.18733811388275e-05,
+      "max_capacitor_energy_j": 7.187338113882752e-05,
+      "relative_max_energy_difference": 3.771222931586126e-16,
+      "max_relative_error_total_instantaneous_stored_energy": 7.542445863172255e-16
+    },
+    {
+      "name": "current_limit_is_compliance_check_only",
+      "passed": true,
+      "declared_limit_a": 0.01,
+      "unclipped_linear_prediction_rms_a": 0.17542089052596097,
+      "prediction_marked_outside_domain": true
+    },
+    {
+      "name": "baseline_and_maximum_source_limits",
+      "passed": true,
+      "source_max_rms_v": 5.0,
+      "current_max_at_resonance_rms_a": 0.4385522263149024,
+      "series_resistor_dissipation_w": 1.923280552057574,
+      "capacitor_peak_voltage_v": 9.478487559918745,
+      "note": "Ratings check is theoretical and omits thermal rise and actual AC capacitor specifications."
+    }
+  ]
+}

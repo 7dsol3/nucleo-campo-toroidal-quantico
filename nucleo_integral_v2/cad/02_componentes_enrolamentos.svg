@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7" fill="#0a7187"/></marker></defs>
+<style>text{font:17px Arial;fill:#21303b}.title{font-size:27px;font-weight:bold}.sub{font-size:20px;font-weight:bold}.tiny{font-size:14px}.part{fill:#e5edf2;stroke:#40586a;stroke-width:1.5}.coil{fill:#d78c52;stroke:#8d4a18;stroke-width:1.5}.line{fill:none;stroke:#6c8798;stroke-width:1.2;stroke-dasharray:5 4}.dim{fill:none;stroke:#0a7187;stroke-width:1.2;marker-start:url(#a);marker-end:url(#a)}.tube{fill:#8dd8e1;fill-opacity:.4;stroke:#0a7187;stroke-width:1.5}</style>
+<rect width="1600" height="1200" fill="#fff"/>
+
+<text x="35" y="42" class="title">NÚCLEO INTEGRAL V2 — PEÇAS, ENROLAMENTOS E ENCAIXES</text>
+<text x="35" y="74" class="">Unidades: mm · cotas a verificar na fabricação · sem dimensionamento de pressão/vácuo</text>
+<text x="35" y="126" class="sub">01 / CARRETEL PRINCIPAL — CORTE RADIAL</text>
+<rect x="65" y="305" width="160" height="20" class="part"/>
+<rect x="65" y="171.0" width="160" height="20" class="part"/>
+<rect x="77.5" y="191.0" width="20" height="114" class="part"/>
+<rect x="97.5" y="193.0" width="55" height="110" class="coil"/>
+<line x1="265" y1="325" x2="265" y2="171.0" class="dim"/>
+<text x="278" y="249" class="">15,4</text>
+<line x1="340" y1="305" x2="340" y2="191.0" class="dim"/>
+<text x="353" y="247" class="">11,4</text>
+<text x="35" y="362" class="">Ø220 / aberturaØ188; mangaØ190,5 / 194,5</text>
+<text x="35" y="392" class="">Flanges2; 5 camadas ×10 espiras, fio externo1,1</text>
+<text x="35" y="422" class="">Cobre R97,25…102,75; altura11; centro R100</text>
+<text x="35" y="452" class="">4 furosØ3,4 em R107; margem externa1,3</text>
+<text x="580" y="126" class="sub">02 / RECEPTOR — CORTE RADIAL</text>
+<rect x="610" y="295" width="90" height="30" class="part"/>
+<rect x="610" y="205" width="90" height="30" class="part"/>
+<rect x="610" y="235" width="15" height="60" class="part"/>
+<rect x="628.0" y="237.5" width="44" height="55" class="coil"/>
+<line x1="800" y1="325" x2="800" y2="205" class="dim"/>
+<text x="815" y="272" class="">12</text>
+<text x="580" y="362" class="">Ø80 / Ø62; mangaØ65; flanges3; canal6</text>
+<text x="580" y="392" class="">4 camadas ×5 espiras; cobreØ1,0 / externo1,1</text>
+<text x="580" y="422" class="">R32,8…37,2; altura5,5; folga axial0,5</text>
+<text x="580" y="452" class="">Centro Z125; flanges Z119–122 / 128–131</text>
+<text x="1070" y="126" class="sub">03 / TOROIDE AUXILIAR</text>
+<circle cx="1305" cy="270" r="110" class="tube"/>
+<circle cx="1305" cy="270" r="98" class="line"/>
+<text x="1070" y="414" class="">Raio maior135; forma raio menor6,5</text>
+<text x="1070" y="444" class="">Fita0,95 → superfície7,45; centro fio8</text>
+<text x="1070" y="474" class="">48 espiras poloidais; externo1,1; Z125</text>
+<text x="35" y="530" class="sub">04 / PONTE RADIAL — 16 UNIDADES</text>
+<rect x="55" y="570" width="392" height="84" class="part"/>
+<circle cx="76" cy="612" r="11.9" class="line"/>
+<circle cx="412" cy="612" r="19.25" class="line"/>
+<line x1="55" y1="680" x2="447" y2="680" class="dim"/>
+<text x="230" y="710" class="">56</text>
+<line x1="76" y1="555" x2="412" y2="555" class="dim"/>
+<text x="226" y="544" class="">48</text>
+<text x="35" y="752" class="">Espessura4,3; largura12; furosØ3,4 eØ5,5</text>
+<text x="35" y="782" class="">Centros locais R107 eR155; corpo R104…160</text>
+<text x="35" y="812" class="">Ponte inferior Z53–57,3; superior Z72,7–77</text>
+<text x="35" y="842" class="">No módulo superior somar120 em Z</text>
+<text x="580" y="530" class="sub">05 / COLUNA E SENSOR</text>
+<rect x="625" y="563" width="108" height="240" class="tube"/>
+<rect x="629" y="563" width="100" height="240" class="line"/>
+<line x1="625" y1="835" x2="733" y2="835" class="dim"/>
+<text x="660" y="865" class="">Ø54</text>
+<text x="580" y="900" class="">Tubo externoØ54 / internoØ50 ×198; Z22…220</text>
+<text x="580" y="930" class="">ColaresØ70/54,6 ×6: Z22–28 / 214–220</text>
+<text x="580" y="960" class="">PedestalØ70/10 ×10; Z12–22; hasteØ8 ×111</text>
+<text x="1070" y="530" class="sub">06 / PILHA DE TIRANTES</text>
+<text x="1070" y="566" class="tiny">Z−5…−1</text>
+<text x="1255" y="566" class="tiny">Porca M5</text>
+<text x="1070" y="593" class="tiny">Z−1…0</text>
+<text x="1255" y="593" class="tiny">Arruela1</text>
+<text x="1070" y="620" class="tiny">Z0…12</text>
+<text x="1255" y="620" class="tiny">Base</text>
+<text x="1070" y="647" class="tiny">Z12…49</text>
+<text x="1255" y="647" class="tiny">Espaçador37</text>
+<text x="1070" y="674" class="tiny">Z49…53</text>
+<text x="1255" y="674" class="tiny">Tampa4</text>
+<text x="1070" y="701" class="tiny">Z53…77</text>
+<text x="1255" y="701" class="tiny">4,3 + 15,4 + 4,3</text>
+<text x="1070" y="728" class="tiny">Z77…81</text>
+<text x="1255" y="728" class="tiny">Tampa4</text>
+<text x="1070" y="755" class="tiny">Z81…169</text>
+<text x="1255" y="755" class="tiny">Espaçador88</text>
+<text x="1070" y="782" class="tiny">Z169…173</text>
+<text x="1255" y="782" class="tiny">Tampa4</text>
+<text x="1070" y="809" class="tiny">Z173…197</text>
+<text x="1255" y="809" class="tiny">4,3 + 15,4 + 4,3</text>
+<text x="1070" y="836" class="tiny">Z197…201</text>
+<text x="1255" y="836" class="tiny">Tampa4</text>
+<text x="1070" y="863" class="tiny">Z201…218</text>
+<text x="1255" y="863" class="tiny">Espaçador17</text>
+<text x="1070" y="890" class="tiny">Z218…219</text>
+<text x="1255" y="890" class="tiny">Arruela1</text>
+<text x="1070" y="917" class="tiny">Z219…223</text>
+<text x="1255" y="917" class="tiny">Porca M5</text>
+<line x1="35" y1="1015" x2="1565" y2="1015" class="line"/>
+<text x="35" y="1052" class="">A coluna está aberta na extremidade superior e comunica com ar comum. Não aplicar vácuo ou pressão.</text>
+<text x="35" y="1086" class="">Toroide: pilaresØ8×36,55 sobre tampa Z81, azimutes3,75°+90k; tocam a fita em Z117,55 entre espiras.</text>
+<text x="35" y="1120" class="">Hardware comprado: nylonM5/M3. Para a imagem completa, ver OBJ colorido, scene.js e visualizador 3D.</text>
+<text x="35" y="1154" class="">Malhas e desenhos não substituem inspeção, ensaios de aquecimento e avaliação mecânica da montagem física.</text>
+</svg>

@@ -1,0 +1,426 @@
+[
+  {
+    "code": "M01",
+    "name": "Base 360 × 360 × 12 com 4 furos Ø5,5",
+    "quantity": 1,
+    "material": "Policarbonato/G10/PMMA isolante",
+    "file": "base_360x360x12.stl",
+    "method": "Preferir chapa cortada e furada; STL dimensional",
+    "dimensions_mm": [
+      [
+        -180.0,
+        -180.0,
+        0.0
+      ],
+      [
+        180.0,
+        180.0,
+        12.0
+      ]
+    ]
+  },
+  {
+    "code": "M02",
+    "name": "Tampa anular Ø340/248 × 4 com quatro furos Ø5,5",
+    "quantity": 4,
+    "material": "Polímero isolante PETG/PA",
+    "file": "tampa_anel_OD340_ID248_H4_M5.stl",
+    "method": "Imprimir/cortar; verificar medidas",
+    "dimensions_mm": [
+      [
+        -170.0,
+        -170.0,
+        0.0
+      ],
+      [
+        170.0,
+        170.0,
+        4.0
+      ]
+    ]
+  },
+  {
+    "code": "M03",
+    "name": "Carretel principal Ø220 × 15,4; quatro furos Ø3,4",
+    "quantity": 2,
+    "material": "Polímero isolante PETG/PA",
+    "file": "bobina_suporte_OD220_H15p4.stl",
+    "method": "Imprimir/cortar; verificar medidas",
+    "dimensions_mm": [
+      [
+        -110.0,
+        -110.0,
+        0.0
+      ],
+      [
+        110.0,
+        110.0,
+        15.4
+      ]
+    ]
+  },
+  {
+    "code": "M04",
+    "name": "Ponte radial 56 × 12 × 4,3; centros de furos 48",
+    "quantity": 16,
+    "material": "Polímero isolante PETG/PA",
+    "file": "ponte_56x12x4p3_M3_M5.stl",
+    "method": "Imprimir/cortar; verificar medidas",
+    "dimensions_mm": [
+      [
+        104.0,
+        -6.0,
+        0.0
+      ],
+      [
+        160.0,
+        6.0,
+        4.3
+      ]
+    ]
+  },
+  {
+    "code": "M05",
+    "name": "Espaçador Ø10/5,5 × 37",
+    "quantity": 4,
+    "material": "Nylon/PA isolante",
+    "file": "espacador_OD10_ID5p5_H37.stl",
+    "method": "Cortar tubo e facear; controlar comprimento ±0,1",
+    "dimensions_mm": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        37.0
+      ]
+    ]
+  },
+  {
+    "code": "M06",
+    "name": "Espaçador Ø10/5,5 × 15.4",
+    "quantity": 8,
+    "material": "Nylon/PA isolante",
+    "file": "espacador_OD10_ID5p5_H15p4.stl",
+    "method": "Cortar tubo e facear; controlar comprimento ±0,1",
+    "dimensions_mm": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        15.4
+      ]
+    ]
+  },
+  {
+    "code": "M07",
+    "name": "Espaçador Ø10/5,5 × 88",
+    "quantity": 4,
+    "material": "Nylon/PA isolante",
+    "file": "espacador_OD10_ID5p5_H88.stl",
+    "method": "Cortar tubo e facear; controlar comprimento ±0,1",
+    "dimensions_mm": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        88.0
+      ]
+    ]
+  },
+  {
+    "code": "M08",
+    "name": "Espaçador Ø10/5,5 × 17",
+    "quantity": 4,
+    "material": "Nylon/PA isolante",
+    "file": "espacador_OD10_ID5p5_H17.stl",
+    "method": "Cortar tubo e facear; controlar comprimento ±0,1",
+    "dimensions_mm": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        17.0
+      ]
+    ]
+  },
+  {
+    "code": "M09",
+    "name": "Tubo aberto Ø54/50 × 198",
+    "quantity": 1,
+    "material": "PMMA/policarbonato transparente",
+    "file": "tubo_instrumentacao_OD54_ID50_H198.stl",
+    "method": "Comprar/cortar tubo; sem vedação, sem classificação de pressão",
+    "dimensions_mm": [
+      [
+        -27.0,
+        -27.0,
+        0.0
+      ],
+      [
+        27.0,
+        27.0,
+        198.0
+      ]
+    ]
+  },
+  {
+    "code": "M10",
+    "name": "Colar Ø70/54,6 × 6",
+    "quantity": 2,
+    "material": "Polímero isolante",
+    "file": "colar_coluna_OD70_ID54p6_H6.stl",
+    "method": "Apoio do tubo com folga diametral 0,6; fixar com adesivo compatível",
+    "dimensions_mm": [
+      [
+        -35.0,
+        -35.0,
+        0.0
+      ],
+      [
+        35.0,
+        35.0,
+        6.0
+      ]
+    ]
+  },
+  {
+    "code": "M11",
+    "name": "Pedestal Ø70/10 × 10 da coluna",
+    "quantity": 1,
+    "material": "Polímero isolante",
+    "file": "pedestal_coluna_OD70_ID10_H10.stl",
+    "method": "Aderir ao centro da base; tubo encosta em Z22, topo aberto",
+    "dimensions_mm": [
+      [
+        -35.0,
+        -35.0,
+        0.0
+      ],
+      [
+        35.0,
+        35.0,
+        10.0
+      ]
+    ]
+  },
+  {
+    "code": "M12",
+    "name": "Carretel receptor Ø80/62 × 12",
+    "quantity": 1,
+    "material": "Polímero isolante",
+    "file": "carretel_receptor_OD80_ID62_H12.stl",
+    "method": "Imprimir/cortar; verificar medidas",
+    "dimensions_mm": [
+      [
+        -40.0,
+        -40.0,
+        0.0
+      ],
+      [
+        40.0,
+        40.0,
+        12.0
+      ]
+    ]
+  },
+  {
+    "code": "M13",
+    "name": "Colar do receptor Ø62/54,6 × 2",
+    "quantity": 1,
+    "material": "Polímero isolante",
+    "file": "colar_receptor_OD62_ID54p6_H2.stl",
+    "method": "Imprimir/cortar; verificar medidas",
+    "dimensions_mm": [
+      [
+        -31.0,
+        -31.0,
+        0.0
+      ],
+      [
+        31.0,
+        31.0,
+        2.0
+      ]
+    ]
+  },
+  {
+    "code": "M14",
+    "name": "Forma toroidal Ø283/257 com seção Ø13",
+    "quantity": 1,
+    "material": "Polímero isolante",
+    "file": "forma_toroidal_R135_r6p5.stl",
+    "method": "Enrolar manualmente fio através do centro; pode imprimir deitado com suporte",
+    "dimensions_mm": [
+      [
+        -141.5,
+        -141.5,
+        -6.5
+      ],
+      [
+        141.5,
+        141.5,
+        6.5
+      ]
+    ]
+  },
+  {
+    "code": "H01",
+    "name": "Tirante nylon M5 × 231",
+    "quantity": 4,
+    "material": "Nylon isolante",
+    "file": "",
+    "method": "Comprar M5×250 e cortar231; conferir diâmetro real",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H02",
+    "name": "Porca M5 AF8 × 4 nominal",
+    "quantity": 8,
+    "material": "Nylon isolante",
+    "file": "",
+    "method": "Comprar; medir altura",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H03",
+    "name": "Arruela M5 Ø10/5,5 × 1",
+    "quantity": 8,
+    "material": "Nylon isolante",
+    "file": "",
+    "method": "Comprar; não adicionar arruelas intermediárias",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H04",
+    "name": "Fixação carretel M3 × 31 nominal",
+    "quantity": 8,
+    "material": "Nylon isolante",
+    "file": "",
+    "method": "Comprar/comprimento útil ajustado ao aperto; porcas e arruelas pequenas Ø6",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H05",
+    "name": "Par porca M3 e arruela Ø6",
+    "quantity": 16,
+    "material": "Nylon isolante",
+    "file": "",
+    "method": "2 pares por fixação; 16porcas+16arruelas; não formam anel metálico",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H06",
+    "name": "Pés Ø16 × 8",
+    "quantity": 4,
+    "material": "Borracha",
+    "file": "",
+    "method": "Adesivos; posições XY ±155",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H07",
+    "name": "Pilar do toroide Ø8 × 36,55",
+    "quantity": 4,
+    "material": "Polímero isolante",
+    "file": "",
+    "method": "Sobre tampa Z81 em azimutes3,75/93,75/183,75/273,75°; apoio colado e abraçadeira isolante",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H08",
+    "name": "Cassete externo 20 × 10 × 24",
+    "quantity": 16,
+    "material": "Polímero isolante",
+    "file": "",
+    "method": "Azimutes22,5°+45k; entre tampas, colados/abraçados, longe dos tirantes",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H09",
+    "name": "Haste axial Ø8 × 111",
+    "quantity": 1,
+    "material": "Polímero isolante",
+    "file": "",
+    "method": "Z12–123; sonda Hall Z123–127 apoiada na extremidade; fixar ao pedestal",
+    "dimensions_mm": null
+  },
+  {
+    "code": "H10",
+    "name": "Caixa ventilada externa 80 × 60 × 30",
+    "quantity": 1,
+    "material": "Polímero isolante",
+    "file": "",
+    "method": "Caixa comercial equivalente; adaptar furação dos conectores",
+    "dimensions_mm": null
+  },
+  {
+    "code": "E01",
+    "name": "Bobina principal 50 espiras R100",
+    "quantity": 2,
+    "material": "Cobre esmaltado Ø1,0 / externo1,1",
+    "file": "",
+    "method": "31,416m ideal por bobina + terminais/sobra; reservar35m por bobina",
+    "dimensions_mm": null
+  },
+  {
+    "code": "E02",
+    "name": "Receptor 20 espiras R35",
+    "quantity": 1,
+    "material": "Cobre esmaltado Ø1,0 / externo1,1",
+    "file": "",
+    "method": "4,398m ideal + terminais/sobra; reservar5,5m",
+    "dimensions_mm": null
+  },
+  {
+    "code": "E03",
+    "name": "Toroide 48 espiras R135/r8",
+    "quantity": 1,
+    "material": "Cobre esmaltado Ø1,0 / externo1,1",
+    "file": "",
+    "method": "2,413m ideal poloidal + conexões; reservar4m; ramo experimental separado",
+    "dimensions_mm": null
+  },
+  {
+    "code": "E04",
+    "name": "Fonte, proteção, driver, sensor e carga",
+    "quantity": 1,
+    "material": "Eletrônica convencional",
+    "file": "",
+    "method": "Valores e conexões definidos no projeto elétrico; modelos geométricos genéricos",
+    "dimensions_mm": null
+  },
+  {
+    "code": "E05",
+    "name": "Fita, verniz e abraçadeiras isolantes",
+    "quantity": 1,
+    "material": "Material compatível com fio e tubo",
+    "file": "",
+    "method": "Fixação sem peças condutoras que fechem espiras ao redor do eixo",
+    "dimensions_mm": null
+  },
+  {
+    "code": "E06",
+    "name": "Camada isolante toroide 0,95 mm",
+    "quantity": 1,
+    "material": "Fita/enchimento isolante",
+    "file": "",
+    "method": "Medir camada contínua: forma raio6,5→superfície7,45; centro fio8 com externo1,1",
+    "dimensions_mm": null
+  }
+]

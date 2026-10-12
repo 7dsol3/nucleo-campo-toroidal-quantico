@@ -1,0 +1,145 @@
+{
+  "scope": "QA de navegador e concordância com modelo; nenhum ensaio físico",
+  "all_passed": true,
+  "check_count": 33,
+  "checks": [
+    {
+      "name": "all_cad_parts_renderable",
+      "passed": true,
+      "parts": 160
+    },
+    {
+      "name": "webgl_active",
+      "passed": true
+    },
+    {
+      "name": "current_python_js_0",
+      "passed": true,
+      "relative_error": 0.0
+    },
+    {
+      "name": "current_python_js_1",
+      "passed": true,
+      "relative_error": 1.4966956246439647e-16
+    },
+    {
+      "name": "current_python_js_2",
+      "passed": true,
+      "relative_error": 0.0
+    },
+    {
+      "name": "power_balance",
+      "passed": true
+    },
+    {
+      "name": "actual_3d_pixels",
+      "passed": true,
+      "opaque_pixels": 73605
+    },
+    {
+      "name": "exploded_state",
+      "passed": true
+    },
+    {
+      "name": "open_shell",
+      "passed": true
+    },
+    {
+      "name": "calculated_vector_geometry",
+      "passed": true
+    },
+    {
+      "name": "column_limit_explained",
+      "passed": true
+    },
+    {
+      "name": "opposed_phase_cancels",
+      "passed": true
+    },
+    {
+      "name": "open_receiver_zero_load",
+      "passed": true
+    },
+    {
+      "name": "actual_toroid_field",
+      "passed": true
+    },
+    {
+      "name": "toroid_vector_points",
+      "passed": true
+    },
+    {
+      "name": "field_view",
+      "passed": true
+    },
+    {
+      "name": "peak_tuned",
+      "passed": true
+    },
+    {
+      "name": "scenario_controls",
+      "passed": true
+    },
+    {
+      "name": "cycle_step_1",
+      "passed": true
+    },
+    {
+      "name": "cycle_step_2",
+      "passed": true
+    },
+    {
+      "name": "cycle_step_3",
+      "passed": true
+    },
+    {
+      "name": "cycle_step_4",
+      "passed": true
+    },
+    {
+      "name": "separate_dc_control_chart",
+      "passed": true
+    },
+    {
+      "name": "cycle_step_5",
+      "passed": true
+    },
+    {
+      "name": "empty_measurement_template",
+      "passed": true
+    },
+    {
+      "name": "measurement_import",
+      "passed": true
+    },
+    {
+      "name": "reject_bad_csv",
+      "passed": true
+    },
+    {
+      "name": "unresolved_claims_explicit",
+      "passed": true
+    },
+    {
+      "name": "zero_drive_no_generated_power",
+      "passed": true
+    },
+    {
+      "name": "scenario_export",
+      "passed": true
+    },
+    {
+      "name": "no_horizontal_overflow_390",
+      "passed": true
+    },
+    {
+      "name": "no_horizontal_overflow_768",
+      "passed": true
+    },
+    {
+      "name": "no_javascript_errors",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

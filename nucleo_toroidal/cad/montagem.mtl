@@ -1,0 +1,25 @@
+newmtl plastico
+Kd 0.2 0.25 0.29
+Ka 0.08 0.08 0.08
+Ns 20
+
+newmtl cobre
+Kd 0.78 0.32 0.12
+Ka 0.08 0.08 0.08
+Ns 20
+
+newmtl nylon
+Kd 0.85 0.89 0.82
+Ka 0.08 0.08 0.08
+Ns 20
+
+newmtl base
+Kd 0.65 0.74 0.8
+Ka 0.08 0.08 0.08
+Ns 20
+
+newmtl borracha
+Kd 0.08 0.09 0.11
+Ka 0.08 0.08 0.08
+Ns 20
+

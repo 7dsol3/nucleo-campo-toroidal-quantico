@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "title": "Demonstrador clássico de duas bobinas circulares acopladas",
+  "coil": {
+    "count": 2,
+    "mean_radius_m": 0.1,
+    "turns_each": 50,
+    "center_separation_m": 0.1,
+    "connection": "series_aiding",
+    "radial_layers": 5,
+    "turns_per_layer": 10,
+    "bare_wire_diameter_m": 0.001,
+    "insulated_wire_diameter_m": 0.0011,
+    "winding_radial_depth_m": 0.0055,
+    "winding_axial_length_m": 0.011,
+    "extra_lead_length_m_total": 1.0,
+    "copper_resistivity_20c_ohm_m": 1.724e-8,
+    "copper_temperature_coefficient_per_c": 0.00393,
+    "temperature_c": 20.0
+  },
+  "circuit": {
+    "source_waveform": "sinusoidal",
+    "source_voltage_rms_v": 2.0,
+    "source_voltage_max_rms_v": 5.0,
+    "drive_frequency_hz": 1000.0,
+    "current_compliance_rms_a": 0.5,
+    "series_resistor_ohm": 10.0,
+    "series_resistor_rating_w": 10.0,
+    "capacitor_f": 0.00001,
+    "capacitor_voltage_rating_v": 100.0,
+    "capacitor_voltage_rating_basis": "DC; compare sinusoidal peak, verify actual AC/ripple specification on datasheet",
+    "ideal_tuning_target_hz": 1000.0
+  },
+  "numerics": {
+    "mutual_angular_samples": 2048,
+    "field_angular_samples": 360,
+    "axis_start_m": -0.25,
+    "axis_end_m": 0.25,
+    "axis_points": 101,
+    "slice_min_m": -0.22,
+    "slice_max_m": 0.22,
+    "slice_points_per_dimension": 41,
+    "sweep_min_hz": 100.0,
+    "sweep_max_hz": 5000.0,
+    "sweep_points": 491
+  }
+}

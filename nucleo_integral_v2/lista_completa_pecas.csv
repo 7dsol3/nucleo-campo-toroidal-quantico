@@ -1,0 +1,40 @@
+﻿codigo;item;quantidade;especificacao;observacao;arquivo
+M01;Base 360 × 360 × 12 com 4 furos Ø5,5;1;Policarbonato/G10/PMMA isolante;"Preferir chapa cortada e furada; STL dimensional";base_360x360x12.stl
+M02;Tampa anular Ø340/248 × 4 com quatro furos Ø5,5;4;Polímero isolante PETG/PA;"Imprimir/cortar; verificar medidas";tampa_anel_OD340_ID248_H4_M5.stl
+M03;"Carretel principal Ø220 × 15,4; quatro furos Ø3,4";2;Polímero isolante PETG/PA;"Imprimir/cortar; verificar medidas";bobina_suporte_OD220_H15p4.stl
+M04;"Ponte radial 56 × 12 × 4,3; centros de furos 48";16;Polímero isolante PETG/PA;"Imprimir/cortar; verificar medidas";ponte_56x12x4p3_M3_M5.stl
+M05;Espaçador Ø10/5,5 × 37;4;Nylon/PA isolante;"Cortar tubo e facear; controlar comprimento ±0,1";espacador_OD10_ID5p5_H37.stl
+M06;Espaçador Ø10/5,5 × 15.4;8;Nylon/PA isolante;"Cortar tubo e facear; controlar comprimento ±0,1";espacador_OD10_ID5p5_H15p4.stl
+M07;Espaçador Ø10/5,5 × 88;4;Nylon/PA isolante;"Cortar tubo e facear; controlar comprimento ±0,1";espacador_OD10_ID5p5_H88.stl
+M08;Espaçador Ø10/5,5 × 17;4;Nylon/PA isolante;"Cortar tubo e facear; controlar comprimento ±0,1";espacador_OD10_ID5p5_H17.stl
+M09;Tubo aberto Ø54/50 × 198;1;PMMA/policarbonato transparente;"Comprar/cortar tubo; sem vedação, sem classificação de pressão";tubo_instrumentacao_OD54_ID50_H198.stl
+M10;Colar Ø70/54,6 × 6;2;Polímero isolante;"Apoio do tubo com folga diametral 0,6; fixar com adesivo compatível";colar_coluna_OD70_ID54p6_H6.stl
+M11;Pedestal Ø70/10 × 10 da coluna;1;Polímero isolante;"Aderir ao centro da base; tubo encosta em Z22, topo aberto";pedestal_coluna_OD70_ID10_H10.stl
+M12;Carretel receptor Ø80/62 × 12;1;Polímero isolante;"Imprimir/cortar; verificar medidas";carretel_receptor_OD80_ID62_H12.stl
+M13;Colar do receptor Ø62/54,6 × 2;1;Polímero isolante;"Imprimir/cortar; verificar medidas";colar_receptor_OD62_ID54p6_H2.stl
+M14;Forma toroidal Ø283/257 com seção Ø13;1;Polímero isolante;"Enrolar manualmente fio através do centro; pode imprimir deitado com suporte";forma_toroidal_R135_r6p5.stl
+H01;Tirante nylon M5 × 231;4;Nylon isolante;"Comprar M5×250 e cortar231; conferir diâmetro real";
+H02;Porca M5 AF8 × 4 nominal;8;Nylon isolante;"Comprar; medir altura";
+H03;Arruela M5 Ø10/5,5 × 1;8;Nylon isolante;"Comprar; não adicionar arruelas intermediárias";
+H04;Fixação carretel M3 × 31 nominal;8;Nylon isolante;"Comprar/comprimento útil ajustado ao aperto; porcas e arruelas pequenas Ø6";
+H05;Par porca M3 e arruela Ø6;16;Nylon isolante;"2 pares por fixação; 16porcas+16arruelas; não formam anel metálico";
+H06;Pés Ø16 × 8;4;Borracha;"Adesivos; posições XY ±155";
+H07;Pilar do toroide Ø8 × 36,55;4;Polímero isolante;"Sobre tampa Z81 em azimutes3,75/93,75/183,75/273,75°; apoio colado e abraçadeira isolante";
+H08;Cassete externo 20 × 10 × 24;16;Polímero isolante;"Azimutes22,5°+45k; entre tampas, colados/abraçados, longe dos tirantes";
+H09;Haste axial Ø8 × 111;1;Polímero isolante;"Z12–123; sonda Hall Z123–127 apoiada na extremidade; fixar ao pedestal";
+H10;Caixa ventilada externa 80 × 60 × 30;1;Polímero isolante;"Caixa comercial equivalente; adaptar furação dos conectores";
+E01;Bobina principal 50 espiras R100;2;Cobre esmaltado Ø1,0 / externo1,1;"31,416m ideal por bobina + terminais/sobra; reservar35m por bobina";
+E02;Receptor 20 espiras R35;1;Cobre esmaltado Ø1,0 / externo1,1;"4,398m ideal + terminais/sobra; reservar5,5m";
+E03;Toroide 48 espiras R135/r8;1;Cobre esmaltado Ø1,0 / externo1,1;"2,413m ideal poloidal + conexões; reservar4m; ramo experimental separado";
+E04;Fonte, proteção, driver, sensor e carga;1;Eletrônica convencional;"Valores e conexões definidos no projeto elétrico; modelos geométricos genéricos";
+E05;Fita, verniz e abraçadeiras isolantes;1;Material compatível com fio e tubo;Fixação sem peças condutoras que fechem espiras ao redor do eixo;
+E06;Camada isolante toroide 0,95 mm;1;Fita/enchimento isolante;"Medir camada contínua: forma raio6,5→superfície7,45; centro fio8 com externo1,1";
+D01;Capacitor filme não polarizado;2;"10 µF ±5%; nominal≥100 VDC";"Conferir limite AC, corrente RMS/frequência e ESR; não é eletrolítico comum";
+D02;Resistor não indutivo;2;10 Ω / 10 W;"Medir resistência/deriva e resposta AC; usado para referência de corrente";
+D03;Carga receptora;1;100 Ω / ≥0,25 W, não indutivo;"Medir valor real e tensão/corrente; modelo usa0,25 W como limite";
+D04;Fonte axial de dois canais sincronizados;1 conjunto;"100–5000 Hz;0–5 V RMS por porta;limite0,5 A RMS";"Saídas e sondas compatíveis com isolamento/topologia; fase0–180°; potência de retorno conforme equipamento";
+D05;Fonte toroidal independente;1;"Senoidal limitada;0–0,5 A RMS; faixa100–5000 Hz";"Corrente controlada no toroide de baixa indutância; medir tensão/perdas/fuga";
+D06;Fonte DC para testes;1 conjunto;"Isolada;saídas iguais,limitadas;0–5 V";MapaDC e PI com capacitores contornados,receptor desconectado;
+D07;Cabos/conectores e proteção;1 conjunto;Compatíveis com correntes,tensões e topologia do ensaio;"Terminais isolados;parada;instrumentar os limites";
+D08;Instrumentação V/I/B/T;1 conjunto;Conforme pesquisa/requisitos_instrumentos.csv;Sondas diferenciais/isoladas, campo calibradoDC/AC,LCR,termômetro,DAQ ou osciloscópio;
+D09;Placa de controle PI;1 proposta;ADC/DAC e fontes/driver com desempenho caracterizado;Não há PCB/firmware/hardware validado: gráfico PI é ensaio numérico separado;

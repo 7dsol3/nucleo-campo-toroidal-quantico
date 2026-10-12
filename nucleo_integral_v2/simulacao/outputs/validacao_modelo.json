@@ -1,0 +1,276 @@
+{
+  "scope": "Numerical/classical model QA, analytic and Maxwell benchmarks plus optional Chrome parity. No experimental measurement.",
+  "passed": true,
+  "check_count": 58,
+  "passed_count": 58,
+  "browser_checked": true,
+  "checks": [
+    {
+      "name": "analytic_axis_0.1_0.06",
+      "passed": true,
+      "actual": 3.961608052829039e-06,
+      "expected": 3.961608052829039e-06
+    },
+    {
+      "name": "analytic_axis_0.035_0.11",
+      "passed": true,
+      "actual": 5.00397499114424e-07,
+      "expected": 5.00397499114424e-07
+    },
+    {
+      "name": "analytic_axis_0.135_0",
+      "passed": true,
+      "actual": 4.654211338651546e-06,
+      "expected": 4.654211338651546e-06
+    },
+    {
+      "name": "mutual_small_loop_flux_limit",
+      "passed": true,
+      "relative_error": 8.999997071731179e-07
+    },
+    {
+      "name": "mutual_reciprocity",
+      "passed": true
+    },
+    {
+      "name": "mutual_quadrature_convergence",
+      "passed": true,
+      "relative_error": 0.0
+    },
+    {
+      "name": "energy_positive_inductance_matrix",
+      "passed": true
+    },
+    {
+      "name": "baseline_valid_region",
+      "passed": true,
+      "warnings": []
+    },
+    {
+      "name": "power_balance_phase_0_sense_1",
+      "passed": true,
+      "residual_w": 0.0
+    },
+    {
+      "name": "passive_receiver_phase_0_sense_1",
+      "passed": true
+    },
+    {
+      "name": "power_balance_phase_0_sense_-1",
+      "passed": true,
+      "residual_w": -1.1102230246251565e-16
+    },
+    {
+      "name": "passive_receiver_phase_0_sense_-1",
+      "passed": true
+    },
+    {
+      "name": "power_balance_phase_37_sense_1",
+      "passed": true,
+      "residual_w": -2.220446049250313e-16
+    },
+    {
+      "name": "passive_receiver_phase_37_sense_1",
+      "passed": true
+    },
+    {
+      "name": "power_balance_phase_37_sense_-1",
+      "passed": true,
+      "residual_w": -1.1102230246251565e-16
+    },
+    {
+      "name": "passive_receiver_phase_37_sense_-1",
+      "passed": true
+    },
+    {
+      "name": "power_balance_phase_90_sense_1",
+      "passed": true,
+      "residual_w": 2.220446049250313e-16
+    },
+    {
+      "name": "passive_receiver_phase_90_sense_1",
+      "passed": true
+    },
+    {
+      "name": "power_balance_phase_90_sense_-1",
+      "passed": true,
+      "residual_w": 2.220446049250313e-16
+    },
+    {
+      "name": "passive_receiver_phase_90_sense_-1",
+      "passed": true
+    },
+    {
+      "name": "power_balance_phase_180_sense_1",
+      "passed": true,
+      "residual_w": 0.0
+    },
+    {
+      "name": "passive_receiver_phase_180_sense_1",
+      "passed": true
+    },
+    {
+      "name": "power_balance_phase_180_sense_-1",
+      "passed": true,
+      "residual_w": 0.0
+    },
+    {
+      "name": "passive_receiver_phase_180_sense_-1",
+      "passed": true
+    },
+    {
+      "name": "antisymmetric_center_field_cancels",
+      "passed": true,
+      "field_t": 3.3881029052514375e-21
+    },
+    {
+      "name": "antisymmetric_receiver_emf_cancels",
+      "passed": true,
+      "current_a": 2.599237767808647e-20
+    },
+    {
+      "name": "no_source_no_output",
+      "passed": true
+    },
+    {
+      "name": "receiver_disconnect_two_port",
+      "passed": true
+    },
+    {
+      "name": "maxwell_divergence_empty_space",
+      "passed": true,
+      "relative_divergence": 1.8932553962188626e-08
+    },
+    {
+      "name": "phase_shift_elliptical_vector",
+      "passed": true
+    },
+    {
+      "name": "toroid_segment_convergence",
+      "passed": true
+    },
+    {
+      "name": "toroid_discrete_rotational_symmetry",
+      "passed": true
+    },
+    {
+      "name": "toroid_axis_cancelled",
+      "passed": true
+    },
+    {
+      "name": "toroid_ampere_law",
+      "passed": true,
+      "relative_error": 0.00010194205751002747
+    },
+    {
+      "name": "wire_singularity_explicitly_excluded",
+      "passed": true
+    },
+    {
+      "name": "dc_controller_disturbance_recovery",
+      "passed": true,
+      "error_a": 2.2273116321858133e-06
+    },
+    {
+      "name": "dc_controller_physical_limits",
+      "passed": true
+    },
+    {
+      "name": "dc_controller_step_convergence",
+      "passed": true,
+      "difference_a": 1.3922341057792664e-10
+    },
+    {
+      "name": "browser_currents_0_1_True_20_100_False",
+      "passed": true
+    },
+    {
+      "name": "browser_power_0_1_True_20_100_False",
+      "passed": true
+    },
+    {
+      "name": "browser_field_0_1_True_20_100_False_[0, 0, 0.125]",
+      "passed": true,
+      "absolute_error_t": 1.6940658945086007e-21
+    },
+    {
+      "name": "browser_field_0_1_True_20_100_False_[0.03, 0.012, 0.11]",
+      "passed": true,
+      "absolute_error_t": 1.7976079268664312e-21
+    },
+    {
+      "name": "browser_field_0_1_True_20_100_False_[0.133, 0, 0.125]",
+      "passed": true,
+      "absolute_error_t": 1.2752659524393082e-21
+    },
+    {
+      "name": "browser_currents_90_1_True_55_10_False",
+      "passed": true
+    },
+    {
+      "name": "browser_power_90_1_True_55_10_False",
+      "passed": true
+    },
+    {
+      "name": "browser_field_90_1_True_55_10_False_[0, 0, 0.125]",
+      "passed": true,
+      "absolute_error_t": 9.583083854271089e-21
+    },
+    {
+      "name": "browser_field_90_1_True_55_10_False_[0.03, 0.012, 0.11]",
+      "passed": true,
+      "absolute_error_t": 1.3698974061672628e-20
+    },
+    {
+      "name": "browser_field_90_1_True_55_10_False_[0.133, 0, 0.125]",
+      "passed": true,
+      "absolute_error_t": 3.789959654012666e-21
+    },
+    {
+      "name": "browser_currents_180_1_True_20_100_False",
+      "passed": true
+    },
+    {
+      "name": "browser_power_180_1_True_20_100_False",
+      "passed": true
+    },
+    {
+      "name": "browser_field_180_1_True_20_100_False_[0, 0, 0.125]",
+      "passed": true,
+      "absolute_error_t": 6.984767034903405e-21
+    },
+    {
+      "name": "browser_field_180_1_True_20_100_False_[0.03, 0.012, 0.11]",
+      "passed": true,
+      "absolute_error_t": 5.156650042326678e-21
+    },
+    {
+      "name": "browser_field_180_1_True_20_100_False_[0.133, 0, 0.125]",
+      "passed": true,
+      "absolute_error_t": 1.1661406073130224e-22
+    },
+    {
+      "name": "browser_currents_37_-1_False_20_100_True",
+      "passed": true
+    },
+    {
+      "name": "browser_power_37_-1_False_20_100_True",
+      "passed": true
+    },
+    {
+      "name": "browser_field_37_-1_False_20_100_True_[0, 0, 0.125]",
+      "passed": true,
+      "absolute_error_t": 6.776266417933066e-21
+    },
+    {
+      "name": "browser_field_37_-1_False_20_100_True_[0.03, 0.012, 0.11]",
+      "passed": true,
+      "absolute_error_t": 7.237052673748088e-21
+    },
+    {
+      "name": "browser_field_37_-1_False_20_100_True_[0.133, 0, 0.125]",
+      "passed": true,
+      "absolute_error_t": 6.777153644812237e-21
+    }
+  ]
+}

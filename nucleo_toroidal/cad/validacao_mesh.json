@@ -1,0 +1,182 @@
+{
+  "bobina_suporte_OD220_H15p4": {
+    "vertices": 15728,
+    "triangles": 31488,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 54653.417,
+    "bounds_mm": [
+      [
+        -110.0,
+        -110.0,
+        0.0
+      ],
+      [
+        110.0,
+        110.0,
+        15.4
+      ]
+    ]
+  },
+  "base_260x260x8": {
+    "vertices": 1818,
+    "triangles": 3648,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 540510.395,
+    "bounds_mm": [
+      [
+        -130.0,
+        -130.0,
+        0.0
+      ],
+      [
+        130.0,
+        130.0,
+        8.0
+      ]
+    ]
+  },
+  "espacador_44p3": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 848.979,
+    "bounds_mm": [
+      [
+        -3.0,
+        -3.0,
+        0.0
+      ],
+      [
+        3.0,
+        3.0,
+        44.3
+      ]
+    ]
+  },
+  "espacador_84p6": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1621.301,
+    "bounds_mm": [
+      [
+        -3.0,
+        -3.0,
+        0.0
+      ],
+      [
+        3.0,
+        3.0,
+        84.6
+      ]
+    ]
+  },
+  "barra_M3_180": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 1270.302,
+    "bounds_mm": [
+      [
+        -1.5,
+        -1.5,
+        0.0
+      ],
+      [
+        1.5,
+        1.5,
+        180.0
+      ]
+    ]
+  },
+  "arruela_OD6": {
+    "vertices": 256,
+    "triangles": 512,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 9.582,
+    "bounds_mm": [
+      [
+        -3.0,
+        -3.0,
+        0.0
+      ],
+      [
+        3.0,
+        3.0,
+        0.5
+      ]
+    ]
+  },
+  "porca_M3_AF5p5_H2p4": {
+    "vertices": 192,
+    "triangles": 384,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 45.958,
+    "bounds_mm": [
+      [
+        -3.17542648,
+        -2.75,
+        0.0
+      ],
+      [
+        3.17542648,
+        2.75,
+        2.4
+      ]
+    ]
+  },
+  "pe_borracha": {
+    "vertices": 130,
+    "triangles": 256,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 677.494,
+    "bounds_mm": [
+      [
+        -6.0,
+        -6.0,
+        0.0
+      ],
+      [
+        6.0,
+        6.0,
+        6.0
+      ]
+    ]
+  },
+  "envelope_cobre_50_espiras": {
+    "vertices": 1024,
+    "triangles": 2048,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "consistent_orientation": true,
+    "volume_mm3": 38009.455,
+    "bounds_mm": [
+      [
+        -102.75,
+        -102.75,
+        0.0
+      ],
+      [
+        102.75,
+        102.75,
+        11.0
+      ]
+    ]
+  }
+}

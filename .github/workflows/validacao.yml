@@ -1,0 +1,36 @@
+name: Validacao digital
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  integridade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Artefatos, links, malhas e checksums
+        run: python checks/preflight.py
+
+  modelos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Modelo integral V2
+        run: python nucleo_integral_v2/simulacao/validar.py --output "$RUNNER_TEMP/validacao_modelo_v2.json"
+      - name: Interfaces mecanicas V2
+        run: python nucleo_integral_v2/cad/revisar_mecanica.py
+      - name: Modelo de bancada V1
+        run: python nucleo_toroidal/simulacao/validar.py --output "$RUNNER_TEMP/validacao_modelo_v1.json"

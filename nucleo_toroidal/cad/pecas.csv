@@ -1,0 +1,11 @@
+﻿codigo;peca;quantidade;material;medidas_mm;fabricacao_observacao
+B01;Base isolante;1;Policarbonato;"260 x 260 x 8; 4 furos Ø3,4";"Cortar e furar chapa; STL de referência"
+B02;Carretel circular;2;Polímero isolante;"Ø220 x 15,4; vão11,4; mangaØ190,5/194,5";"STL; flange superior exige suporte removível"
+B03;Espaçador inferior;4;Nylon ou polímero isolante;Ø6 / Ø3,4 x44,3;Cortar tubo ou imprimir STL
+B04;Espaçador intermediário;4;Nylon ou polímero isolante;Ø6 / Ø3,4 x84,6;Cortar tubo ou imprimir STL
+B05;Barra roscada;4;Nylon;M3 x180;"Comprar; rosca simplificada no OBJ"
+B06;Porca;8;Nylon;"M3; AF5,5; altura nominal2,4";Conferir dimensões do fornecedor
+B07;Arruela;8;Nylon;Ø6 / Ø3,4 x0,5;Não colocar entre carretéis e espaçadores
+B08;Pé adesivo;4;Borracha;Ø12 x6;Colar em X/Y ±110
+E01;Enrolamento de cobre;2;Cobre esmaltado;"50 espiras; Ø1,0 cobre; Ø1,1 isolado";"31.416 m ideal por bobina; comprar~35 m por bobina para pontas e sobra"
+E02;Fixação do enrolamento;1;Fita isolante / verniz;Adequado ao fio e à temperatura;Aplicar após medir e contar voltas

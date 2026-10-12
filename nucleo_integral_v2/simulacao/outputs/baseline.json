@@ -1,0 +1,333 @@
+{
+  "schema_version": "2.0",
+  "units": "SI; phasor voltages/currents/fields are RMS; z measured from base plane",
+  "config": {
+    "schema_version": "2.0",
+    "geometry": {
+      "coil_mean_radius_m": 0.1,
+      "coil_center_lower_m": 0.065,
+      "coil_center_upper_m": 0.185,
+      "radial_layers": 5,
+      "turns_per_layer": 10,
+      "wire_bare_diameter_m": 0.001,
+      "wire_pitch_m": 0.0011,
+      "coil_leads_each_m": 0.4,
+      "temperature_c": 20,
+      "copper_resistivity_20c_ohm_m": 1.724e-08,
+      "copper_temperature_coefficient_per_c": 0.00393
+    },
+    "circuit": {
+      "frequency_hz": 1400,
+      "capacitor_each_f": 1e-05,
+      "series_resistor_each_ohm": 10,
+      "series_resistor_rating_w": 10,
+      "capacitor_rating_v": 100,
+      "source_max_rms_v": 5,
+      "current_limit_rms_a": 0.5,
+      "drives": [
+        {
+          "voltage_rms_v": 2,
+          "phase_deg": 0,
+          "orientation": 1
+        },
+        {
+          "voltage_rms_v": 2,
+          "phase_deg": 0,
+          "orientation": 1
+        }
+      ]
+    },
+    "receiver": {
+      "enabled": true,
+      "radius_m": 0.035,
+      "center_z_m": 0.125,
+      "turns": 20,
+      "leads_m": 0.4,
+      "load_ohm": 100,
+      "load_rating_w": 0.25,
+      "axial_length_m": 0.0055,
+      "radial_depth_m": 0.0044,
+      "orientation": 1
+    },
+    "toroidal": {
+      "enabled": false,
+      "turns": 48,
+      "major_radius_m": 0.135,
+      "minor_radius_m": 0.008,
+      "center_z_m": 0.125,
+      "drive_current_rms_a": 0.15,
+      "phase_deg": 0,
+      "leads_m": 0.4
+    },
+    "control_cc": {
+      "target_a": 0.15,
+      "kp_ohm": 8,
+      "ki_ohm_per_s": 800,
+      "duration_s": 0.4,
+      "step_s": 1e-06
+    },
+    "numerics": {
+      "mutual_angular_samples": 512,
+      "field_angular_samples": 128,
+      "toroid_angular_samples": 64,
+      "axis_points": 81,
+      "slice_points_per_dimension": 25,
+      "sweep_points": 161
+    }
+  },
+  "parameters": {
+    "turns_each": 50,
+    "self_inductance_each_h": 0.0010442991708264583,
+    "mutual_inductance_h": 9.345137205654844e-05,
+    "receiver_inductance_h": 5.085031586867128e-05,
+    "mutual_to_receiver_h": [
+      1.504895830179913e-05,
+      1.504895830179913e-05
+    ],
+    "coupling_coefficient": 0.08948716485390966,
+    "inductance_matrix_h": [
+      [
+        0.0010442991708264583,
+        9.345137205654844e-05,
+        1.504895830179913e-05
+      ],
+      [
+        9.345137205654844e-05,
+        0.0010442991708264583,
+        1.504895830179913e-05
+      ],
+      [
+        1.504895830179913e-05,
+        1.504895830179913e-05,
+        5.085031586867128e-05
+      ]
+    ],
+    "inductance_matrix_physical_h": [
+      [
+        0.0010442991708264583,
+        9.345137205654844e-05,
+        1.504895830179913e-05
+      ],
+      [
+        9.345137205654844e-05,
+        0.0010442991708264583,
+        1.504895830179913e-05
+      ],
+      [
+        1.504895830179913e-05,
+        1.504895830179913e-05,
+        5.085031586867128e-05
+      ]
+    ],
+    "matrix_positive_definite": true,
+    "orientations": [
+      1,
+      1,
+      1
+    ],
+    "copper_resistance_each_ohm": [
+      0.6983802599004937,
+      0.6983802599004937
+    ],
+    "receiver_copper_resistance_ohm": 0.1053242599004937,
+    "wire_length_each_m": [
+      31.81592653589793,
+      31.81592653589793
+    ],
+    "receiver_wire_length_m": 4.798229715025711,
+    "winding_axial_length_m": 0.011000000000000001,
+    "winding_radial_depth_m": 0.0055000000000000005,
+    "resistance_each_ohm": [
+      10.698380259900494,
+      10.698380259900494
+    ],
+    "resonance_symmetric_unloaded_hz": 1492.09544967752,
+    "resonance_antisymmetric_unloaded_hz": 1632.167135708757,
+    "quality_symmetric_unloaded": 0.9970237309953927,
+    "skin_depth_m": 0.001766138446074769,
+    "self_inductance_method": "Wheeler multilayer estimate; measure before matching resonances",
+    "mutual_method": "Neumann distributed 50 loops per drive, receiver 20 coincident mean-radius loops"
+  },
+  "circuit": {
+    "frequency_hz": 1400,
+    "source_voltages": [
+      {
+        "re": 2.0,
+        "im": 0.0,
+        "rms": 2.0,
+        "phase_deg": 0.0
+      },
+      {
+        "re": 2.0,
+        "im": 0.0,
+        "rms": 2.0,
+        "phase_deg": 0.0
+      }
+    ],
+    "currents": [
+      {
+        "re": 0.18396522896585982,
+        "im": 0.023385878107873445,
+        "rms": 0.1854456922210315,
+        "phase_deg": 7.244650184171786
+      },
+      {
+        "re": 0.18396522896585982,
+        "im": 0.023385878107873445,
+        "rms": 0.1854456922210315,
+        "phase_deg": 7.244650184171786
+      },
+      {
+        "re": 5.9674932033042316e-05,
+        "im": -0.00048681152717330265,
+        "rms": 0.0004904554623020844,
+        "phase_deg": -83.01136405706492
+      }
+    ],
+    "physical_currents": [
+      {
+        "re": 0.18396522896585982,
+        "im": 0.023385878107873445,
+        "rms": 0.1854456922210315,
+        "phase_deg": 7.244650184171786
+      },
+      {
+        "re": 0.18396522896585982,
+        "im": 0.023385878107873445,
+        "rms": 0.1854456922210315,
+        "phase_deg": 7.244650184171786
+      },
+      {
+        "re": 5.9674932033042316e-05,
+        "im": -0.00048681152717330265,
+        "rms": 0.0004904554623020844,
+        "phase_deg": -83.01136405706492
+      }
+    ],
+    "capacitor_voltages": [
+      {
+        "re": 0.2658555785294714,
+        "im": -2.091355396210637,
+        "rms": 2.1081856137196717,
+        "phase_deg": -82.75534981582821
+      },
+      {
+        "re": 0.2658555785294714,
+        "im": -2.091355396210637,
+        "rms": 2.1081856137196717,
+        "phase_deg": -82.75534981582821
+      }
+    ],
+    "receiver_load_voltage": {
+      "re": 0.005967493203304232,
+      "im": -0.04868115271733026,
+      "rms": 0.049045546230208445,
+      "phase_deg": -83.01136405706492
+    },
+    "power": {
+      "source_each_w": [
+        0.36793045793171963,
+        0.36793045793171963
+      ],
+      "source_reactive_each_var": [
+        -0.04677175621574689,
+        -0.04677175621574689
+      ],
+      "source_total_w": 0.7358609158634393,
+      "copper_each_w": [
+        0.02401737030262488,
+        0.02401737030262488
+      ],
+      "series_resistor_each_w": [
+        0.3439010476333754,
+        0.3439010476333754
+      ],
+      "receiver_copper_w": 2.5335388456477354e-08,
+      "receiver_load_w": 2.4054656050195133e-05,
+      "dissipation_total_w": 0.7358609158634393,
+      "balance_residual_w": 0.0,
+      "transfer_efficiency": 3.2689133954029955e-05
+    },
+    "energy": {
+      "mean_magnetic_j": 3.9127354248356465e-05,
+      "mean_capacitive_each_j": [
+        2.2222232909472946e-05,
+        2.2222232909472946e-05
+      ]
+    },
+    "validity": {
+      "linear_region": true,
+      "warnings": [],
+      "source_port_requirement": "two independently phase-controlled isolated sine outputs; specified RMS amplitude under actual load; 50-ohm function-generator amplitude labels are insufficient"
+    }
+  },
+  "center_point_m": [
+    0.0,
+    0.0,
+    0.125
+  ],
+  "center_field": {
+    "components_t": [
+      {
+        "re": 0.0,
+        "im": 0.0,
+        "rms": 0.0,
+        "phase_deg": 0.0
+      },
+      {
+        "re": 0.0,
+        "im": 0.0,
+        "rms": 0.0,
+        "phase_deg": 0.0
+      },
+      {
+        "re": 7.291903142642153e-05,
+        "im": 9.092045709972222e-06,
+        "rms": 7.348367464518684e-05,
+        "phase_deg": 7.107350593549778
+      }
+    ],
+    "magnitude_rms_t": 7.348367464518684e-05,
+    "ellipse_major_peak_t": 0.00010392160929623517,
+    "ellipse_minor_peak_t": 9.094947017729282e-13,
+    "mean_magnetic_energy_density_j_m3": 0.0021485322234525883
+  },
+  "toroidal": {
+    "enabled": false,
+    "turns": 48,
+    "wire_length_m": 2.812743157956961,
+    "copper_resistance_dc_ohm": 0.061741539900493685,
+    "self_inductance_ideal_h": 6.862913871522022e-07,
+    "ideal_bulk_field_rms_t": 0.0,
+    "drive_current_rms_a": 0.0,
+    "required_voltage_estimate_rms_v": 0.0,
+    "copper_loss_w": 0.0,
+    "qualification": "Independent ideal current-driven air-core toroid. L and voltage estimates use ideal bulk approximation, whereas field uses actual poloidal loop geometry. Leakage, parasitic capacitance, winding leads and toroid-to-drive mutual are not included in this circuit; optional toroid results are separate from axial transfer power balance."
+  },
+  "control_cc": {
+    "mode": "Separate DC RL bench with capacitors bypassed, receiver disconnected, two equal axially aiding ports; not an AC amplitude controller",
+    "effective_inductance_per_port_h": 0.0011377505428830067,
+    "target_a": 0.15,
+    "final_current_a": 0.1499977726883678,
+    "max_current_a": 0.15038058465017673,
+    "absolute_final_error_a": 2.2273116321858133e-06,
+    "voltage_limit_v": 5,
+    "disturbance_ohm": 1.0,
+    "step_s": 1e-06,
+    "stable_linear_no_clipping": true,
+    "controller_saturation_is_voltage_only": true
+  },
+  "energy_curvature_scale": {
+    "local_mean_magnetic_energy_density_j_m3": 0.0021485322234525883,
+    "einstein_tensor_magnetic_order_m_inv2": 4.461743947702839e-46,
+    "meaning": "Local order of Einstein tensor sourced by mean classical magnetic energy only. Not Ricci scalar, not a computed spacetime metric. Maxwell stress-energy is traceless: R=0 in electrovacuum with Lambda=0. Electric energy and other stresses are not included in this local scale."
+  },
+  "status": "CLASSICAL_NUMERICAL_PREDICTION_NOT_EXPERIMENTAL_CONFIRMATION",
+  "missing_physics": [
+    "No vacuum energy extraction law",
+    "No wormhole mechanism",
+    "No reactionless thrust",
+    "No quantum coherence or quantum-state evolution",
+    "No practical controllable spacetime curvature"
+  ]
+}
