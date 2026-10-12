@@ -212,6 +212,9 @@ class PublicationChecks:
         v1 = self.root / "nucleo_toroidal"
         if v1.is_dir():
             self.manifest(v1)
+        v3 = self.root / "bancada_v3"
+        if v3.is_dir():
+            self.manifest(v3)
 
 
 def main():

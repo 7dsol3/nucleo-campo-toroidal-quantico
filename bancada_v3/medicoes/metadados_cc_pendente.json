@@ -1,0 +1,36 @@
+{
+  "schema_version": "3.0-CC",
+  "origin": "PENDENTE",
+  "mode": "DC_MAGNETOSTATIC",
+  "experiment_id": null,
+  "operator": null,
+  "acquired_at_utc": null,
+  "git_commit": null,
+  "geometry_as_built_document": null,
+  "model_config_path": "../../nucleo_integral_v2/simulacao/configuracao.json",
+  "fem_results_path": "../fem/outputs/resultados.json",
+  "field_point_m": [0, 0, 0.125],
+  "field_axis": null,
+  "background_drift_absolute_bound_t": null,
+  "receiver_open": null,
+  "capacitors_bypassed": null,
+  "toroid_off": null,
+  "source_boundary_document": null,
+  "on_record": {"origin": "PENDENTE", "sha256": null, "capture_diagnostics_json": null},
+  "background_record": {"origin": "PENDENTE", "sha256": null, "capture_diagnostics_json": null},
+  "acquisition": {"simultaneous": null, "stationary_confirmed": null, "clipping_detected": null},
+  "instruments": [],
+  "channels": {
+    "v_source1_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": 0, "calibration_document": null},
+    "v_series1_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": 0, "calibration_document": null},
+    "v_source2_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": 0, "calibration_document": null},
+    "v_series2_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": 0, "calibration_document": null},
+    "v_load_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": 0, "calibration_document": null},
+    "field_t": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": 0, "calibration_document": null}
+  },
+  "resistors": {
+    "series1": {"nominal_ohm": 10, "measured_ohm": null, "absolute_bound_ohm": null, "calibration_document": null},
+    "series2": {"nominal_ohm": 10, "measured_ohm": null, "absolute_bound_ohm": null, "calibration_document": null}
+  },
+  "note": "SEM ENSAIO REAL. CC exige capacitores desviados, receptor aberto, toroide desligado, correntes estacionárias e fundo separado. origin deve ser EXPERIMENTAL somente para capturas reais ou SYNTHETIC para testes. field_t por sensibilidade nominal não é calibração. phase_bound_deg=0 apenas indica que a grandeza CC não usa correção fasorial; não certifica cadeia CA."
+}

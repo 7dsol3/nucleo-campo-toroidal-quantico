@@ -33,6 +33,8 @@ jobs:
           python-version: '3.12'
       - name: Verificar integridade dos arquivos publicados
         run: python checks/preflight.py
+      - name: Verificar ferramentas da bancada V3
+        run: python checks/verificar_bancada.py --output "$RUNNER_TEMP/bancada-v3.json"
       - name: Preparar e verificar site estatico
         run: python checks/preparar_pages.py --output "$RUNNER_TEMP/nucleo-pages"
       - name: Instalar verificacao de navegador

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1260" viewBox="0 0 1560 1260" role="img" aria-labelledby="title desc">
+<title id="title">Bancada V3, esquema elétrico de ligações AC e PI DC separado</title>
+<desc id="desc">Dois OPA548EVM e ramos C10uF bobina50espiras shunt10ohm; fonte bipolar12V e sangrias4.7ohm; aquisição Pico4824A comum SGND; PI com DAC e ADC apenas DC.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#17324b;font-size:17px}.h{font-size:29px;font-weight:700}.s{font-size:15px}.b{font-weight:700}.wire{fill:none;stroke:#156a91;stroke-width:3}.g{fill:none;stroke:#19844d;stroke-width:3}.r{fill:none;stroke:#b83e44;stroke-width:3}.box{fill:#f4f8fc;stroke:#6b869e;stroke-width:2}.note{fill:#fff1d7;stroke:#d89b29;stroke-width:2}.comp{fill:white;stroke:#17324b;stroke-width:2}.dot{fill:#156a91}</style>
+<rect width="1560" height="1260" fill="#fff"/><text x="30" y="43" class="h">Eletrônica de bancada V3 — conexões para qualificação</text>
+<text x="30" y="73">Projeto clássico. Hardware ainda não montado/ensaiado. Terminais e valores abaixo são requisitos de montagem.</text>
+<rect class="box" x="30" y="100" width="1495" height="220" rx="10"/>
+<text x="50" y="130" class="b">FONTE R&amp;S HMP2030 — CH1/CH2 isolados, cada12.00V/4.8A; midpoint=SGND</text>
+<rect class="comp" x="65" y="155" width="200" height="55"/><text x="82" y="178">CH1+:P12</text><text x="82" y="200">CH1−:SGND</text>
+<rect class="comp" x="65" y="230" width="200" height="55"/><text x="82" y="253">CH2+:SGND</text><text x="82" y="275">CH2−:N12</text>
+<path class="r" d="M265 170H580H1480"/><text x="590" y="159">P12=+12V → AVDD deAMP1/2</text>
+<path class="g" d="M265 197H340V245H1480M265 245H340"/><text x="600" y="235">SGND estrela (retornoGND dosEVM e instrumentos)</text>
+<path class="wire" d="M265 273H1480"/><text x="590" y="301">N12=−12V → AVSS deAMP1/2</text>
+<rect class="comp" x="390" y="185" width="135" height="40"/><text x="399" y="211" class="s">RB+4.7Ω100W</text><path class="r" d="M458 170V185"/><path class="g" d="M458 225V245"/>
+<rect class="comp" x="1120" y="249" width="165" height="20"/><text x="1110" y="302" class="s">RB−4.7Ω100W</text><path class="g" d="M1200 245V249"/><path class="wire" d="M1200 269V273"/>
+<text x="50" y="307" class="s">Cada sangria:≤31.6W, dissipador≤0.8°C/W; corrente mínima2.50A. Qualificar cadaOPA≤1.00A pico antes de operar.</text>
+<rect class="box" x="30" y="345" width="1495" height="435" rx="10"/><text x="50" y="375" class="b">MODO AC — DG1022Z sincronizado, fonte medida emOUT; 2Vrms/1400Hz/0° no primeiro ponto</text>
+<rect class="comp" x="55" y="405" width="190" height="100"/><text x="75" y="435">DGCH1 / HighZ</text><text x="75" y="462">seno offset0V</text><text x="75" y="489" class="s">BNCshell→SGND</text>
+<rect class="comp" x="310" y="405" width="240" height="100"/><text x="327" y="435" class="b">AMP1 OPA548EVM</text><text x="327" y="462">VIN+ → OUT1</text><text x="327" y="488" class="s">divisor½ × ganho2 ≈1</text>
+<path class="wire" d="M245 450H310M550 450H650M680 450H760M920 450H1000M1130 450H1370"/>
+<path class="wire" d="M650 422V478M680 422V478"/><text x="612" y="410" class="s">C1 10µF MKP</text>
+<rect class="comp" x="760" y="425" width="160" height="50"/><text x="773" y="455">L1 50espiras</text>
+<rect class="comp" x="1000" y="425" width="130" height="50"/><text x="1012" y="455">R1 10Ω NH</text>
+<circle class="dot" cx="585" cy="450" r="5"/><circle class="dot" cx="970" cy="450" r="5"/><text x="558" y="520" class="s">A:OUT1</text><path class="wire" d="M585 450V498"/><text x="943" y="520" class="s">B:SH1</text><path class="wire" d="M970 450V498"/>
+<path class="g" d="M1370 450V740"/>
+<rect class="comp" x="55" y="560" width="190" height="100"/><text x="75" y="590">DGCH2 / faseφ</text><text x="75" y="617">mesmo relógio/f</text><text x="75" y="644" class="s">BNCshell→SGND</text>
+<rect class="comp" x="310" y="560" width="240" height="100"/><text x="327" y="590" class="b">AMP2 OPA548EVM</text><text x="327" y="617">VIN+ → OUT2</text><text x="327" y="643" class="s">Rcl82k, ≈0.744Apico</text>
+<path class="wire" d="M245 605H310M550 605H650M680 605H760M920 605H1000M1130 605H1370"/>
+<path class="wire" d="M650 577V633M680 577V633"/><text x="612" y="565" class="s">C2 10µF MKP</text>
+<rect class="comp" x="760" y="580" width="160" height="50"/><text x="773" y="610">L2 50espiras</text>
+<rect class="comp" x="1000" y="580" width="130" height="50"/><text x="1012" y="610">R2 10Ω NH</text>
+<circle class="dot" cx="585" cy="605" r="5"/><circle class="dot" cx="970" cy="605" r="5"/><path class="wire" d="M585 605V652M970 605V652"/><text x="558" y="674" class="s">C:OUT2</text><text x="943" y="674" class="s">D:SH2</text>
+<rect class="comp" x="55" y="702" width="215" height="48"/><text x="66" y="732">RX20espiras → E:RX</text><rect class="comp" x="340" y="702" width="165" height="48"/><text x="350" y="732">Rload100Ω</text><path class="wire" d="M270 720H340"/><path class="g" d="M505 726H1370M65 750V760H1370V726"/><text x="1392" y="737" class="b">SGND</text>
+<text x="565" y="713" class="s">Pico4824A: A=OUT1,B=SH1,C=OUT2,D=SH2,E=RX.</text><text x="565" y="739" class="s">BNCshells apenasSGND; Kelvin nosR10Ω. Não unirSH1/2 às terras.</text><text x="565" y="765" class="s">Rshunt precisa calibração de impedância/fase; I=VSH/R só na banda qualificada.</text>
+<rect class="note" x="30" y="805" width="730" height="200" rx="10"/><text x="50" y="837" class="b">PARADA MANUAL INDEPENDENTE DO SOFTWARE</text>
+<text x="50" y="865">ComutadorRUN/STOP de2polos isolados: emSTOP, fechar</text><text x="50" y="893">E/S1→V−1 e E/S2→V−2. EmRUN ambos contatos abertos.</text><text x="50" y="921">Não conectarE/S aGPIO ouSGND. Depois desabilitarPSU.</text><text x="50" y="949">Parada manual não certificada comoE-stop com falha segura.</text><text x="50" y="977">DissipadoresEVM podem estar emV−; isolar chassis/terra.</text>
+<rect class="box" x="785" y="805" width="740" height="200" rx="10"/><text x="805" y="837" class="b">PI DC EXCLUSIVO — reconfigurar somente desligado</text>
+<text x="805" y="865">PicoGP4(SDA)/GP5(SCL) → MCP4725VDD3.3V.</text><text x="805" y="893">DACOUT →100Ω→VIN+AMP1. BypassC1; DG/AMP2/RXfora.</text><text x="805" y="921">SH1 →10k→ADCnode→10k→SGND; ADCnode→GP26.</text><text x="805" y="949">10nF e clampsSchottky noADC; ratio0.5; sóDC.</text><text x="805" y="977">Alvo0.15A / teto0.20A; DAC≤2.5V; hold-to-runGP15.</text>
+<rect class="box" x="30" y="1030" width="1495" height="105" rx="10"/><text x="50" y="1060" class="b">AUXILIAR TOROIDALDC separado</text><text x="50" y="1087">HMPCH3 +3.30V/0.20A →TAUX→22Ω5W→48espiras→CH3−. 1N5819 paralelo aoenrolamento, catodo positivo.</text><text x="50" y="1115">Corrente≤0.150A nominal. ParaAC é necessário terceirodriver; esse circuitoDC não deve ser usado com fonteAC.</text>
+<text x="30" y="1172" class="b">Limites propostos:100–5000Hz;4.70Vrms recomendado;5Vrms condicional;≤0.50Arms medidos porramo.</text>
+<text x="30" y="1201">Pnúcleo=mean(OUT1·SH1/R1)+mean(OUT2·SH2/R2); Pcarga=mean(RX²/Rload). Incluir os sinais negativos de potência.</text>
+<text x="30" y="1230">Ver LIGACOES.md, QUALIFICACAO.md, FONTES.md e relatório de cálculos. Desenho de redes; não é arquivo dePCB fabricada.</text>
+</svg>

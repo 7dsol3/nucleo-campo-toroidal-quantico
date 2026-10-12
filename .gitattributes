@@ -1,1 +1,9 @@
 * -text
+*.pdf binary
+*.docx binary
+*.zip binary
+*.png binary
+*.npz binary
+*.vtu binary
+# Matplotlib emits spaces inside generated SVG path data; preserve its bytes.
+bancada_v3/fem/outputs/*.svg whitespace=-trailing-space

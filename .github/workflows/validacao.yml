@@ -52,3 +52,14 @@ jobs:
         run: |
           python checks/preparar_pages.py --output "$RUNNER_TEMP/nucleo-pages"
           python checks/verificar_site.py --diretorio "$RUNNER_TEMP/nucleo-pages" --output "$RUNNER_TEMP/site-pages.json"
+
+  bancada_v3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dimensionamento, FEM, medicoes, aquisicao e controle
+        run: python checks/verificar_bancada.py --output "$RUNNER_TEMP/bancada-v3.json"

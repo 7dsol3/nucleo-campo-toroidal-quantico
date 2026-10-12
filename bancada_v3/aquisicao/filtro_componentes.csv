@@ -1,0 +1,16 @@
+item,reference_prefix,description,value_or_part,tolerance,rating,package,quantity_base_5ch,quantity_optional_field_2ch,quantity_total_7ch,quantity_optional_temperature_1ch,quantity_total_8ch,connection,note,source
+U,U1..U8,Quad operational amplifier,OPA4277PA,See exact grade datasheet,+/-12 V supply,PDIP-14,5,2,7,1,8,Four unity followers per signal path,Proposed part not fabricated or calibrated,https://www.ti.com/lit/gpn/OPA4277
+R,Rn1..Rn4,RC stage resistor,3160 ohm,1 percent,0.125 W minimum,Metal film through hole,20,8,28,4,32,Series before each buffered node,Four per channel measure actual values,Calculated design
+C,Cn1..Cn4,RC stage capacitor,1 nF,1 percent,50 V minimum,C0G NP0 ceramic,20,8,28,4,32,Each RC node to SGND,Four per channel measure actual values,Calculated design
+ROUT,Rn5,Output cable isolation resistor,47 ohm,1 percent,0.125 W minimum,Metal film through hole,5,2,7,1,8,Fourth follower output to BNC center,Feedback taken before this resistor,Calculated design
+CP,Cn5,Positive rail local bypass,100 nF,10 percent,50 V minimum,X7R ceramic,5,2,7,1,8,Pin4 to SGND,Place directly at supply pin,https://www.ti.com/lit/gpn/OPA4277
+CN,Cn6,Negative rail local bypass,100 nF,10 percent,50 V minimum,X7R ceramic,5,2,7,1,8,Pin11 to SGND,Nonpolar ceramic directly at supply pin,https://www.ti.com/lit/gpn/OPA4277
+BP,Cn7,Positive rail local bulk,10 uF,20 percent,25 V minimum,Low ESR electrolytic,5,2,7,1,8,+12 V to SGND,Positive terminal at +12 V,Calculated design
+BN,Cn8,Negative rail local bulk,10 uF,20 percent,25 V minimum,Low ESR electrolytic,5,2,7,1,8,SGND to -12 V,Positive terminal at SGND and negative at -12 V,Calculated design
+SOCKET,XU1..XU8,Optional machined DIP socket,14 pin,Not applicable,Signal low leakage,DIP-14 socket,5,2,7,1,8,Between U and board,May omit with direct soldering,Mechanical choice
+JIN,Jn1,Input connector,BNC female,Not applicable,Signal low voltage,Panel or PCB mount,5,2,7,1,8,Center at input before first resistor shield SGND,One input per channel,Mechanical choice
+JOUT,Jn2,ADC output connector,BNC female,Not applicable,Signal low voltage,Panel or PCB mount,5,2,7,1,8,Center after 47 ohm shield SGND,No 50 ohm termination use ADC 1 Mohm,Mechanical choice
+JPWR,Jn3,Power connector,3 pin keyed terminal,Not applicable,+12 V SGND -12 V,2.54 or 3.5 mm terminal,5,2,7,1,8,Rails and common star ground,Pin order labeled on actual board verify before power,Mechanical choice
+PCB,PCB1..PCB8,Short trace analog carrier,One board per quad,Not applicable,Low voltage analog,Custom carrier not yet routed,5,2,7,1,8,RC and decoupling components per diagram,No validated PCB layout or Gerber supplied,Proposed construction
+CABLEIN,Wn1,Short shielded input lead,BNC cable,Measured capacitance,Low voltage,As installed,5,2,7,1,8,Measured node to filter input,Record length capacitance and ground path,Measured procurement required
+CABLEOUT,Wn2,Short shielded output lead,BNC cable,Measured capacitance,Low voltage,As installed,5,2,7,1,8,Filter output to ADC,100 pF combined cable ADC is calculation assumption only,Measured procurement required

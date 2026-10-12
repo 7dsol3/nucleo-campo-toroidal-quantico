@@ -1,0 +1,45 @@
+{
+  "origin": "SOFTWARE_VERIFICATION_NOT_EXPERIMENTAL",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "dimensionamento",
+      "passed": true
+    },
+    {
+      "name": "filtro",
+      "passed": true
+    },
+    {
+      "name": "fem_artefatos",
+      "passed": true
+    },
+    {
+      "name": "medicoes",
+      "passed": true,
+      "unit_tests": 30
+    },
+    {
+      "name": "medicoes_cc",
+      "passed": true,
+      "unit_tests": 11
+    },
+    {
+      "name": "captura",
+      "passed": true,
+      "unit_tests": 11
+    },
+    {
+      "name": "controle",
+      "passed": true,
+      "unit_tests": 6
+    },
+    {
+      "name": "firmware_syntax_only",
+      "passed": true
+    }
+  ],
+  "physical_capture_performed": false,
+  "firmware_hardware_tested": false,
+  "scope": "Dimensionamento, artefatos FEM calculados e testes sinteticos de algoritmos. Nao valida montagem, calibracao ou hardware."
+}

@@ -1,0 +1,35 @@
+ref,quantity,manufacturer,part_or_model,value_or_rating,purpose,procurement_status,official_reference
+GEN,1,RIGOL,DG1022Z,2 coherent channels 25MHz,sine reference 100..5000Hz high-Z display,selected not purchased,https://cdn-ow.rigol.com/dam/global/downloads/brochures/en/data-sheet/waveform-generators/DG1000Z_DataSheet_EN.pdf
+PSU,1,Rohde & Schwarz,HMP2030,3x32V5A 80W perchannel 188Wtotal,CH1CH2 bipolar12V4.8A CH3aux3.3V0.2A,selected not purchased,https://www.rohde-schwarz.com/tw/products/test-and-measurement/dc-power-supplies/rs-hmp2000-power-supply-series_63493-43468.html
+AMP1 AMP2,2,Texas Instruments,OPA548EVM,OPA548 power amplifier,noninverting total gain approximately1 stock divider preserved,selected stock not guaranteed,https://www.ti.com/tool/OPA548EVM
+RCL1 RCL2,2,Yageo or equivalent,MFR-25FBF52-82K,82kohm1%0.25W,replace EVM14.7k current limiter; qualify0.72..1Apeak,exact footprint check before purchase,https://www.ti.com/lit/ds/symlink/opa548.pdf
+C1 C2,2,TDK,B32754C2106K000,10uF10%250Vac MKP 27.5mm pitch,series resonant capacitors AC suitable,selected not purchased,https://product.tdk.com/en/search/capacitor/film/ac-filtering/info?part_no=B32754C2106K000
+R1 R2,2,Vishay Dale,NH02510R00FE02,10ohm1%25W noninductive winding,series load and Kelvin current shunt; impedance calibration needed,part number built per manufacturer coding confirm quote,https://www.vishay.com/docs/30201/rhnh.pdf
+RBPLUS RBMINUS,2,Vishay Dale,RH1004R700FE01,4.7ohm1%100W chassis,rail bleeders must stay connected during operation,part number built per manufacturer coding confirm quote,https://www.vishay.com/docs/30201/rhnh.pdf
+RLOAD,1,Vishay or equivalent,metal film calibrated100ohm,100ohm0.1%0.25W,receiver load measure exact resistance,requirements fixed manufacturer SKU may substitute,https://www.vishay.com/en/resistors/fixed-resistors/
+DAQ,1,Pico Technology,PicoScope4824A,8channels12bit common-ground BNC,simultaneous5channelcapture 1MS/s target,selected not purchased,https://www.picotech.com/oscilloscope/4000/picoscope-4000-specifications
+HSAMP1 HSAMP2,2,qualified heatsink assembly,EVM existing or replacement qualified,thetaSA<=3C/W per amplifier plus interface<=0.5C/W,OPA cooling keep sink<60C; isolate live negative tab,performance requirement not certified existing EVM,https://www.ti.com/lit/pdf/SBOU132
+HSRBPLUS HSRBMINUS,2,qualified heatsink assembly,separate forced-air or large passive,thetaSA<=0.8C/W each and mounting perRH100,remove31.6W per bleed chassis surface<70C,performance requirement must verify mount orientation,https://www.vishay.com/docs/30201/rhnh.pdf
+STOP,1,industrial selector,2pole RUN STOP maintained,isolated contacts30VDC1A STOPclosed,eachpoleE/S to itsownVminus; manual stop not certifiedEStop,contact logic specified validate continuity,https://www.ti.com/lit/ds/symlink/opa548.pdf
+PI_MCU,1,Raspberry Pi,Pico RP2040,3.3Vlogic GP26ADC GP4SDA GP5SCL,PI DC controller separately qualified,selected not purchased,https://pip.raspberrypi.com/categories/610-raspberry-pi-pico
+PI_DAC,1,Adafruit,MCP4725 breakout product935,12bitI2C powered3.3V addresscheck0x60,DAC analog output PI DC,selected check A0 address/pullups,https://www.adafruit.com/product/935
+RDAC,1,metal film,100ohm1%0.25W,100ohm,series DAC input protection calibrate total gain,requirements fixed,https://ww1.microchip.com/downloads/en/DeviceDoc/MCP4725-Data-Sheet-20002039E.pdf
+RADC_TOP RADC_BOTTOM,2,metal film,10kohm0.1%0.25W,10kohm,DC shunt divider0.5 calibrate ratio,requirements fixed,https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
+CADC,1,ceramic C0G or film,10nF50V,10nF,ADC low-pass tau50us,requirements fixed,https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
+CDAC,1,ceramic X7R,100nF16V,100nF,DAC bypass close VDD GND,requirements fixed,https://ww1.microchip.com/downloads/en/DeviceDoc/MCP4725-Data-Sheet-20002039E.pdf
+DADC_LO DADC_HI,2,Nexperia,BAT54,Schottky30V100mA,clampsADC toSGND and3.3V only poweredPico DCmode,selected verify footprint/cathode,https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
+PI_HOLD,1,momentary pushbutton,NO contact,GP15 toGND hold-to-run,software enable only independentSTOP still required,requirements fixed,https://pip.raspberrypi.com/categories/610-raspberry-pi-pico
+I2C_PULLUP,2,metal film,4.7kohm,4.7kohm,SDA/SCLto3.3V only if absent on DACmodule,optional inspect module,https://ww1.microchip.com/downloads/en/DeviceDoc/MCP4725-Data-Sheet-20002039E.pdf
+RAUX,1,noninductive power resistor,22ohm5W1%,22ohm5W,auxiliary toroid DC current limit,requirements fixed,https://www.vishay.com/en/resistors/fixed-resistors/
+DAUX,1,Vishay,1N5819,40V1A Schottky,flyback diode toroidDC cathode onpositivecoil side,selected not purchased,https://www.vishay.com/docs/88525/1n5817.pdf
+TAUX,1,maintained switch,30VDC1A,open off,auxiliaryDC enable,requirements fixed,https://www.rohde-schwarz.com/tw/products/test-and-measurement/dc-power-supplies/rs-hmp2000-power-supply-series_63493-43468.html
+BNC_SIGNAL,7,lab-rated cables,BNC terminated insulated wiring,1m max sense cable; source0.5m max,2generator5capturepaths commonSGND,requirements fixed,https://www.picotech.com/oscilloscope/4000/picoscope-4000-specifications
+WIRE_POWER,1,insulated copper wire,1.5mm2 rails andbleeds 0.75mm2coil,>=30V10A connectors protected,star returns and twistedpairs,requirements fixed,https://www.ti.com/lit/pdf/SBOU132
+TEMP,1,calibrated contact thermometer,multichannel K-type or equivalent,uncertainty<=2C near20..80C,OPAheatsinks coils andbleeds thermal qualification,requirements fixed no hardware selected,https://www.ti.com/lit/ds/symlink/opa548.pdf
+R_DUMMY,2,noninductive power resistor,10ohm25W,10ohm25W,dummyload for amplifierqualification before coils,requirements fixed,https://www.vishay.com/docs/30201/rhnh.pdf
+BFIELD,1,Texas Instruments,DRV425EVM,fluxgate1axis DCAC default100ohm shunt,field acquisition PicoF/G calibrateDCandAC,selected not purchased,https://www.ti.com/tool/DRV425EVM
+DC2_POTS,2,Bourns,3590S-2-103L,10kohm10turn,DC2 manual0.15Aeach withbothamplifiers andCsbypassed,selected verifypinout,https://www.bourns.com/docs/product-datasheets/3590.pdf
+DC2_WIPER_PULLDOWN,2,metal film,100kohm1%0.25W,100kohm,wiperGND bias requirescalibration underload,requirements fixed,https://www.ti.com/lit/pdf/SBOU132
+TEMP_H,1,Texas Instruments,LM35DZ/NOPB,TO92 0..100C10mVperC,temp channelH±1V calibratecontact,selected not purchased,https://www.ti.com/lit/ds/symlink/lm35.pdf
+TEMP_RISO,1,metal film,100ohm1%0.25W,100ohm,isolate capacitive cable loadnearLM35,requirements fixed,https://www.ti.com/lit/ds/symlink/lm35.pdf
+TEMP_BYPASS,1,ceramicX7R,100nF16V,100nF,LM35VDDGND bypass,requirements fixed,https://www.ti.com/lit/ds/symlink/lm35.pdf

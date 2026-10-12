@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+<title id="title">Campo axial: FEM 3D e referência independente</title>
+<desc id="desc">Duas bobinas de 50 espiras, raio 100 mm, corrente contínua 0,150 A cada. Eixo local em milímetros e campo Bz em microtesla.</desc>
+<rect width="960" height="600" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111827">
+<text x="80" y="28" font-size="21" font-weight="bold">Campo axial — FEM 3D P1 e referência independente</text>
+<text x="80" y="50" font-size="14">2 × 50 espiras; raio 100 mm; corrente CC 0,150 A em cada bobina</text>
+<path d="M 80.0 65 V 420" stroke="#e5e7eb"/>
+<text x="80.0" y="444" text-anchor="middle" font-size="13">-120</text>
+<path d="M 186.2 65 V 420" stroke="#e5e7eb"/>
+<text x="186.2" y="444" text-anchor="middle" font-size="13">-90</text>
+<path d="M 292.5 65 V 420" stroke="#e5e7eb"/>
+<text x="292.5" y="444" text-anchor="middle" font-size="13">-60</text>
+<path d="M 398.8 65 V 420" stroke="#e5e7eb"/>
+<text x="398.8" y="444" text-anchor="middle" font-size="13">-30</text>
+<path d="M 505.0 65 V 420" stroke="#e5e7eb"/>
+<text x="505.0" y="444" text-anchor="middle" font-size="13">0</text>
+<path d="M 611.2 65 V 420" stroke="#e5e7eb"/>
+<text x="611.2" y="444" text-anchor="middle" font-size="13">30</text>
+<path d="M 717.5 65 V 420" stroke="#e5e7eb"/>
+<text x="717.5" y="444" text-anchor="middle" font-size="13">60</text>
+<path d="M 823.8 65 V 420" stroke="#e5e7eb"/>
+<text x="823.8" y="444" text-anchor="middle" font-size="13">90</text>
+<path d="M 930.0 65 V 420" stroke="#e5e7eb"/>
+<text x="930.0" y="444" text-anchor="middle" font-size="13">120</text>
+<path d="M 80 420.0 H 930" stroke="#e5e7eb"/>
+<text x="66" y="424.0" text-anchor="end" font-size="13">0</text>
+<path d="M 80 369.3 H 930" stroke="#e5e7eb"/>
+<text x="66" y="373.3" text-anchor="end" font-size="13">10</text>
+<path d="M 80 318.6 H 930" stroke="#e5e7eb"/>
+<text x="66" y="322.6" text-anchor="end" font-size="13">20</text>
+<path d="M 80 267.9 H 930" stroke="#e5e7eb"/>
+<text x="66" y="271.9" text-anchor="end" font-size="13">30</text>
+<path d="M 80 217.1 H 930" stroke="#e5e7eb"/>
+<text x="66" y="221.1" text-anchor="end" font-size="13">40</text>
+<path d="M 80 166.4 H 930" stroke="#e5e7eb"/>
+<text x="66" y="170.4" text-anchor="end" font-size="13">50</text>
+<path d="M 80 115.7 H 930" stroke="#e5e7eb"/>
+<text x="66" y="119.7" text-anchor="end" font-size="13">60</text>
+<path d="M 80 65.0 H 930" stroke="#e5e7eb"/>
+<text x="66" y="69.0" text-anchor="end" font-size="13">70</text>
+<path d="M 80 65 V 420 H 930" fill="none" stroke="#111827"/>
+<text x="505" y="468" text-anchor="middle" font-size="15">z local (mm), origem no meio da bancada</text>
+<text x="24" y="250" transform="rotate(-90 24 250)" text-anchor="middle" font-size="15">Bz (μT)</text>
+<polyline points="80.00,241.88 97.71,230.00 115.42,217.83 133.12,205.50 150.83,193.17 168.54,181.04 186.25,169.31 203.96,158.20 221.67,147.92 239.38,138.66 257.08,130.61 274.79,123.88 292.50,118.55 310.21,114.62 327.92,112.02 345.62,110.65 363.33,110.32 381.04,110.82 398.75,111.92 416.46,113.36 434.17,114.92 451.88,116.37 469.58,117.54 487.29,118.30 505.00,118.56 522.71,118.30 540.42,117.54 558.12,116.37 575.83,114.92 593.54,113.36 611.25,111.92 628.96,110.82 646.67,110.32 664.38,110.65 682.08,112.02 699.79,114.62 717.50,118.55 735.21,123.88 752.92,130.61 770.62,138.66 788.33,147.92 806.04,158.20 823.75,169.31 841.46,181.04 859.17,193.17 876.88,205.50 894.58,217.83 912.29,230.00 930.00,241.88" stroke="#111827" stroke-width="2.5" fill="none"/>
+<path d="M 90 500 h 28" stroke="#111827" stroke-width="3"/>
+<text x="127" y="505" font-size="14">Referência: pacote contínuo</text>
+<polyline points="80.00,250.00 97.71,239.03 115.42,229.38 133.12,220.28 150.83,208.70 168.54,196.96 186.25,182.98 203.96,170.66 221.67,161.71 239.38,152.82 257.08,143.93 274.79,137.18 292.50,132.14 310.21,127.10 327.92,122.20 345.62,121.95 363.33,122.31 381.04,124.02 398.75,125.25 416.46,126.52 434.17,127.81 451.88,128.63 469.58,129.25 487.29,129.87 505.00,130.49 522.71,129.50 540.42,128.52 558.12,127.54 575.83,126.55 593.54,125.57 611.25,124.42 628.96,123.50 646.67,123.30 664.38,123.07 682.08,123.98 699.79,127.34 717.50,130.38 735.21,134.30 752.92,143.53 770.62,152.02 788.33,160.07 806.04,172.04 823.75,184.36 841.46,196.54 859.17,207.66 876.88,218.20 894.58,229.23 912.29,239.63 930.00,249.91" stroke="#b45309" stroke-width="2.5" fill="none"/>
+<path d="M 520 500 h 28" stroke="#b45309" stroke-width="3"/>
+<text x="557" y="505" font-size="14">FEM grossa, caixa 0,4 m</text>
+<polyline points="80.00,254.71 97.71,243.13 115.42,228.49 133.12,215.59 150.83,203.36 168.54,189.97 186.25,178.69 203.96,168.23 221.67,158.97 239.38,150.13 257.08,141.19 274.79,133.82 292.50,128.52 310.21,124.63 327.92,122.24 345.62,121.09 363.33,120.84 381.04,121.52 398.75,122.34 416.46,123.69 434.17,125.27 451.88,126.96 469.58,127.75 487.29,128.41 505.00,129.07 522.71,128.56 540.42,128.05 558.12,127.17 575.83,125.54 593.54,123.92 611.25,122.58 628.96,121.64 646.67,121.41 664.38,121.66 682.08,122.42 699.79,125.95 717.50,130.56 735.21,135.43 752.92,140.26 770.62,148.65 788.33,158.62 806.04,169.39 823.75,180.20 841.46,192.82 859.17,204.15 876.88,216.23 894.58,229.42 912.29,241.99 930.00,253.62" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M 90 525 h 28" stroke="#2563eb" stroke-width="3"/>
+<text x="127" y="530" font-size="14">FEM fina, caixa 0,4 m</text>
+<polyline points="80.00,251.03 97.71,238.41 115.42,226.49 133.12,216.28 150.83,204.94 168.54,192.87 186.25,179.28 203.96,168.48 221.67,156.93 239.38,147.30 257.08,139.16 274.79,132.05 292.50,127.19 310.21,123.15 327.92,121.11 345.62,119.43 363.33,119.63 381.04,119.94 398.75,120.79 416.46,122.09 434.17,123.65 451.88,125.27 469.58,126.11 487.29,126.55 505.00,126.98 522.71,126.48 540.42,125.97 558.12,125.46 575.83,124.04 593.54,122.16 611.25,120.44 628.96,119.55 646.67,118.65 664.38,120.00 682.08,120.11 699.79,123.43 717.50,127.47 735.21,133.36 752.92,140.94 770.62,149.60 788.33,158.42 806.04,166.90 823.75,176.94 841.46,189.46 859.17,201.53 876.88,212.86 894.58,226.05 912.29,240.84 930.00,252.37" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M 520 525 h 28" stroke="#15803d" stroke-width="3"/>
+<text x="557" y="530" font-size="14">FEM fina, caixa 0,6 m</text>
+<text x="80" y="575" font-size="13">Pontos FEM usam recuperação nodal por volume. Gráfico calculado; não representa medição física.</text>
+</g></svg>

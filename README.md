@@ -4,6 +4,8 @@ Projeto de bancada eletromagnética com laboratório 3D offline, simulação rep
 
 **Estado do projeto:** desenho e modelo clássico verificados digitalmente; protótipo físico ainda não fabricado nem medido. O nome preserva a referência artística. O código calcula eletromagnetismo clássico e não demonstra energia do vácuo, coerência quântica, propulsão sem reação, wormholes ou controle do espaço-tempo.
 
+**Entrega V3:** [bancada instrumentada, FEM e aquisição](bancada_v3/README.md), com [manual PDF](bancada_v3/Manual_Bancada_V3.pdf), [circuito](bancada_v3/eletronica/esquema.svg), [componentes](bancada_v3/eletronica/BOM.csv), [FEM 3D executado](bancada_v3/fem/README.md), adaptador PicoScope, análise quantitativa e firmware PI CC. [Abrir a V3 online](https://7dsol3.github.io/nucleo-campo-toroidal-quantico/bancada_v3/) ou [baixar pacote completo](artifacts/Nucleo_Bancada_V3.zip). Os cálculos e testes foram executados; hardware, calibração e ensaios reais permanecem pendentes.
+
 ![Prévia do laboratório 3D integral](nucleo_integral_v2/Previa_Laboratorio.png)
 
 ## Começar pelo laboratório 3D

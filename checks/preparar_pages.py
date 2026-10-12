@@ -15,6 +15,7 @@ from urllib.parse import unquote, urlsplit
 
 
 PUBLIC_DIRECTORIES = (
+    "bancada_v3",
     "nucleo_integral_v2",
     "nucleo_toroidal",
     "references",
@@ -31,7 +32,7 @@ SKIP_DIRECTORIES = {"__pycache__", "node_modules", "venv", "env"}
 PUBLIC_EXTENSIONS = {
     ".html", ".css", ".js", ".json", ".csv", ".md", ".txt",
     ".pdf", ".docx", ".png", ".svg", ".obj", ".mtl", ".stl",
-    ".scad", ".py", ".zip",
+    ".scad", ".py", ".zip", ".vtu", ".npz",
 }
 PRIVATE_NAMES = {
     "credentials.json", "credential.json", "secrets.json", "secret.json",

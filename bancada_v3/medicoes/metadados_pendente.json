@@ -1,0 +1,49 @@
+{
+  "schema_version": "3.0",
+  "origin": "PENDENTE",
+  "experiment_id": null,
+  "operator": null,
+  "acquired_at_utc": null,
+  "git_commit": null,
+  "geometry_as_built_document": null,
+  "model_config_path": "../../nucleo_integral_v2/simulacao/configuracao.json",
+  "frequency_hz": null,
+  "frequency_absolute_bound_hz": null,
+  "window_cycles": null,
+  "receiver_enabled": true,
+  "source_boundary": {
+    "location": "PENDENTE: confirmar saídas OPA548EVM antes de C+bobina+Rserie, cada tensão contra SGND; inclui shunts de retorno",
+    "includes_series_resistors": true,
+    "positive_current": "source_to_circuit",
+    "excludes": "Consumo DC dos amplificadores, gerador, DAQ e demais equipamentos; isto não mede eficiência da tomada"
+  },
+  "acquisition": {
+    "instrument": null,
+    "capture_diagnostics_json": null,
+    "simultaneous": null,
+    "max_channel_skew_s": null,
+    "sample_clock_relative_bound": null,
+    "antialias_cutoff_hz": null,
+    "antialias_document": null,
+    "clipping_detected": null,
+    "stationary_confirmed": null
+  },
+  "instruments": [],
+  "channels": {
+    "v_source1_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": null, "bandwidth_hz": null, "calibration_document": null},
+    "v_series1_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": null, "bandwidth_hz": null, "calibration_document": null},
+    "v_source2_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": null, "bandwidth_hz": null, "calibration_document": null},
+    "v_series2_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": null, "bandwidth_hz": null, "calibration_document": null},
+    "v_load_v": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": null, "bandwidth_hz": null, "calibration_document": null},
+    "field_t": {"gain": 1, "offset": 0, "gain_relative_bound": null, "offset_native_bound": null, "noise_absolute_bound": null, "phase_bound_deg": null, "bandwidth_hz": null, "calibration_document": null}
+  },
+  "resistors": {
+    "series1": {"nominal_ohm": 10, "measured_ohm": null, "absolute_bound_ohm": null, "calibration_document": null},
+    "series2": {"nominal_ohm": 10, "measured_ohm": null, "absolute_bound_ohm": null, "calibration_document": null},
+    "load": {"nominal_ohm": 100, "measured_ohm": null, "absolute_bound_ohm": null, "calibration_document": null}
+  },
+  "temperature_sensor": {"model": null, "serial": null, "absolute_bound_c": null, "calibration_document": null},
+  "field_measurement": {"axis": null, "location": null, "background_record": null},
+  "baseline_records": [],
+  "note": "TEMPLATE SEM MEDIÇÕES. Gain=1 e offset=0 apenas convenção inicial, não calibração. Preencha com evidência real; nunca mude origin para EXPERIMENTAL para dados simulados. SYNTHETIC identifica testes matemáticos. Não há nenhum resultado experimental neste arquivo."
+}

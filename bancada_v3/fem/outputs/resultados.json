@@ -1,0 +1,279 @@
+{
+  "schema": "fem-v3-1",
+  "method": "3D tetrahedral P1 Galerkin vector Poisson",
+  "physics": "homogeneous magnetostatics with prescribed DC winding current",
+  "current_A_each": 0.15,
+  "turns_each": 50,
+  "source_density_A_m2": 123966.94214876034,
+  "software": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "gmsh": "4.15.2",
+    "meshio": "5.3.5"
+  },
+  "manufactured": [
+    {
+      "mesh_h_m": 0.24,
+      "nodes": 237,
+      "tetrahedra": 733,
+      "relative_L2_error": 0.14789182686885013,
+      "free_nodes": 34,
+      "dirichlet_nodes": 203,
+      "cg_iterations_xyz": [
+        22,
+        0,
+        0
+      ],
+      "relative_free_residual": 7.533830296333942e-11,
+      "matrix_symmetry_max_abs": 1.1102230246251565e-16,
+      "minimum_stiffness_diagonal": 1.2234620751154544
+    },
+    {
+      "mesh_h_m": 0.1,
+      "nodes": 1195,
+      "tetrahedra": 4931,
+      "relative_L2_error": 0.04178934009464681,
+      "free_nodes": 466,
+      "dirichlet_nodes": 729,
+      "cg_iterations_xyz": [
+        43,
+        0,
+        0
+      ],
+      "relative_free_residual": 5.684652639633883e-11,
+      "matrix_symmetry_max_abs": 5.551115123125783e-17,
+      "minimum_stiffness_diagonal": 0.5140707708317007
+    }
+  ],
+  "cases": [
+    {
+      "name": "coarse_box040",
+      "domain_half_extent_m": 0.4,
+      "coil_mesh_h_m": 0.004,
+      "central_mesh_h_m": 0.018,
+      "far_mesh_h_m": 0.08,
+      "nodes": 10494,
+      "tetrahedra": 60393,
+      "winding_tetrahedra": 9402,
+      "center_Bz_T": 5.7087286805530535e-05,
+      "center_reference_pack_T": 5.943856605772173e-05,
+      "center_reference_v2_T": 5.943862832018256e-05,
+      "axis_max_relative_error": 0.06891130877829366,
+      "axis_rms_relative_error": 0.04718099835764042,
+      "off_axis_max_relative_vector_error": 0.12542910146296288,
+      "off_axis_rms_relative_vector_error": 0.054970397785066294,
+      "center_relative_error": 0.03955814226587884,
+      "winding_volume_relative_error": 1.1590967807340036e-05,
+      "gauge_divA_over_curlA_L2": 0.13385232038555797,
+      "magnetic_energy_J": 2.2577765510454496e-05,
+      "gradient_energy_with_gauge_J": 2.298227877447568e-05,
+      "half_source_A_work_J": 2.298227877447568e-05,
+      "weak_energy_relative_balance": 0.0,
+      "elapsed_s": 1.3925591000006534,
+      "free_nodes": 9757,
+      "dirichlet_nodes": 737,
+      "cg_iterations_xyz": [
+        165,
+        164,
+        0
+      ],
+      "relative_free_residual": 8.47007151514531e-11,
+      "matrix_symmetry_max_abs": 5.551115123125783e-17,
+      "minimum_stiffness_diagonal": 0.018100326167901495
+    },
+    {
+      "name": "fine_box040",
+      "domain_half_extent_m": 0.4,
+      "coil_mesh_h_m": 0.0025,
+      "central_mesh_h_m": 0.01,
+      "far_mesh_h_m": 0.08,
+      "nodes": 33336,
+      "tetrahedra": 200346,
+      "winding_tetrahedra": 25845,
+      "center_Bz_T": 5.7365796267911034e-05,
+      "center_reference_pack_T": 5.943856605772173e-05,
+      "center_reference_v2_T": 5.943862832018256e-05,
+      "axis_max_relative_error": 0.07204330803929127,
+      "axis_rms_relative_error": 0.04166087491333439,
+      "off_axis_max_relative_vector_error": 0.05714546145202604,
+      "off_axis_rms_relative_vector_error": 0.04102479457068992,
+      "center_relative_error": 0.03487247299670382,
+      "winding_volume_relative_error": -6.6079762968129785e-06,
+      "gauge_divA_over_curlA_L2": 0.10682207223045137,
+      "magnetic_energy_J": 2.4050337108132423e-05,
+      "gradient_energy_with_gauge_J": 2.4324774425388572e-05,
+      "half_source_A_work_J": 2.4324774425388566e-05,
+      "weak_energy_relative_balance": 2.220446049250313e-16,
+      "elapsed_s": 5.33469039999909,
+      "free_nodes": 32598,
+      "dirichlet_nodes": 738,
+      "cg_iterations_xyz": [
+        239,
+        240,
+        0
+      ],
+      "relative_free_residual": 8.75256147433247e-11,
+      "matrix_symmetry_max_abs": 5.551115123125783e-17,
+      "minimum_stiffness_diagonal": 0.009964292411470104
+    },
+    {
+      "name": "fine_box060",
+      "domain_half_extent_m": 0.6,
+      "coil_mesh_h_m": 0.0025,
+      "central_mesh_h_m": 0.01,
+      "far_mesh_h_m": 0.1,
+      "nodes": 33000,
+      "tetrahedra": 196661,
+      "winding_tetrahedra": 25627,
+      "center_Bz_T": 5.77778804314748e-05,
+      "center_reference_pack_T": 5.943856605772173e-05,
+      "center_reference_v2_T": 5.943862832018256e-05,
+      "axis_max_relative_error": 0.05888642684082801,
+      "axis_rms_relative_error": 0.03522908793424123,
+      "off_axis_max_relative_vector_error": 0.05652711310873778,
+      "off_axis_rms_relative_vector_error": 0.03126084622178785,
+      "center_relative_error": 0.02793953044954367,
+      "winding_volume_relative_error": -7.072469102142875e-06,
+      "gauge_divA_over_curlA_L2": 0.1107390846364492,
+      "magnetic_energy_J": 2.4052049717729197e-05,
+      "gradient_energy_with_gauge_J": 2.43470034877448e-05,
+      "half_source_A_work_J": 2.43470034877448e-05,
+      "weak_energy_relative_balance": 0.0,
+      "elapsed_s": 6.413406899999245,
+      "free_nodes": 31960,
+      "dirichlet_nodes": 1040,
+      "cg_iterations_xyz": [
+        236,
+        237,
+        0
+      ],
+      "relative_free_residual": 9.436939017045522e-11,
+      "matrix_symmetry_max_abs": 8.326672684688674e-17,
+      "minimum_stiffness_diagonal": 0.010365905799501765
+    }
+  ],
+  "checks": [
+    {
+      "name": "manufactured_error_decreases",
+      "passed": true,
+      "value": [
+        0.14789182686885013,
+        0.04178934009464681
+      ]
+    },
+    {
+      "name": "manufactured_fine_L2_below_5percent",
+      "passed": true,
+      "value": 0.04178934009464681
+    },
+    {
+      "name": "0.24_weak_residual",
+      "passed": true,
+      "value": 7.533830296333942e-11
+    },
+    {
+      "name": "0.24_matrix_symmetric_positive_diagonal",
+      "passed": true,
+      "value": 1.1102230246251565e-16
+    },
+    {
+      "name": "0.1_weak_residual",
+      "passed": true,
+      "value": 5.684652639633883e-11
+    },
+    {
+      "name": "0.1_matrix_symmetric_positive_diagonal",
+      "passed": true,
+      "value": 5.551115123125783e-17
+    },
+    {
+      "name": "coarse_box040_weak_residual",
+      "passed": true,
+      "value": 8.47007151514531e-11
+    },
+    {
+      "name": "coarse_box040_matrix_symmetric_positive_diagonal",
+      "passed": true,
+      "value": 5.551115123125783e-17
+    },
+    {
+      "name": "fine_box040_weak_residual",
+      "passed": true,
+      "value": 8.75256147433247e-11
+    },
+    {
+      "name": "fine_box040_matrix_symmetric_positive_diagonal",
+      "passed": true,
+      "value": 5.551115123125783e-17
+    },
+    {
+      "name": "fine_box060_weak_residual",
+      "passed": true,
+      "value": 9.436939017045522e-11
+    },
+    {
+      "name": "fine_box060_matrix_symmetric_positive_diagonal",
+      "passed": true,
+      "value": 8.326672684688674e-17
+    },
+    {
+      "name": "coarse_box040_weak_energy_balance",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "coarse_box040_coil_volume_within_1percent",
+      "passed": true,
+      "value": 1.1590967807340036e-05
+    },
+    {
+      "name": "fine_box040_weak_energy_balance",
+      "passed": true,
+      "value": 2.220446049250313e-16
+    },
+    {
+      "name": "fine_box040_coil_volume_within_1percent",
+      "passed": true,
+      "value": -6.6079762968129785e-06
+    },
+    {
+      "name": "fine_box060_weak_energy_balance",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "fine_box060_coil_volume_within_1percent",
+      "passed": true,
+      "value": -7.072469102142875e-06
+    },
+    {
+      "name": "fine_far_center_within_5percent_reference",
+      "passed": true,
+      "value": 0.02793953044954367
+    },
+    {
+      "name": "fine_far_axis_rms_within_7percent_reference",
+      "passed": true,
+      "value": 0.03522908793424123
+    },
+    {
+      "name": "fine_far_off_axis_rms_within_7percent_reference",
+      "passed": true,
+      "value": 0.03126084622178785
+    },
+    {
+      "name": "finite_box_center_change_below_3percent",
+      "passed": true,
+      "value": 0.007183447112618202
+    },
+    {
+      "name": "mesh_center_change_below_8percent",
+      "passed": true,
+      "value": 0.004878659995337431
+    }
+  ],
+  "mesh_change_center_relative": 0.004878659995337431,
+  "domain_change_center_relative": 0.007183447112618202,
+  "passed": 23,
+  "failed": 0
+}

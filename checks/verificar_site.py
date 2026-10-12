@@ -185,6 +185,37 @@ def exercise(base_url, checks):
               and csv.startswith("frequency_hz;"))
         page.locator('[data-tab="model"]').click()
         mobile("v1")
+
+        visit("bancada_v3/index.html")
+        check("v3_title", page.title().startswith("Bancada V3"))
+        check("v3_cover", page.locator("h1").count() == 1
+              and page.locator(".hero").is_visible()
+              and all(text in page.locator("h1").inner_text()
+                      for text in ("Circuito definido.", "Campo calculado.", "Medição preparada.")))
+        check("v3_hardware_status", "Hardware ainda não ensaiado" in page.locator(".notice").inner_text())
+        fem_figure = page.locator('[aria-labelledby="fem-title"] figure img')
+        check("v3_fem_figure", fem_figure.count() == 1 and fem_figure.evaluate(
+            "image => image.complete && image.naturalWidth > 0 && image.naturalHeight > 0"
+        ))
+        check("v3_fem_figure_description", "FEM" in fem_figure.get_attribute("alt"))
+        hrefs = page.locator("a[href]").evaluate_all(
+            "links => links.map(link => link.getAttribute('href'))"
+        )
+        local_links = sorted({href for href in hrefs if href and not href.startswith("#")
+                              and not urlsplit(href).scheme and not href.startswith("//")})
+        suffixes = {Path(unquote(urlsplit(href).path)).suffix.lower() for href in local_links}
+        for suffix in (".pdf", ".docx", ".csv", ".zip", ".vtu", ".npz", ".json"):
+            check("v3_download_type_" + suffix.lstrip("."), suffix in suffixes)
+        check("v3_firmware_link", "controle/main.py" in local_links)
+        v3_url = urljoin(base_url, "bancada_v3/index.html")
+        for href in local_links:
+            resolved = urlsplit(urljoin(v3_url, href))
+            check("v3_relative_" + href, not href.startswith("/")
+                  and (resolved.scheme, resolved.netloc) == (base.scheme, base.netloc)
+                  and resolved.path.startswith(base.path))
+            response = context.request.head(urljoin(v3_url, href))
+            check("v3_target_" + href, response.status == 200, status=response.status)
+        mobile("v3")
         check("no_javascript_errors", not errors, errors=errors)
         check("no_failed_assets", not failures, failures=failures)
         browser.close()

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1040" viewBox="0 0 1460 1040">
+  <title>Filtro analógico proposto: quatro RC bufferizados por canal</title>
+  <desc>Esquema funcional de um canal com OPA4277PA DIP14; repetir cinco vezes e acrescentar dois canais opcionais para campo e um para temperatura. Proposta calculada, sem fabricação ou calibração. Todos os retornos usam SGND comum.</desc>
+  <defs>
+    <style>text{font-family:Arial,sans-serif;fill:#14293d}.wire{fill:none;stroke:#14293d;stroke-width:2}.box{fill:#f4f8fc;stroke:#aec3d6;stroke-width:1.5}.small{font-size:15px}.label{font-size:18px}.title{font-size:26px;font-weight:bold}.subtitle{font-size:18px}.accent{fill:#005f84}.warn{fill:#9a4300}</style>
+    <g id="ground" class="wire"><path d="M0 0v10m-14 0h28m-10 6h20m-6 6h12"/></g>
+    <g id="stage">
+      <path class="wire" d="M0 60H30M90 60H140V92M140 108V144M140 60H165V55H180"/>
+      <rect class="wire" x="30" y="50" width="60" height="20"/>
+      <path class="wire" d="M128 92h24m-24 16h24M180 25V115L250 70Z M250 70H275V60H300 M263 70V132H165V85H180"/>
+      <circle cx="140" cy="60" r="3" fill="#14293d"/><circle cx="263" cy="70" r="3" fill="#14293d"/>
+      <use href="#ground" x="140" y="144"/>
+      <text class="small" x="30" y="38">3,16 kΩ ±1%</text><text class="small" x="50" y="104">1 nF</text><text class="small" x="50" y="124">C0G ±1%</text>
+      <text class="label" x="187" y="60">+</text><text class="label" x="187" y="91">−</text><text class="small" x="209" y="79">1</text>
+    </g>
+  </defs>
+  <rect width="1460" height="1040" fill="white"/>
+  <text x="35" y="42" class="title">Filtro analógico de aquisição · V3</text>
+  <text x="35" y="72" class="subtitle">1 canal: quatro RC com buffers. A–E elétricos; F/G campo e H temperatura opcionais. Alimentação ±12 V.</text>
+  <text x="35" y="101" class="subtitle warn">PROPOSTA CALCULADA · montagem, estabilidade, amplitude, fase e rejeição precisam de medição</text>
+  <text x="20" y="155" class="small">VIN</text><path class="wire" d="M20 180H40"/>
+  <use href="#stage" x="40" y="120"/><use href="#stage" x="340" y="120"/>
+  <use href="#stage" x="640" y="120"/><use href="#stage" x="940" y="120"/>
+  <text x="200" y="140" class="label accent">UₙA</text><text x="500" y="140" class="label accent">UₙB</text>
+  <text x="800" y="140" class="label accent">UₙC</text><text x="1100" y="140" class="label accent">UₙD</text>
+  <text x="72" y="325" class="small">Rₙ1 / Cₙ1 · +=3, −=2, saída=1</text>
+  <text x="372" y="325" class="small">Rₙ2 / Cₙ2 · +=5, −=6, saída=7</text>
+  <text x="672" y="325" class="small">Rₙ3 / Cₙ3 · +=10, −=9, saída=8</text>
+  <text x="972" y="325" class="small">Rₙ4 / Cₙ4 · +=12, −=13, saída=14</text>
+  <path class="wire" d="M1240 180H1270M1320 180H1410"/><rect class="wire" x="1270" y="170" width="50" height="20"/>
+  <text x="1260" y="155" class="small">Rₙ5 47 Ω</text><text x="1325" y="210" class="small">ADC 1 MΩ</text>
+  <text x="1325" y="235" class="small">BNC → SGND</text>
+  <text x="35" y="365" class="small">Realimentação de cada seguidor diretamente na própria saída; último feedback ANTES de 47 Ω. Não usar terminação de 50 Ω.</text>
+  <text x="35" y="392" class="small">Todos os C e blindagens vão ao SGND comum. n=1…5 elétrica; n=6/7 Vout/Vref de campo; n=8 LM35H temperatura opcional.</text>
+  <rect class="box" x="35" y="425" width="590" height="290" rx="10"/>
+  <text x="55" y="458" class="label">Alimentação local de cada Uₙ</text>
+  <path class="wire" d="M60 495H580 M60 575H580 M60 655H580 M230 495V522m0 16v37 M230 575V602m0 16v37 M400 495V520m0 20v35 M400 575V600m0 20v35"/>
+  <path class="wire" d="M217 522h26m-26 16h26 M217 602h26m-26 16h26 M387 520h26m-26 20h26 M387 600h26m-26 20h26"/>
+  <text x="60" y="487" class="small">+12 V → pino 4</text><text x="60" y="567" class="small">SGND</text><text x="60" y="680" class="small">−12 V → pino 11</text>
+  <text x="255" y="535" class="small">100 nF</text><text x="255" y="615" class="small">100 nF</text>
+  <text x="420" y="535" class="small">10 µF / 25 V</text><text x="420" y="615" class="small">10 µF / 25 V</text>
+  <text x="375" y="511" class="small">+</text><text x="375" y="591" class="small">+</text>
+  <text x="55" y="705" class="small">Cerâmicos junto aos pinos. Bulk negativo: positivo em SGND.</text>
+  <rect class="box" x="650" y="425" width="770" height="290" rx="10"/>
+  <text x="675" y="458" class="label">OPA4277PA · DIP-14 · vista superior</text>
+  <text x="675" y="493" class="small">A: +3 / −2 / OUT1       B: +5 / −6 / OUT7</text>
+  <text x="675" y="523" class="small">C: +10 / −9 / OUT8     D: +12 / −13 / OUT14</text>
+  <text x="675" y="553" class="small">V+=4 · V−=11 · conferir entalhe/pino 1 na peça instalada</text>
+  <text x="675" y="590" class="small">fc de cada RC = 50,365 kHz; total −3 dB ≈ 21,91 kHz.</text>
+  <text x="675" y="620" class="small">A 5 kHz: |HRC|=0,98058; faseRC=−22,678°.</text>
+  <text x="675" y="650" class="small">1 MSps proposto: Nyquist 500 kHz, atenuação RC ideal 79,92 dB.</text>
+  <text x="675" y="680" class="small warn">Ganhos e fases por canal devem ser medidos. Corte não é parede.</text>
+  <rect class="box" x="35" y="740" width="1385" height="240" rx="10"/>
+  <text x="55" y="776" class="label">Mapa dos canais e correções</text>
+  <text x="55" y="811" class="small">A/U1: v_source1 · B/U2: v_series1 · C/U3: v_source2 · D/U4: v_series2 · E/U5: v_load</text>
+  <text x="55" y="843" class="small">F/U6: DRV425 Vout · G/U7: DRV425 Vref · H/U8: LM35H · preservar sinais brutos; sensibilidade/resposta dos sensores são adicionais.</text>
+  <text x="55" y="875" class="small">O RC de entrada carrega o nó medido: no shunt, sua corrente não passa pelo resistor. Orçar/corrigir esse efeito no modelo de medição.</text>
+  <text x="55" y="907" class="small">Uma correção de ganho escalar não remove fase nem corrige todos os harmônicos. Calibrar a cadeia completa na frequência do ensaio.</text>
+  <text x="55" y="939" class="small">Este desenho é um esquema funcional; não é PCB roteada/Gerber, certificado de calibração ou garantia contra aliasing.</text>
+  <text x="35" y="1018" class="small">Referência de pinos e características: TI OPAx277 SBOS079C, páginas 5, 8–9 e 20–21. Cálculos reproduzíveis: filtro.py.</text>
+</svg>
