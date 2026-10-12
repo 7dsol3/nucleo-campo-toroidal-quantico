@@ -34,3 +34,21 @@ jobs:
         run: python nucleo_integral_v2/cad/revisar_mecanica.py
       - name: Modelo de bancada V1
         run: python nucleo_toroidal/simulacao/validar.py --output "$RUNNER_TEMP/validacao_modelo_v1.json"
+
+  navegador:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar navegador de teste
+        run: |
+          python -m pip install 'playwright>=1.40,<2'
+          python -m playwright install --with-deps chromium
+      - name: Preparar site e testar simulacoes no subdiretorio
+        run: |
+          python checks/preparar_pages.py --output "$RUNNER_TEMP/nucleo-pages"
+          python checks/verificar_site.py --diretorio "$RUNNER_TEMP/nucleo-pages" --output "$RUNNER_TEMP/site-pages.json"

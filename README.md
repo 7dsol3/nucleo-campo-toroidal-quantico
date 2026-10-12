@@ -8,6 +8,10 @@ Projeto de bancada eletromagnética com laboratório 3D offline, simulação rep
 
 ## Começar pelo laboratório 3D
 
+**[Abrir o laboratório online](https://7dsol3.github.io/nucleo-campo-toroidal-quantico/)** — a página inicial reúne as simulações V2/V1, desenhos e downloads. O site é publicado pelo GitHub Pages; os cálculos continuam sendo executados no navegador.
+
+Para desenvolver a bancada e planejar a comparação com dados reais, consulte [PROXIMOS_PASSOS.md](PROXIMOS_PASSOS.md).
+
 ```powershell
 git clone https://github.com/7dsol3/nucleo-campo-toroidal-quantico.git
 cd nucleo-campo-toroidal-quantico
@@ -104,6 +108,18 @@ Se não houver um navegador compatível instalado, baixe o Chromium do Playwrigh
 
 `verificar_navegador.py` testa interações, renderização WebGL, importação/exportação e concordância Python/JavaScript. Também atualiza capturas de tela, o modelo vazio de medições e o cenário exportado. Execute em uma cópia de trabalho quando precisar preservar os artefatos publicados.
 
+### Publicar e conferir o site
+
+O workflow [pages.yml](.github/workflows/pages.yml) publica a `main` em GitHub Pages após verificar integridade, links e interação no navegador. Em pull requests, o job `navegador` de [validacao.yml](.github/workflows/validacao.yml) executa o mesmo teste HTTP. A configuração do repositório deve usar **Settings → Pages → Source: GitHub Actions**, conforme a [documentação oficial](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+Para conferir a URL publicada sem modificar os artefatos:
+
+```powershell
+py -B .\checks\verificar_site.py --url https://7dsol3.github.io/nucleo-campo-toroidal-quantico/ --output .\validacao_site_local.json
+```
+
+O comando usa Playwright e um navegador compatível, como os testes anteriores. O script `checks/preparar_pages.py --output PASTA_VAZIA` prepara uma cópia estática para testes locais; `checks/verificar_site.py --diretorio PASTA_VAZIA` serve e testa essa cópia sob o caminho do repositório. O staging não apaga pastas ocupadas nem altera os projetos de origem.
+
 ### Regenerar o CAD
 
 Os geradores e a revisão geométrica usam somente Python padrão:
@@ -129,6 +145,8 @@ py .\nucleo_integral_v2\verificar_entrega.py
 O verificador da entrega depende dos relatórios de modelo, navegador e mecânica já presentes. Ele confere os artefatos, atualiza hashes e recria `Nucleo_Integral_V2.zip` na pasta acima de `nucleo_integral_v2/`. Os pacotes publicados ficam em `artifacts/`; ao atualizar a entrega, substitua ali o pacote correspondente após a validação. Os scripts `ajustar_interface.py`, `complementar_interface.py` e `corrigir_legendas.py` são auxiliares da produção original; não integram o fluxo normal de reprodução e não devem ser aplicados repetidamente.
 
 ## O que foi verificado
+
+O [GitHub Actions](https://github.com/7dsol3/nucleo-campo-toroidal-quantico/actions) executa as verificações de cada atualização. A publicação em Pages prepara os arquivos estáticos e testa o portal e as duas simulações em navegador antes do deploy. O teste inclui navegação sob o caminho do repositório, recursos locais e interações; não é um ensaio físico.
 
 Os relatórios incluídos registram a entrega digital de 12/10/2026:
 
